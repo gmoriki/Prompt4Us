@@ -11,7 +11,7 @@ toc: true
 
 
 # P4Us
-![Prompts Guide for University Staff](/images/p4us.png)
+![Prompts Guide for University Staff](../../images/p4us.png)
 P4Usは、生成AI利用の文化を理解し、プロンプトを学ぶための(ゆる)プロンプトガイドです。
 
 ## モットー
