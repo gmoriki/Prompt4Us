@@ -16,8 +16,8 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  title: "Lotus 編集中"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+  title: "大学職員のためのプロンプトガイド P4Us"
+  subtitle: P4Us,**P**rompts Guide **for** **U**niversity **s**taff,a platform for university administrative staff to use generative ai.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
