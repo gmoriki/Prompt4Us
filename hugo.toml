@@ -26,7 +26,7 @@ title = 'My New Hugo Site'
         # version = true # includes git commit info
 
     [params.social]
-        github = "https://github.com/gmoriki/lotustest"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+        github = "gmoriki/lotustest"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
         twitter = "pogohopper8"       # YOUR_TWITTER_ID
 
     [params.docs] # Parameters for the /docs 'template'
