@@ -34,7 +34,7 @@ title = 'My New Hugo Site'
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
-        themeColor      = "cardinal"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+        themeColor      = "magenta"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
 
         darkMode        = true                                # enable dark mode option? default false
 
