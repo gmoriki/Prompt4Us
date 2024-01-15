@@ -34,7 +34,7 @@ title = 'My New Hugo Site'
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
-        themeColor      = "emerald"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+        themeColor      = "cardinal"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
 
         darkMode        = true                                # enable dark mode option? default false
 
@@ -73,5 +73,5 @@ title = 'My New Hugo Site'
         # extLinkNewTab   = false                             # Open external links in a new Tab? default true
         # logoLinkURL = ""                                    # Set a custom URL destination for the top header logo link.
     
-        [params.flexsearch] # Parameters for FlexSearch
+    [params.flexsearch] # Parameters for FlexSearch
         enabled             = true
