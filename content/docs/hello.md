@@ -2,7 +2,7 @@
 weight: 999
 title: "Hello"
 description: ""
-icon: Person Play
+icon: Person GINGA
 date: "2024-01-15T21:37:31+09:00"
 lastmod: "2024-01-15T21:37:31+09:00"
 draft: false
