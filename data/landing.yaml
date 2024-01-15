@@ -29,7 +29,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/hello/"
+    url: "/lotustest/docs/hello/"
   cta2Button:
     icon: school
     btnText: "my researchmap"
