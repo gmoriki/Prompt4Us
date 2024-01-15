@@ -18,3 +18,15 @@ title = 'My New Hugo Site'
     url = "/docs/"
     identifier = "docs"
     weight = 10
+
+[params]
+
+    [params.footer]
+        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        # version = true # includes git commit info
+
+    [params.social]
+        github = "gmoriki"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+        twitter = "pogohopper8"       # YOUR_TWITTER_ID
+        # instagram = "colinwilson"     # YOUR_INSTAGRAM_ID
+        # rss = true                    # show rss icon with link
