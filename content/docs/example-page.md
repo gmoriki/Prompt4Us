@@ -2,7 +2,7 @@
 weight: 999
 title: "Example Page"
 description: ""
-icon: "Person_Edit"
+icon: "school"
 date: "2024-01-15T13:24:23+09:00"
 lastmod: "2024-01-15T13:24:23+09:00"
 draft: false

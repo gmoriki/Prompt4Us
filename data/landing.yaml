@@ -1,0 +1,39 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  # backgroundImage:
+  #   path: "images/templates/hero"
+  #   filename:
+  #     desktop: "gradient-desktop.webp"
+  #     mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "Lotus 編集中"
+  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "talking.png" # filename of your hero image (including file extension)
+    alt: "talking human" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/hello/"
+  cta2Button:
+    icon: school
+    btnText: "my researchmap"
+    url: "https://researchmap.jp/gmoriki"
+
+  info: "**Open Source** MIT Licensed."
+  ...
