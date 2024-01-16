@@ -1,7 +1,7 @@
 ---
-weight: 999
-title: ""
-description: ""
+weight: 10
+title: "MJIR2023講演(大学IRにおける生成AI利用の試み )"
+description: "MJIR2023のハンズオン講演で使用したプロンプトです"
 icon: "Bar_Chart"
 date: "2024-01-16T09:07:27+09:00"
 lastmod: "2024-01-16T09:07:27+09:00"
