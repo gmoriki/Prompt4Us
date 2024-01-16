@@ -68,3 +68,37 @@ featureGrid:
       ctaLink:
         text: learn more
         url: /lotustest/docs/
+
+# landing.yaml
+imageText:
+  enable: true
+  weight: 20
+  template: imageText
+
+    title: Customise The Lotus Docs Appearance # 1
+    subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
+
+# landing.yaml
+imageText:
+  list:
+  - text: Blazing fast page loads
+    icon: speed
+
+  - text: Sensible default SEO friendly settings
+    icon: area_chart
+
+  - text: Designed to be accessible
+    icon: accessibility
+
+  ctaButton:
+      text: Learn more
+      url: "/lotustest/docs/"
+
+  image:
+      path: "images"
+      filename: "talking.png"
+      alt: "Google LightHouse 100% Illustration" # Optional but recommended
+
+  imgOrder:
+      desktop: 2
+      mobile: 1
