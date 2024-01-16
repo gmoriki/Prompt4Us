@@ -75,11 +75,9 @@ imageText:
   weight: 20
   template: imageText
 
-    title: Customise The Lotus Docs Appearance # 1
-    subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
+  title: Customise The Lotus Docs Appearance # 1
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
 
-# landing.yaml
-imageText:
   list:
   - text: Blazing fast page loads
     icon: speed
