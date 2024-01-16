@@ -36,3 +36,24 @@ hero:
     url: "https://researchmap.jp/gmoriki"
 
   info: "**Open Source** MIT Licensed."
+
+
+# landing.yaml
+featureGrid:
+    title: P4Usとは何か # 1
+    subtitle: こんなことができる場所です # 2
+
+    items:
+    - title: 生成AIをゆるく理解する # 4
+      icon: sailing # 3
+      description: 使ったことが無いひとでも大丈夫 # 5
+      ctaLink: # 6
+        text: learn more
+        url: /docs/
+
+    - title: 使ってみて理解する
+      icon: Highlight
+      description: 百聞は一見に如かず
+      ctaLink:
+        text: learn more
+        url: /docs/
