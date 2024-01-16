@@ -99,8 +99,8 @@ imageText:
 
   image:
     path: "images"
-    filename: "talking.png"
-    alt: "Google LightHouse 100% Illustration" # Optional but recommended
+    filename: "imagetext.png"
+    alt: "books" # Optional but recommended
 
   imgOrder:
     desktop: 1
