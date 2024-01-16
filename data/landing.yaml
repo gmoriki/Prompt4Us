@@ -26,15 +26,15 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  ctaButton:
+  cta2Button:
     icon: rocket_launch
     btnText: "さっそく始めよう！"
-    url: "https://gmoriki.github.io/lotustest/docs/"
+    url: "/docs/hello/"
 
-  cta2Button:
-    icon: school
-    btnText: "ページ作成者の紹介"
-    url: "https://researchmap.jp/gmoriki"
+  # cta2Button:
+  #   icon: school
+  #   btnText: "ページ作成者の紹介"
+  #   url: "https://researchmap.jp/gmoriki"
 
   info: "**Open Source** MIT Licensed."
 
@@ -81,17 +81,17 @@ imageText:
   weight: 40
   template: image text
 
-  title: 建~~学~~Webの精神 # 1
-  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。 #2
+  title: 建Webの精神 # 1
+  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。最終的にみんなが「こんなWebページいらんわ」となればゴールです。 #2
 
   list:
-  - text: 体系よりも実用
+  - text: 行動の選択肢の一つに「AI利用」が入る
     icon: speed
 
-  - text: 教科書よりも案内書
-    icon: area_chart
+  - text: しのごの言わずにやってみる
+    icon: area_chart  
 
-  - text: 見よりも実
+  - text: 文化として知る
     icon: accessibility
 
   ctaButton:
