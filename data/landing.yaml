@@ -28,11 +28,11 @@ hero:
 
   ctaButton:
     icon: rocket_launch
-    btnText: "Get Started"
+    btnText: "さっそく始めよう！"
     url: "/lotustest/docs/hello/"
   cta2Button:
     icon: school
-    btnText: "my researchmap"
+    btnText: "ページ作成者の紹介"
     url: "https://researchmap.jp/gmoriki"
 
   info: "**Open Source** MIT Licensed."
@@ -44,7 +44,7 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: P4Usとは何か # 1
+  title: P4Usって何？ # 1
   subtitle: P4Usは大学職員のための生成AIプロンプトを集約したドキュメントページです。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。 # 2
 
   items:
@@ -80,17 +80,17 @@ imageText:
   weight: 40
   template: image text
 
-  title: Customise The Lotus Docs Appearance # 1
-  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
+  title: 建~~学~~Webの精神 # 1
+  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。 #2
 
   list:
-  - text: Blazing fast page loads
+  - text: 体系よりも実用
     icon: speed
 
-  - text: Sensible default SEO friendly settings
+  - text: 教科書よりも案内書
     icon: area_chart
 
-  - text: Designed to be accessible
+  - text: 見よりも実
     icon: accessibility
 
   ctaButton:

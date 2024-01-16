@@ -1,6 +1,6 @@
 baseURL = 'https://gmoriki.github.io/lotustest'
 languageCode = 'en-us'
-title = 'P4Us'
+title = 'P4Us | 大学職員のためのプロンプトガイド'
 
 [module]
     [[module.imports]]
