@@ -44,16 +44,23 @@ featureGrid:
     subtitle: こんなことができる場所です # 2
 
     items:
-    - title: 生成AIをゆるく理解する # 4
-      icon: sailing # 3
-      description: 使ったことが無いひとでも大丈夫 # 5
-      ctaLink: # 6
-        text: learn more
-        url: /docs/
+      - title: 生成AIをゆるく理解する # 4
+        icon: sailing # 3
+        description: 使ったことが無いひとでも大丈夫 # 5
+        ctaLink: # 6
+          text: learn more
+          url: /docs/
 
-    - title: 使ってみて理解する
-      icon: Highlight
-      description: 百聞は一見に如かず
-      ctaLink:
-        text: learn more
-        url: /docs/
+      - title: 使ってみて理解する
+        icon: Highlight
+        description: 百聞は一見に如かず
+        ctaLink:
+          text: learn more
+          url: /docs/
+
+      - title: それなりを目指す
+        icon: Raven
+        description: エキスパートになる前準備
+        ctaLink:
+          text: learn more
+          url: /docs/
