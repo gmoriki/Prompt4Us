@@ -11,9 +11,9 @@ hero:
   #     mobile: "gradient-mobile.webp"
 
   badge:
-    text: 大学職員のための
+    text: 大学職員のための生成AIプロンプトガイド
     color: info # primary, secondary, success, danger, warning, info, light, dark
-    pill: false # boolean
+    pill: true # boolean
     soft: true # boolean
 
   title: "P4Us,with AI"
@@ -45,7 +45,7 @@ featureGrid:
   template: feature grid
 
   title: P4Usとは何か # 1
-  subtitle: こんなことができる場所です # 2
+  subtitle: P4Usは大学職員のための生成AIプロンプトを集約したドキュメントページです。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。 # 2
 
   items:
     - title: 生成AIをゆるく理解する # 4
@@ -53,18 +53,18 @@ featureGrid:
       description: 使ったことが無いひとでも大丈夫 # 5
       ctaLink: # 6
         text: learn more
-        url: /docs/
+        url: /lotustest/docs/
 
-    - title: 使ってみて理解する
+    - title: 生成AIを使ってみる
       icon: Highlight
       description: 百聞は一見に如かず
       ctaLink:
         text: learn more
-        url: /docs/
+        url: /lotustest/docs/
 
-    - title: それなりを目指す
+    - title: "それなり"を目指す
       icon: Skateboarding
       description: エキスパート向けの充実した・体系的なコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
       ctaLink:
         text: learn more
-        url: /docs/
+        url: /lotustest/docs/
