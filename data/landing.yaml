@@ -11,8 +11,8 @@ hero:
   #     mobile: "gradient-mobile.webp"
 
   badge:
-    text: v0.1.0
-    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    text: 大学職員のための
+    color: info # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
 
