@@ -29,7 +29,7 @@ hero:
   cta2Button:
     icon: rocket_launch
     btnText: "さっそく始めよう！"
-    url: "/docs/hello/"
+    url: "/lotustest/docs/"
 
   # cta2Button:
   #   icon: school
