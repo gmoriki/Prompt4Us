@@ -21,7 +21,7 @@ hero:
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "landing.png" # filename of your hero image (including file extension)
+    filename: "talking.png" # filename of your hero image (including file extension)
     alt: "book robot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
