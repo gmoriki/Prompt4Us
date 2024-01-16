@@ -13,8 +13,8 @@ hero:
   badge:
     text: 大学職員のための生成AIプロンプトガイド
     color: info # primary, secondary, success, danger, warning, info, light, dark
-    pill: true # boolean
-    soft: true # boolean
+    pill: false # boolean
+    soft: false # boolean
 
   title: "P4Us,with AI"
   subtitle: Here is **P**rompts Guide **for** **U**niversity **s**taff,a document platform for university administrative staff to use generative ai.
@@ -29,7 +29,8 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "さっそく始めよう！"
-    url: "/lotustest/docs/"
+    url: "https://gmoriki.github.io/lotustest/docs/"
+
   cta2Button:
     icon: school
     btnText: "ページ作成者の紹介"
