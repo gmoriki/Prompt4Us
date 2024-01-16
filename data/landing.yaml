@@ -29,7 +29,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "さっそく始めよう！"
-    url: "/lotustest/docs/hello/"
+    url: "/lotustest/docs/"
   cta2Button:
     icon: school
     btnText: "ページ作成者の紹介"
