@@ -72,8 +72,8 @@ featureGrid:
 # landing.yaml
 imageText:
   enable: true
-  weight: 30
-  template: image Text
+  weight: 40
+  template: image text
 
   title: Customise The Lotus Docs Appearance # 1
   subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
