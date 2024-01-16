@@ -16,8 +16,8 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  title: "Your tasks with P4Us"
-  subtitle: Here is **P**rompts Guide **for** **U**niversity **s**taff,a platform for university administrative staff to use generative ai.
+  title: "P4Us: 大学職員 += AI"
+  subtitle: Here is **P**rompts Guide **for** **U**niversity **s**taff,a document platform for university administrative staff to use generative ai.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
