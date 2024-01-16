@@ -40,6 +40,10 @@ hero:
 
 # landing.yaml
 featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
     title: P4Usとは何か # 1
     subtitle: こんなことができる場所です # 2
 
