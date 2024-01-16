@@ -16,8 +16,8 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  title: "大学職員のためのプロンプトガイド P4Us"
-  subtitle: P4Us,**P**rompts Guide **for** **U**niversity **s**taff,a platform for university administrative staff to use generative ai.
+  title: "Your tasks with P4Us"
+  subtitle: **P**rompts Guide **for** **U**niversity **s**taff,a platform for university administrative staff to use generative ai.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -63,8 +63,8 @@ featureGrid:
         url: /docs/
 
     - title: それなりを目指す
-      icon: Raven
-      description: エキスパートになる前準備
+      icon: Skateboarding
+      description: エキスパート向けの充実した・体系的なコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
       ctaLink:
         text: learn more
         url: /docs/
