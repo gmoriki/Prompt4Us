@@ -1,6 +1,6 @@
 baseURL = 'https://gmoriki.github.io/lotustest'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'P4Us'
 
 [module]
     [[module.imports]]
@@ -34,13 +34,13 @@ title = 'My New Hugo Site'
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
-        themeColor      = "cardinal"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+        themeColor      = "cyan"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
 
         darkMode        = true                                # enable dark mode option? default false
 
         prism           = true                                # enable syntax highlighting via Prism
 
-        prismTheme      = "solarized-light"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
+        prismTheme      = "twilight"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
         repoURL         = "https://gmoriki.github.io/lotustest"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
