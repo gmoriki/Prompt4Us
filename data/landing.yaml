@@ -69,6 +69,11 @@ featureGrid:
         text: learn more
         url: /lotustest/docs/
 
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
+
 # landing.yaml
 imageText:
   enable: true
@@ -98,5 +103,5 @@ imageText:
     alt: "Google LightHouse 100% Illustration" # Optional but recommended
 
   imgOrder:
-    desktop: 2
+    desktop: 1
     mobile: 1
