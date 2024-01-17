@@ -1,7 +1,7 @@
 ---
 weight: 1
-title: "Hello"
-description: ""
+title: "はじめに"
+description: "P4Usの基本を説明します"
 icon: Account_Circle
 date: "2024-01-15T21:37:31+09:00"
 lastmod: "2024-01-15T21:37:31+09:00"

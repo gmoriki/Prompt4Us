@@ -79,7 +79,7 @@ featureGrid:
 
     - title: リンク集が充実しています
       icon: link
-      description: 生成AIに関する各種リンクをまとめています。適宜更新します。
+      description: 生成AIに関する各種リンクをまとめています。P4Usでは取り扱っていない、生成AIの詳しい仕組みやプロンプトエンジニアリング技術についてはリンク集をご参照ください。適宜更新します。
       ctaLink:
         text: learn more
         url: /lotustest/docs/
@@ -103,7 +103,7 @@ imageText:
   weight: 40
   template: image text
 
-  title: "建~~学~~Webの精神" # 1
+  title: 目標 # 1
   subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
 
   list:
@@ -112,12 +112,12 @@ imageText:
 
   - text: 行動の選択肢の一つに「生成AI利用」が入る
     icon: Person_Raised_Hand
-  
+
   - text: リスクを管理できる
     icon: Feedback
 
   ctaButton:
-      text: Learn more
+      text: さっそく始めよう！
       url: "/lotustest/docs/"
 
   image:
