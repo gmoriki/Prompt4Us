@@ -1,4 +1,4 @@
-baseURL = 'https://gmoriki.github.io/lotustest'
+baseURL = 'https://gmoriki.github.io/Prompt4Us'
 languageCode = 'en-us'
 title = 'P4Us | 大学職員のためのプロンプトガイド'
 enableEmoji = true
@@ -29,7 +29,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
         # version = true # includes git commit info
 
     [params.social]
-        github = "gmoriki/lotustest"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+        github = "gmoriki/Prompt4Us"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
         twitter = "pogohopper8"       # YOUR_TWITTER_ID
 
     [params.docs] # Parameters for the /docs 'template'
@@ -46,7 +46,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
         prismTheme      = "lucario"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
-        repoURL         = "https://gmoriki.github.io/lotustest"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        repoURL         = "https://github.com/gmoriki/Prompt4Us"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
         repoBranch      = "main"
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false

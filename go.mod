@@ -1,4 +1,4 @@
-module github.com/gmoriki/lotustest
+module github.com/gmoriki/Prompt4Us
 
 go 1.21
 

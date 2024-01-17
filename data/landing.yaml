@@ -29,7 +29,7 @@ hero:
   cta2Button:
     icon: rocket_launch
     btnText: "はじめる"
-    url: "/lotustest/docs/"
+    url: "/P4Us/docs/"
 
   # cta2Button:
   #   icon: school
@@ -54,42 +54,42 @@ featureGrid:
       description: 生成AIに使用されているAI技術そのものではなく、ChatGPT等のAIアプリ・サービスをみんなが適切に・上手に利用できるようになるためのガイドです。 # 5
       ctaLink: # 6
         text: learn more
-        url: /lotustest/docs/
+        url: /P4Us/docs/
 
     - title: 生成AIを使ってみる
       icon: Thumb_Up
       description: 無料版から有料版まで、非常に多くのAIサービスが公開されています。まずは使いましょう。使ってから、今後の付き合い方を考えましょう。
       ctaLink:
         text: learn more
-        url: /lotustest/docs/
+        url: /P4Us/docs/
 
     - title: 「それなり」を目指す
       icon: Skateboarding
       description: エキスパート向けコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
       ctaLink:
         text: learn more
-        url: /lotustest/docs/
+        url: /P4Us/docs/
 
     - title: 新しい発見があるかも
       icon: Highlight
       description: 意外な使い道やアイデアが浮かべばこっちのものです。
       ctaLink:
         text: learn more
-        url: /lotustest/docs/
+        url: /P4Us/docs/
 
     - title: リンク集が充実しています
       icon: link
       description: 生成AIに関する各種リンクをまとめています。P4Usでは取り扱っていない、生成AIの詳しい仕組みやプロンプトエンジニアリング技術についてはリンク集をご参照ください。適宜更新します。
       ctaLink:
         text: learn more
-        url: /lotustest/docs/links/
+        url: /P4Us/docs/links/
 
     - title: ご意見お待ちしております
       icon: Contact_Support
       description: このページは作成者の趣味で運営されています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
       ctaLink:
         text: learn more
-        url: /lotustest/docs/
+        url: /P4Us/docs/
 
 
 imageCompare:
@@ -118,7 +118,7 @@ imageText:
 
   ctaButton:
       text: はじめる
-      url: "/lotustest/docs/"
+      url: "/P4Us/docs/"
 
   image:
     path: "images"
