@@ -15,16 +15,10 @@ toc: true
 {{< alert context="info" text="随時更新します。<strong>大学に関する内容が多くなるかもしれません。</strong>" />}}
 
 ## プロンプトエンジニアリング
-### [learnprompt](https://www.learnprompt.org/)
-プロンプトを学ぶためのプラットフォーム
-
-### [PromptengineeringGuide](https://www.promptingguide.ai/)
-
-
-
+-  [learnprompt](https://www.learnprompt.org/)
+- [PromptengineeringGuide](https://www.promptingguide.ai/)
 
 ## 大学一般
-
 - [ChatGPT/生成AIへの対応を表明した国内の大学一覧](https://note.com/pogohopper8/n/n3126b312f209)
 
 
