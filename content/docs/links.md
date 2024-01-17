@@ -18,10 +18,12 @@ toc: true
 -  [learnprompt](https://www.learnprompt.org/)
 - [PromptengineeringGuide](https://www.promptingguide.ai/)
 
-| Webサイト名                                              | 備考                                           |
-|----------------------------------------------------------|:---------------------------------------------:|
-| [learnprompt](https://www.learnprompt.org/)              | プロンプトを学習できるWebサイト               |
+{{< table "table-striped" >}}
+| Webサイト名                                              | 備考                                                   |
+|----------------------------------------------------------|--------------------------------------------------------|
+| [learnprompt](https://www.learnprompt.org/)              | プロンプトを学習できるWebサイト                         |
 | [PromptengineeringGuide](https://www.promptingguide.ai/) | プロンプトエンジニアリング技術が体系的にまとまったWebサイト |
+{{< /table >}}
 
 
 
