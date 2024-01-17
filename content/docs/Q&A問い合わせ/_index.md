@@ -1,5 +1,5 @@
 ---
-weight: 40
+weight: 999
 title: "Q&A/問い合わせ先"
 description: "よくある質問と問い合わせ先"
 icon: "Contact_Support"

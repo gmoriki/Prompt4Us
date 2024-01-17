@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 50
 title: "リンク集"
 description: "生成AIに関するWebページ/書籍を紹介"
 icon: "link"

@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 40
 title: "Lecture Archives"
 description: "作成者が過去の講演で使用・紹介したプロンプト"
 icon: "Archive"
