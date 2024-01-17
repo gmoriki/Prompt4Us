@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 20
 title: "プロンプトガイド中級編"
 description: "生成AIをもっと使ってみる"
 icon: "Nature"

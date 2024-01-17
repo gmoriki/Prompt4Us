@@ -1,6 +1,6 @@
 ---
 weight: 999
-title: "Links"
+title: "リンク集"
 description: "生成AIに関するWebページ/書籍を紹介"
 icon: "link"
 date: "2024-01-17T13:47:20+09:00"

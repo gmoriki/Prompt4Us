@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 10
 title: "プロンプトガイド初級編"
 description: "生成AIを使ってみる"
 icon: "Potted_Plant"
