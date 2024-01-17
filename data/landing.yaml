@@ -85,7 +85,7 @@ featureGrid:
         url: /lotustest/docs/
 
     - title: ご意見お待ちしております
-      icon: Help
+      icon: Contact_Support
       description: このページは作成者の趣味で運営されています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
       ctaLink:
         text: learn more
@@ -134,18 +134,18 @@ imageText:
   weight: 50
   template: image text
 
-  title: 建Webの精神 # 1
-  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。最終的にみんなが「こんなWebページいらんわ」となればゴールです。 #2
+  title: リテラシーを身に着けるために # 1
+  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
 
   list:
-  - text: 行動の選択肢の一つに「AI利用」が入る
-    icon: speed
+  - text: 生成AIサービスの性質を理解できる
+    icon: Neurology
 
-  - text: しのごの言わずにやってみる
-    icon: area_chart  
+  - text: 行動の選択肢の一つに「生成AI利用」が入る
+    icon: Person_Raised_Hand
 
-  - text: 文化として知る
-    icon: accessibility
+  - text: リスクを管理できる
+    icon: Feedback
 
   ctaButton:
       text: Learn more
