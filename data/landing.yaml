@@ -46,40 +46,40 @@ featureGrid:
   template: feature grid
 
   title: P4Usって何？ # 1
-  subtitle: P4Usは大学職員のための生成AIプロンプトを集約したドキュメントページです。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。 # 2
+  subtitle: "P4Usは**大学職員のための生成AIプロンプトを集約したドキュメントページ**です。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。" # 2
 
   items:
     - title: 生成AIをゆるく理解する # 4
       icon: sailing # 3
-      description: 使ったことが無いひとでも大丈夫 # 5
+      description: 生成AIに使用されているAI技術そのものではなく、ChatGPT等のAIアプリ・サービスをみんなが適切に・上手に利用できるようになるためのガイドです。 # 5
       ctaLink: # 6
         text: learn more
         url: /lotustest/docs/
 
     - title: 生成AIを使ってみる
       icon: Thumb_Up
-      description: 百聞は一見に如かず
+      description: まずは使いましょう。使ってから、今後の付き合い方を考えましょう。
       ctaLink:
         text: learn more
         url: /lotustest/docs/
 
     - title: 「それなり」を目指す
       icon: Skateboarding
-      description: エキスパート向けの充実した・体系的なコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
+      description: エキスパート向けコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
       ctaLink:
         text: learn more
         url: /lotustest/docs/
 
     - title: 新しい発見があるかも
       icon: Highlight
-      description: あるかもね！
+      description: 意外な使い道やアイデアが浮かべばこっちのものです。
       ctaLink:
         text: learn more
         url: /lotustest/docs/
 
     - title: リンク集が充実しています
       icon: link
-      description: 生成AIに関する各種リンクをまとめています
+      description: 生成AIに関する各種リンクをまとめています。適宜更新します。
       ctaLink:
         text: learn more
         url: /lotustest/docs/
@@ -97,44 +97,13 @@ imageCompare:
   weight: 30
   template: image compare
 
+# landing.yaml
 imageText:
   enable: true
   weight: 40
   template: image text
 
-  title: なぜ「大学職員のための」なのか # 1
-  subtitle: 作成者が元大学職員・現謎の大学構成員だからです。 #2
-
-  list:
-  - text: 行動の選択肢の一つに「AI利用」が入る
-    icon: speed
-
-  - text: しのごの言わずにやってみる
-    icon: area_chart  
-
-  - text: 文化として知る
-    icon: accessibility
-
-  ctaButton:
-      text: Learn more
-      url: "/lotustest/docs/"
-
-  image:
-    path: "images"
-    filename: "imagetext.png"
-    alt: "books" # Optional but recommended
-
-  imgOrder:
-    desktop: 1
-    mobile: 1
-
-# landing.yaml
-imageText:
-  enable: true
-  weight: 50
-  template: image text
-
-  title: リテラシーを身に着けるために # 1
+  title: 正しいリテラシーを身に着けるために # 1
   subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
 
   list:
