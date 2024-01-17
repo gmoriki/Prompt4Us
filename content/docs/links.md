@@ -18,9 +18,19 @@ toc: true
 -  [learnprompt](https://www.learnprompt.org/)
 - [PromptengineeringGuide](https://www.promptingguide.ai/)
 
+| Webサイト名                                              | 備考                                           |
+|----------------------------------------------------------|:---------------------------------------------:|
+| [learnprompt](https://www.learnprompt.org/)              | プロンプトを学習できるWebサイト               |
+| [PromptengineeringGuide](https://www.promptingguide.ai/) | プロンプトエンジニアリング技術が体系的にまとまったWebサイト |
+
+
+
+
 ### 大学一般
 - [ChatGPT/生成AIへの対応を表明した国内の大学一覧](https://note.com/pogohopper8/n/n3126b312f209)
 
 
 ### 教育
 - [大阪大学教育学習支援部 生成AI教育ガイド](https://www.tlsc.osaka-u.ac.jp/project/generative_ai/)
+
+
