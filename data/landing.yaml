@@ -57,7 +57,7 @@ featureGrid:
         url: /lotustest/docs/
 
     - title: 生成AIを使ってみる
-      icon: Highlight
+      icon: Thumb Up
       description: 百聞は一見に如かず
       ctaLink:
         text: learn more
@@ -70,10 +70,63 @@ featureGrid:
         text: learn more
         url: /lotustest/docs/
 
+    - title: 新しい発見があるかも
+      icon: Highlight
+      description: あるかもね！
+      ctaLink:
+        text: learn more
+        url: /lotustest/docs/
+
+    - title: リンク集が充実しています
+      icon: link
+      description: 生成AIに関する各種リンクをまとめています
+      ctaLink:
+        text: learn more
+        url: /lotustest/docs/
+
+    - title: ご意見お待ちしております
+      icon: Contact Support
+      description: このページは作成者の趣味で運営されています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
+      ctaLink:
+        text: learn more
+        url: /lotustest/docs/
+
+
 imageCompare:
   enable: false
   weight: 30
   template: image compare
+
+imageText:
+  enable: true
+  weight: 40
+  template: image text
+
+  title: なぜ「大学職員のための」なのか # 1
+  subtitle: 作成者が元大学職員・現謎の大学構成員だからです。 #2
+
+  list:
+  - text: 行動の選択肢の一つに「AI利用」が入る
+    icon: speed
+
+  - text: しのごの言わずにやってみる
+    icon: area_chart  
+
+  - text: 文化として知る
+    icon: accessibility
+
+  ctaButton:
+      text: Learn more
+      url: "/lotustest/docs/"
+
+  image:
+    path: "images"
+    filename: "imagetext.png"
+    alt: "books" # Optional but recommended
+
+  imgOrder:
+    desktop: 1
+    mobile: 1
 
 # landing.yaml
 imageText:
