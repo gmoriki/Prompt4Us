@@ -57,7 +57,7 @@ featureGrid:
         url: /lotustest/docs/
 
     - title: 生成AIを使ってみる
-      icon: Thumb Up
+      icon: Thumb_Up
       description: 百聞は一見に如かず
       ctaLink:
         text: learn more
@@ -85,7 +85,7 @@ featureGrid:
         url: /lotustest/docs/
 
     - title: ご意見お待ちしております
-      icon: Contact Support
+      icon: Help
       description: このページは作成者の趣味で運営されています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
       ctaLink:
         text: learn more
@@ -131,7 +131,7 @@ imageText:
 # landing.yaml
 imageText:
   enable: true
-  weight: 40
+  weight: 50
   template: image text
 
   title: 建Webの精神 # 1
@@ -153,7 +153,7 @@ imageText:
 
   image:
     path: "images"
-    filename: "imagetext.png"
+    filename: "imagetext2.png"
     alt: "books" # Optional but recommended
 
   imgOrder:
