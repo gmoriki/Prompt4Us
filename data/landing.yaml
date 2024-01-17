@@ -28,7 +28,7 @@ hero:
 
   cta2Button:
     icon: rocket_launch
-    btnText: "さっそく始めよう！"
+    btnText: "はじめる"
     url: "/lotustest/docs/"
 
   # cta2Button:
@@ -117,7 +117,7 @@ imageText:
     icon: Feedback
 
   ctaButton:
-      text: さっそく始めよう！
+      text: はじめる
       url: "/lotustest/docs/"
 
   image:
