@@ -14,19 +14,19 @@
   src: local("Material Symbols Outlined"), local("Material Icons"), local("MaterialIcons-Outlined"), url("../fonts/material-symbols-outlined.woff2") format("woff2"); }
 
 :root {
-  --primary: var(--cyan);
-  --primary-50: var(--cyan-50);
-  --primary-100: var(--cyan-100);
-  --primary-200: var(--cyan-200);
-  --primary-300: var(--cyan-300);
-  --primary-400: var(--cyan-400);
-  --primary-800: var(--cyan-800);
-  --primary-hsl: var(--cyan-500-hsl);
-  --primary-50-hsl: var(--cyan-50-hsl);
-  --primary-100-hsl: var(--cyan-100-hsl);
-  --primary-200-hsl: var(--cyan-200-hsl);
-  --primary-300-hsl: var(--cyan-300-hsl);
-  --primary-800-hsl: var(--cyan-800-hsl); }
+  --primary: var(--emerald);
+  --primary-50: var(--emerald-50);
+  --primary-100: var(--emerald-100);
+  --primary-200: var(--emerald-200);
+  --primary-300: var(--emerald-300);
+  --primary-400: var(--emerald-400);
+  --primary-800: var(--emerald-800);
+  --primary-hsl: var(--emerald-500-hsl);
+  --primary-50-hsl: var(--emerald-50-hsl);
+  --primary-100-hsl: var(--emerald-100-hsl);
+  --primary-200-hsl: var(--emerald-200-hsl);
+  --primary-300-hsl: var(--emerald-300-hsl);
+  --primary-800-hsl: var(--emerald-800-hsl); }
 
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)
@@ -10387,18 +10387,6 @@ button:not(:disabled) {
   outline: none; }
 
 :root {
-  --modal-bg: var(--gray-50); }
-
-[data-dark-mode] {
-  --modal-bg: var(--gray-900); }
-
-.modal {
-  --bs-modal-bg: var(--modal-bg); }
-
-.modal-header {
-  border-bottom: none; }
-
-:root {
   --breadcrumb-item-color: var(--primary); }
 
 [data-dark-mode] {
@@ -10442,6 +10430,31 @@ button:not(:disabled) {
   background-color: var(--btn-primary-bg) !important;
   border: 1px solid var(--btn-primary-border) !important;
   color: var(--btn-primary-color) !important; }
+
+:root {
+  --dropdown-link-color: var(--text-default);
+  --dropdown-bg: var(--body-bg);
+  --dropdown-border-color: var(--alert-border-color);
+  --dropdown-border-radius: 0 0 4px 4px;
+  --dropdown-link-hover-color: var(--primary); }
+
+[data-dark-mode] {
+  --dropdown-link-color: var(--text-default);
+  --dropdown-bg: var(--body-bg);
+  --dropdown-border-color: var(--alert-border-color);
+  --dropdown-border-radius: 0 0 4px 4px;
+  --dropdown-link-hover-color: var(--primary-300); }
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 7rem;
+  --bs-dropdown-link-color: var(--dropdown-link-color);
+  --bs-dropdown-bg: var(--dropdown-bg);
+  --bs-dropdown-border-color: var(--dropdown-border-color);
+  --bs-dropdown-link-hover-bg: none;
+  --bs-dropdown-link-hover-color: var(--dropdown-link-hover-color);
+  --bs-dropdown-border-radius: var(--dropdown-border-radius);
+  transform: translate(0px, 57px) !important;
+  border-top: none; }
 
 :root {
   --alert-border-color: #dee2e6;
@@ -11256,79 +11269,43 @@ h4:hover a,
   visibility: visible;
   text-decoration: none; }
 
-/* PrismJS 1.29.0
-https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+css+clike+javascript */
 /*
- Solarized Color Schemes originally by Ethan Schoonover
- http://ethanschoonover.com/solarized
+ Lucario Theme originally by Raphael Amorim [@raphamorim]
+ https://github.com/raphamorim/lucario
 
- Ported for PrismJS by Hector Matos
- Website: https://krakendev.io
- Twitter Handle: https://twitter.com/allonsykraken
+ Ported for PrismJS by Christopher Kapic [@christopher-kapic]
 
  Adapted for Lotus Docs by Colin Wilson
  Website: https://colinwilson.uk
  Twitter Handle: https://twitter.com/colinwilsonuk
 */
-/*
-SOLARIZED HEX
---------- -------
-base03    #002b36
-base02    #073642
-base01    #586e75
-base00    #657b83
-base0     #839496
-base1     #93a1a1
-base2     #eee8d5
-base3     #fdf6e3
-yellow    #b58900
-orange    #cb4b16
-red       #dc322f
-magenta   #d33682
-violet    #6c71c4
-blue      #268bd2
-cyan      #2aa198
-green     #859900
-*/
 :root {
-  --prism-code-color: #657b83;
-  --prism-code-bg: #fdf6e3;
+  --prism-code-color: #f8f8f2;
+  --prism-code-bg: #263E52;
   --prism-code-scrollbar-thumb-color: var(--gray-400);
-  --prism-line-highlight-bg-color: #e9967a;
-  --prism-copy-btn-bg-hover-color: var(--gray-700); }
+  --prism-line-highlight-bg-color: #8c78d2;
+  --prism-copy-btn-bg-hover-color: var(--white); }
 
 [data-dark-mode] {
   --prism-code-color: #dee2e6;
   --prism-code-bg: var(--gray-900);
   --prism-code-scrollbar-thumb-color: var(--gray-600);
-  --prism-line-highlight-bg-color: var(--gray-600);
+  --prism-line-highlight-bg-color: #8c78d2;
   --prism-copy-btn-bg-hover-color: var(--white); }
 
 code[class*="language-"],
 pre[class*="language-"] {
   color: var(--prism-code-color);
-  /* base00 */
   background: var(--prism-code-bg) !important; }
-
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  background: #073642;
-  /* base02 */ }
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-  background: #073642;
-  /* base02 */ }
 
 /* Code blocks */
 pre[class*="language-"] {
   overflow: auto;
-  border-radius: 0 0 4px 4px; }
+  border-radius: 0.3em; }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background-color: #fdf6e3;
-  /* base3 */ }
+  background: #263E52; }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
@@ -11336,75 +11313,73 @@ pre[class*="language-"] {
   border-radius: .3em;
   white-space: normal; }
 
+.line-highlight.line-highlight {
+  background: linear-gradient(to right, rgba(138, 138, 138, 0.1) 70%, rgba(84, 84, 84, 0)); }
+
 .line-highlight:before,
 .line-highlight[data-end]:after {
   background-color: var(--prism-line-highlight-bg-color); }
 
 [data-copy-state="copy"] span:empty::before {
-  background-color: var(--gray-500); }
+  background-color: var(--gray-400); }
 
 [data-copy-state="copy"] span:empty:hover::before {
   background-color: var(--prism-copy-btn-bg-hover-color); }
 
 [data-copy-state="copy-success"] span:empty::before {
-  background-color: var(--emerald-400); }
+  background-color: var(--emerald-200); }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #93a1a1;
-  /* base1 */ }
+  color: #5c98cd; }
 
 .token.punctuation {
-  color: #586e75;
-  /* base01 */ }
+  color: #f8f8f2; }
 
-.token.namespace {
+.namespace {
   opacity: .7; }
 
 .token.property,
 .token.tag,
-.token.boolean,
-.token.number,
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #268bd2;
-  /* blue */ }
+  color: #F05E5D; }
+
+.token.boolean,
+.token.number {
+  color: #BC94F9; }
 
 .token.selector,
 .token.attr-name,
 .token.string,
 .token.char,
 .token.builtin,
-.token.url,
 .token.inserted {
-  color: #2aa198;
-  /* cyan */ }
+  color: #FCFCD6; }
 
-.token.entity {
-  color: #657b83;
-  /* base00 */
-  background: #eee8d5;
-  /* base2 */ }
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2; }
 
 .token.atrule,
 .token.attr-value,
-.token.keyword {
-  color: #859900;
-  /* green */ }
-
 .token.function,
 .token.class-name {
-  color: #b58900;
-  /* yellow */ }
+  color: #66D8EF; }
+
+.token.keyword {
+  color: #6EB26E; }
 
 .token.regex,
-.token.important,
-.token.variable {
-  color: #cb4b16;
-  /* orange */ }
+.token.important {
+  color: #F05E5D; }
 
 .token.important,
 .token.bold {
