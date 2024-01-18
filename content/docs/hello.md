@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "はじめに"
-description: "P4Usの基本を説明します"
+description: "P4Usを理解する"
 icon: Account_Circle
 date: "2024-01-15T21:37:31+09:00"
 lastmod: "2024-01-15T21:37:31+09:00"
@@ -11,7 +11,6 @@ toc: true
 
 {{< alert context="info" text="P4Usは、生成AI利用の文化を理解し、プロンプトを学ぶための(ゆる)プロンプトガイドです。" />}}
 
-## モットー
 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に<br>
 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、<br>
 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。<br>
@@ -20,14 +19,14 @@ toc: true
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="./archive/irprompt/">
+  <a class="text-decoration-none text-reset" href="../archive/irprompt/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
-        <i class="material-icons align-middle">highlight</i>
+        <i class="material-icons align-middle">Bar_Chart</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">Syntax Highlighting</p>
-        <p class="para card-text mb-0">Highlight your code blocks via PrismJS</p>
+        <p class="fs-5 fw-semibold card-title mb-1">MJIR2023講演</p>
+        <p class="para card-text mb-0">「大学IRにおける生成AI利用の試み」</p>
       </div>
     </div>
   </a>
@@ -45,11 +44,11 @@ toc: true
 ```
 
 プロンプトには様々なものを含みます。
-> - 各情報源から収集したプロンプト
-> - gmorikiが日々使っているプロンプト
-> - gmorikiが生成AIに関する講演の中で使用したプロンプト
-> - gmorikiがワークショップ参加者より収集したプロンプト
-> - プロンプトのタネになるようなプロンプト
+- 各情報源から収集したプロンプト
+- gmorikiが日々使っているプロンプト
+- gmorikiが生成AIに関する講演の中で使用したプロンプト
+- gmorikiがワークショップ参加者より収集したプロンプト
+- プロンプトのタネになるようなプロンプト
 
 ぜひプロンプトを実際に使ってみてください。
 とりあえずこちらを見ると良いでしょう。
@@ -86,6 +85,20 @@ AI（人工知能）から望ましい出力を得るために、指示や命令
 
 もっと体系的に学びたい人は以下のURLを参照してください。
 
-* [PromptEngineering Guide](https://www.promptingguide.ai/jp)
-  * DAIR.AIが整備するプロンプトエンジニアリングガイド
-* 
+<div class="row flex-xl-wrap pb-4">
+
+<div id="list-item" class="col-md-4 col-12 py-2">
+  <a class="text-decoration-none text-reset" href="../links/">
+  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+      <span class="h1 icon-color">
+        <i class="material-icons align-middle">link</i>
+      </span>
+      <div class="card-body p-0 content">
+        <p class="fs-5 fw-semibold card-title mb-1">リンク集</p>
+        <p class="para card-text mb-0">生成AIに関するWebページ/書籍を紹介</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+</div>
