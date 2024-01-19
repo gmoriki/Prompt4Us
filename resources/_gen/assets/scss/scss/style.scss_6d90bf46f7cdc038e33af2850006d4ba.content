@@ -81,8 +81,8 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: Inter;
+  --bs-font-monospace: Fira Code;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -9437,7 +9437,7 @@ textarea.form-control-lg {
   src: local("Material Icons"), local("MaterialIcons-Outlined"), url("../docs/fonts/material-symbols-outlined.woff2") format("woff2"); }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu";
+  font-family: Inter;
   overflow-x: hidden !important;
   font-size: 1rem;
   color: #3C4257;

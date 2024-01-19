@@ -16,8 +16,8 @@ hero:
     pill: false # boolean
     soft: false # boolean
 
-  title: "P4Us,with AI"
-  subtitle: Here is **P**rompts Guide **for** **U**niversity **s**taff,a document platform for university administrative staff to use generative ai.
+  title: "P4Us📗"
+  subtitle: Here is `Prompt Guide for University staff`,a document platform for university administrative staff to use generative ai.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -45,8 +45,8 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: P4Usって何？ # 1
-  subtitle: "P4Usは**大学職員のための生成AIプロンプトを集約したドキュメントページ**です。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。" # 2
+  title: ABOUT P4Us # 1
+  subtitle: "P4Usは**大学職員のための生成AIプロンプトを集めたドキュメントページ**です。生成AI初心者から中級者までが気軽に生成AIを使用・活用できるようになるために用意されました。" # 2
 
   items:
     - title: 生成AIをゆるく理解する # 4
@@ -103,7 +103,7 @@ imageText:
   weight: 40
   template: image text
 
-  title: ミッションは「リテラシーへの貢献」 # 1
+  title: MISSION # 1
   subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
 
   list:

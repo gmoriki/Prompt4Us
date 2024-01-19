@@ -1,4 +1,4 @@
-baseURL = 'https://gmoriki.github.io/Prompt4Us'
+# baseURL = 'https://gmoriki.github.io/Prompt4Us'
 languageCode = 'en-us'
 title = 'P4Us | 大学職員のためのプロンプトガイド'
 enableEmoji = true
@@ -23,6 +23,17 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
     weight = 10
 
 [params]
+
+  google_fonts = [
+    ["Inter", "300, 400, 600, 700"],
+    ["Fira Code", "500, 700"]
+  ]
+
+  sans_serif_font = "Inter"     # Default is System font
+  secondary_font  = "Inter"     # Default is System font
+  mono_font       = "Fira Code" # Default is System font
+
+
 
     [params.footer]
         copyright = "© :YEAR: gmoriki. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"

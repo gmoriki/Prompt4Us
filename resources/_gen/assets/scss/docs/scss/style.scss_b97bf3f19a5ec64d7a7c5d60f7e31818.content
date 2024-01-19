@@ -100,8 +100,8 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: Inter;
+  --bs-font-monospace: Fira Code;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -9575,7 +9575,7 @@ html {
   background-color: var(--body-bg); }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Ubuntu";
+  font-family: Inter;
   overflow-x: hidden !important;
   font-size: 1rem;
   color: var(--body-color);
@@ -11401,7 +11401,7 @@ code {
 code[class*="language-"],
 pre[class*="language-"] {
   border: none !important;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Fira Code;
   font-size: 0.8rem;
   text-align: left;
   white-space: pre;
