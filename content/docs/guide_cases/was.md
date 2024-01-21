@@ -1,6 +1,6 @@
 ---
 weight: 999
-title: "2023年大学業務ソリューションセミナー"
+title: "業務の在り方を議論する"
 description: "大学業務における生成AI利用の体系"
 icon: "Emoji_Objects"
 date: "2024-01-19T17:39:31+09:00"
