@@ -1,7 +1,7 @@
 ---
-weight: 50
+weight: 60
 title: "リンク集"
-description: "生成AIに関するWebページ/書籍を紹介"
+description: "生成AIに関するWebページ/書籍を見てみる"
 icon: "link"
 date: "2024-01-17T13:47:20+09:00"
 lastmod: "2024-01-17T13:47:20+09:00"
@@ -15,7 +15,7 @@ toc: true
 
 {{< alert context="info" text="随時更新します。<strong>大学に関する内容が多くなるかもしれません。</strong>" />}}
 
-### 文章生成AIサービス
+### 対話型文章生成AIサービス
 
 {{< table "table-striped" >}}
 | 名称                                              | 説明                                                      |
@@ -68,7 +68,7 @@ toc: true
 {{< /table >}}
 
 
-### 大学職員におすすめの書籍(数式・プログラム無し)
+### 書籍(数式・プログラム無し)
 
 {{< table "table-striped" >}}
 | 書籍名                                                                                      | 著者名      | 出版年月日   | 備考                                                         |
