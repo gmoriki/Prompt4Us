@@ -19,16 +19,20 @@ toc: true
 - RAGと生成AI
 
 
-通常の対話型生成AIサービス
+
+
+<br>
+
+### 通常の対話型生成AIサービス
 ```mermaid
     sequenceDiagram
     box rgb(221,255,221) 利用者 🙂
     actor 大学職員
     end
-    box インターフェース 💻
+    box インターフェース 🖥️
     participant サービス画面
     end
-    box バックエンド 🧭
+    box バックエンド ⚙️
     participant LLM
     end
     大学職員->>サービス画面: プロンプトを投げる
@@ -37,16 +41,16 @@ toc: true
     サービス画面->>大学職員: 回答を出力する
 ```
 
-検索型・対話型生成AIサービス
+### 検索型・対話型生成AIサービス
 ```mermaid
     sequenceDiagram
-    box 利用者
+    box rgb(221,255,221) 利用者 🙂
     actor 大学職員
     end
-    box 生成AIサービス
+    box インターフェース 🖥️
     participant サービス画面
     end
-    box バックエンド
+    box バックエンド ⚙️
     participant バックエンドプログラム
     participant Web検索
     participant LLM
@@ -62,7 +66,7 @@ toc: true
 ```
 
 
-今後の生成AIサービス
+### 今後の生成AIサービス
 ```mermaid
 sequenceDiagram
     box 利用者
