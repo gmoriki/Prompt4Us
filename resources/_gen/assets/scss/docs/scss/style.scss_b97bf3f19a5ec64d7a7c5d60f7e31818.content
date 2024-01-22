@@ -100,7 +100,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: Inter;
+  --bs-font-sans-serif: Noto Sans Japanese;
   --bs-font-monospace: Fira Code;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -9575,7 +9575,7 @@ html {
   background-color: var(--body-bg); }
 
 body {
-  font-family: Inter;
+  font-family: Noto Sans Japanese;
   overflow-x: hidden !important;
   font-size: 1rem;
   color: var(--body-color);

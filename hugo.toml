@@ -29,11 +29,12 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 
   google_fonts = [
     ["Inter", "300, 400, 600, 700"],
-    ["Fira Code", "500, 700"]
+    ["Fira Code", "500, 700"],
+    ["Noto Sans Japanese", "300, 400, 600, 700"]
   ]
 
-  sans_serif_font = "Inter"     # Default is System font
-  secondary_font  = "Inter"     # Default is System font
+  sans_serif_font = "Noto Sans Japanese"     # Default is System font
+  secondary_font  = "Noto Sans Japanese"     # Default is System font
   mono_font       = "Fira Code" # Default is System font
 
 
