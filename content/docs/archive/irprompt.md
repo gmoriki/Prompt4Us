@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 30
 title: "MJIR2023講演"
 description: "「大学IRにおける生成AI利用の試み」"
 icon: "Bar_Chart"

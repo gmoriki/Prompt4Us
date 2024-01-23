@@ -1,15 +1,15 @@
 ---
-weight: 999
-title: "対話全体でプロンプトをつくる"
+weight: 31
+title: "対話の文脈を意識する"
 description: ""
-icon: "article"
+icon: "Timeline"
 date: "2024-01-21T19:33:55+09:00"
 lastmod: "2024-01-21T19:33:55+09:00"
-draft: true
+draft: falase
 toc: true
 ---
 
-
+{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
 - プロンプトの紹介や活用事例ではone-shot、つまり一度のプロンプトで得られた結果の成否を確かめることが多い
 - 実際は生成AIと利用者の対話の流れが大切

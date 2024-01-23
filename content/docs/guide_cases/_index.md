@@ -1,6 +1,6 @@
 ---
 weight: 30
-title: "プロンプトガイド事例編"
+title: "プロンプト事例集"
 description: "生成AIを使いこなす"
 icon: "Nature_People"
 date: "2024-01-18T06:57:53+09:00"

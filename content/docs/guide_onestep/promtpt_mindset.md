@@ -1,5 +1,5 @@
 ---
-weight: 13
+weight: 30
 title: "適切な使い方"
 description: "枯れた技術はまだ存在しない"
 icon: "Reminder"

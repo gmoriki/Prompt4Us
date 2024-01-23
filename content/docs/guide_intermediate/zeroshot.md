@@ -1,13 +1,14 @@
 ---
-weight: 11
-title: "Step by stepで"
-description: "LLMの出力の質を向上させる"
-icon: "Steppers"
+weight: 41
+title: "Zero-Shotプロンプティング"
+description: "Zero-shotを理解する"
+icon: "step"
 date: "2024-01-20T05:57:52+09:00"
 lastmod: "2024-01-20T05:57:52+09:00"
 draft: false
 toc: true
 ---
+{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
 ## 🗺️ ポイント 
 

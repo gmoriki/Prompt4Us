@@ -1,5 +1,5 @@
 ---
-weight: 12
+weight: 31
 title: "生成AIの限界と課題"
 description: "最低限、やっちゃいけないこと"
 icon: "Waving_Hand"

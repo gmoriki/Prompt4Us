@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "プロンプトガイド中級編"
+title: "プロンプトガイド応用編"
 description: "生成AIをもっと使ってみる"
 icon: "Nature"
 date: "2024-01-18T06:57:53+09:00"

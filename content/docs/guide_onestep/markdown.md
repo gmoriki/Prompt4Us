@@ -1,6 +1,6 @@
 ---
-weight: 11
-title: "マークダウン記法を抑えよう"
+weight: 33
+title: "基本的なマークダウン記法"
 description: "実は基本"
 icon: "Subtitles"
 date: "2024-01-20T05:57:52+09:00"

@@ -1,8 +1,8 @@
 ---
-weight: 999
+weight: 32
 title: "AIのバイアス"
 description: "3つのバイアスを理解する"
-icon: "article"
+icon: "Balance"
 date: "2024-01-21T19:19:52+09:00"
 lastmod: "2024-01-21T19:19:52+09:00"
 draft: false

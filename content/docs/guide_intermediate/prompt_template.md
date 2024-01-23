@@ -1,14 +1,14 @@
 ---
-weight: 999
+weight: 30
 title: "プロンプトテンプレート"
 description: "深津さんのプロンプトを紹介"
-icon: "article"
+icon: "Developer_Guide"
 date: "2024-01-21T19:32:35+09:00"
 lastmod: "2024-01-21T19:32:35+09:00"
-draft: true
+draft: false
 toc: true
 ---
-
+{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
 ```
 # 命令書:
