@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 63
 title: "シラバスを作成する"
 description: ""
 icon: "article"

@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 51
 title: "プロンプトテンプレート"
 description: "深津さんのプロンプトを紹介"
 icon: "Developer_Guide"

@@ -1,5 +1,5 @@
 ---
-weight: 31
+weight: 52
 title: "対話の文脈を意識する"
 description: ""
 icon: "Timeline"

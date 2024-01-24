@@ -1,5 +1,5 @@
 ---
-weight: 41
+weight: 54
 title: "Zero-Shotプロンプティング"
 description: "Zero-shotを理解する"
 icon: "step"

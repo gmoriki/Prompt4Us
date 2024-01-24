@@ -1,5 +1,5 @@
 ---
-weight: 31
+weight: 42
 title: "メール文を書こう"
 description: "「書き出し」タスクの体験"
 icon: "Draw"

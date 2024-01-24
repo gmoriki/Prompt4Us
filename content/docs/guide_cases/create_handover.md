@@ -1,5 +1,5 @@
 ---
-weight: 34
+weight: 65
 title: "引き継ぎ書を作成する"
 description: ""
 icon: "article"

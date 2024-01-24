@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 100
 title: "よくある質問/お問い合わせ先"
 description: "お気軽にどうぞ"
 icon: "Contact_Support"

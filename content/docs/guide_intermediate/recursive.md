@@ -1,5 +1,5 @@
 ---
-weight: 43
+weight: 55
 title: "再帰的な修正"
 description: "Recursively Criticizes and Improvesを理解する"
 icon: "article"

@@ -1,5 +1,5 @@
 ---
-weight: 31
+weight: 62
 title: "プロダクトの名前を決める"
 description: "記事や施設や物に名前を付ける"
 icon: "article"

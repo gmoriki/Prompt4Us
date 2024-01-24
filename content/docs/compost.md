@@ -1,5 +1,5 @@
 ---
-weight: 50
+weight: 80
 title: "プロンプトガイドのタネ"
 description: "プロンプトガイドに載せるかもしれない雑記"
 icon: "Compost"

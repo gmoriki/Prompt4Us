@@ -1,5 +1,5 @@
 ---
-weight: 33
+weight: 64
 title: "データ前処理を行う"
 description: ""
 icon: "article"

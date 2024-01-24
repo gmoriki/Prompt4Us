@@ -1,5 +1,5 @@
 ---
-weight: 42
+weight: 53
 title: "Few-Shotプロンプティング"
 description: "Few-shotを理解する"
 icon: "Steppers"

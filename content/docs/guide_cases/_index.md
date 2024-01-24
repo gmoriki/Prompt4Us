@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 60
 title: "プロンプト事例集"
 description: "生成AIを使いこなす"
 icon: "Nature_People"

@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 30
 title: "プロンプト一歩前"
 description: "プロンプトの前提を把握する"
 icon: "Eco"

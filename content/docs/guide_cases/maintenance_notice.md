@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 61
 title: "告知文を作成する"
 description: "システムメンテナンスの案内"
 icon: "article"

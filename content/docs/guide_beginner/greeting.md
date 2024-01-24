@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 41
 title: "まずは簡単なあいさつ"
 description: "ChatGPTに指示を出してみよう"
 icon: "Waving_Hand"

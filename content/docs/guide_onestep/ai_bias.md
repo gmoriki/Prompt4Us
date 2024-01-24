@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 33
 title: "AIのバイアス"
 description: "3つのバイアスを理解する"
 icon: "Balance"

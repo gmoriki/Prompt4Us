@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 50
 title: "プロンプトガイド応用編"
 description: "生成AIをもっと使ってみる"
 icon: "Nature"

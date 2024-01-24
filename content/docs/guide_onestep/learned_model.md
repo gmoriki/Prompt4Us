@@ -1,5 +1,5 @@
 ---
-weight: 35
+weight: 36
 title: "学習済みモデルの概要"
 description: ""
 icon: "article"

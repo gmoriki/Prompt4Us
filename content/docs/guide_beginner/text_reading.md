@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 43
 title: "文章を要約しよう"
 description: "「読み取り」タスクの体験"
 icon: "Edit_Note"

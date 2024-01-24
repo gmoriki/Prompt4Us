@@ -1,5 +1,5 @@
 ---
-weight: 40
+weight: 70
 title: "アーカイブ資料室"
 description: "過去の講演のプロンプトを見てみる"
 icon: "Archive"

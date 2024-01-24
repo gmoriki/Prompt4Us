@@ -1,5 +1,5 @@
 ---
-weight: 35
+weight: 66
 title: "仮説を形成する"
 description: ""
 icon: "article"
