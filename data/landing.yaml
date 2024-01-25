@@ -12,12 +12,13 @@ hero:
 
   badge:
     text: 大学職員のための生成AIプロンプトガイド
-    color: info # primary, secondary, success, danger, warning, info, light, dark
+    color: success # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: false # boolean
 
-  title: "P4Us📗"
-  subtitle: Here is `Prompt Guide for University staff`,a document platform for university administrative staff to use generative ai.
+  title: P4Us📗
+  # title: Prompt Guide for University staff📗
+  subtitle: Here is `Prompt Guide for University staff;P4Us`,a document platform for university administrative staff to use generative ai.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -29,7 +30,7 @@ hero:
   cta2Button:
     icon: rocket_launch
     btnText: "はじめる"
-    url: "/P4Us/docs/"
+    url: "/docs/"
 
   # cta2Button:
   #   icon: school
