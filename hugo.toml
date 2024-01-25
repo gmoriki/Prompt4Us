@@ -2,7 +2,7 @@
 # languageCode = 'en-us'
 languageCode = "ja"
 defaultContentLanguage = "ja"
- languageName = 'Japanese'
+languageName = 'Japanese'
 hasCJKLanguage = true
 title = 'P4Us | 大学職員のためのプロンプトガイド'
 enableEmoji = true
@@ -28,7 +28,6 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 
 [params]
 
-  favicon = '/images/p4us.png'
 
   google_fonts = [
     ["Inter", "300, 400, 600, 700"],

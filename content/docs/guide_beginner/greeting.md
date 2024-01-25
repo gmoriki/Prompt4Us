@@ -1,7 +1,7 @@
 ---
 weight: 41
 title: "まずは簡単なあいさつ"
-description: "ChatGPTに指示を出してみよう"
+description: "ChatGPTにプロンプトを入力してみよう"
 icon: "Waving_Hand"
 date: "2024-01-20T05:57:52+09:00"
 lastmod: "2024-01-20T05:57:52+09:00"
@@ -9,8 +9,8 @@ draft: false
 toc: true
 ---
 
-せっかく言語を介した人工知能と会話できるのにあいさつも無しとは、  
-とAIに思われないように媚を売っておきましょう。
+早速、生成AIを使ってみましょう。  
+Web検索機能が無いシンプルなChatGPT(GPT-3.5,無料版)を使用しています。
 
 {{< table "table-striped" >}}
 | 日時 | 生成AIサービス | 共有URL |
