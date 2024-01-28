@@ -45,7 +45,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 
 
     [params.footer]
-        copyright = "© :YEAR: gmoriki. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs), Designed by [**Freepik**](https://jp.freepik.com/) (Icon)"
+        copyright = "© :YEAR: gmoriki. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs), Designed by [**Freepik**](https://www.freepik.com/) (Icon)"
         # version = true # includes git commit info
 
     [params.social]
@@ -53,7 +53,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
         twitter = "pogohopper8"       # YOUR_TWITTER_ID
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Prompts Guide for University Staff"           # default html title for documentation pages/sections
+        title           = "Prompt Guide for University Staff"           # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 

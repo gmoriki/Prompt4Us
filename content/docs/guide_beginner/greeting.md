@@ -1,7 +1,7 @@
 ---
 weight: 41
 title: "まずは簡単なあいさつ"
-description: "ChatGPTにプロンプトを入力してみよう"
+description: "生成AIにプロンプトを入力してみよう"
 icon: "Waving_Hand"
 date: "2024-01-20T05:57:52+09:00"
 lastmod: "2024-01-20T05:57:52+09:00"
