@@ -2,7 +2,7 @@
 weight: 36
 title: "学習済みモデルの概要"
 description: "生成AIの中身をざっくり知る"
-icon: "article"
+icon: "Tenancy"
 date: "2024-01-22T20:50:17+09:00"
 lastmod: "2024-01-22T20:50:17+09:00"
 draft: false
@@ -19,7 +19,7 @@ toc: true
 
 
 
-## 📚 学習段階
+## 🧠 学習段階
 --- 
 ```mermaid
 graph LR
@@ -101,6 +101,6 @@ graph LR
 
 <br>
 
-## 参考
+## 📚 参考文献
 ---
 https://www.meti.go.jp/policy/mono_info_service/connected_industries/sharing_and_utilization/20180615001-3.pdf

@@ -1,11 +1,11 @@
 ---
-weight: 80
-title: "プロンプトガイドのタネ"
+weight: 999
+title: "プロンプト・ラボ"
 description: "プロンプトガイドに載せるかもしれない雑記"
-icon: "Compost"
+icon: "Labs"
 date: "2024-01-20T09:42:12+09:00"
 lastmod: "2024-01-20T09:42:12+09:00"
-draft: false
+draft: true
 toc: true
 ---
 

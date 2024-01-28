@@ -36,6 +36,7 @@ toc: true
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [learnprompt](https://www.learnprompt.org/)                                             | プロンプトを学習できるWebサイト                                       |
 | [PromptengineeringGuide](https://www.promptingguide.ai/)                                | プロンプトエンジニアリング技術が体系的にまとまったWebサイト           |
+| [Generative AI for Beginners](https://microsoft.github.io/generative-ai-for-beginners/#/) | プロンプトエンジニアリング技術を含む生成AIアプリケーション構築のための基礎がまとまったWebサイト|
 | [PromptEnginnering(OpenAI)](https://platform.openai.com/docs/guides/prompt-engineering) | OpenAI社による開発者向けプロンプトエンジニアリングのベストプラクティス |
 | [Prompt Engineering for Generative AI](https://developers.google.com/machine-learning/resources/prompt-eng?hl=en) | Google社による基本的なプロンプトテクニック                            |
 | [各種Prompt Engineeringの日本語実例集](https://qiita.com/YutaroOgawa2/items/aca32f8fd7d551596cf8) | プロンプトエンジニアリング手法の概説と日本語のプロンプト             |

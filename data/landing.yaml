@@ -16,7 +16,7 @@ hero:
     pill: false # boolean
     soft: false # boolean
 
-  title: P4Us📗
+  title: P4Us🌱
   # title: Prompt Guide for University staff📗
   subtitle: Here is `Prompt Guide for University staff;P4Us`,a document platform for university administrative staff to use generative ai.
 
@@ -30,7 +30,7 @@ hero:
   cta2Button:
     icon: rocket_launch
     btnText: "はじめる"
-    url: "/docs/"
+    url: "/docs/start"
 
   # cta2Button:
   #   icon: school
@@ -54,43 +54,43 @@ featureGrid:
       icon: sailing # 3
       description: 生成AIに使用されているAI技術そのものではなく、ChatGPT等のAIアプリ・サービスをみんなが適切に・上手に利用できるようになるためのガイドです。 # 5
       ctaLink: # 6
-        text: learn more
-        url: /P4Us/docs/
+        text: プロンプト一歩前
+        url: /docs/guide_onestep
 
     - title: 生成AIを使ってみる
       icon: Thumb_Up
-      description: 無料版から有料版まで、非常に多くのAIサービスが公開されています。まずは使いましょう。使ってから、今後の付き合い方を考えましょう。
+      description: 現在Web上には生成AIサービスが大量に公開されています。無料で利用できるAIも多いので、まずは使いましょう。使ってから、今後の付き合い方を考えましょう。
       ctaLink:
-        text: learn more
-        url: /P4Us/docs/
+        text: プロンプトガイド基本編
+        url: /docs/guide_beginner
 
     - title: 「それなり」を目指す
       icon: Skateboarding
-      description: エキスパート向けコンテンツは提供していません。しかし最初の一歩に最適かもしれません。
+      description: エキスパート向けコンテンツは提供していません。しかし最初の一歩、その次の一歩には最適かもしれません。
       ctaLink:
-        text: learn more
-        url: /P4Us/docs/
+        text: プロンプトガイド応用編
+        url: /docs/guide_intermediate
 
-    - title: 新しい発見があるかも
+    - title: 事例集を公開しています
       icon: Highlight
-      description: 意外な使い道やアイデアが浮かべばこっちのものです。
+      description: 実際に大学職員が現場で使える(かもしれない)プロンプト事例を紹介しています。
       ctaLink:
-        text: learn more
-        url: /P4Us/docs/
+        text: プロンプト事例集
+        url: /docs/guide_cases
 
-    - title: リンク集が充実しています
+    - title: リンク集を充実させました
       icon: link
       description: 生成AIに関する各種リンクをまとめています。P4Usでは取り扱っていない、生成AIの詳しい仕組みやプロンプトエンジニアリング技術についてはリンク集をご参照ください。適宜更新します。
       ctaLink:
-        text: learn more
-        url: /P4Us/docs/links/
+        text: リンク集
+        url: /docs/links/
 
     - title: ご意見お待ちしております
       icon: Contact_Support
-      description: このページは作成者の趣味で運営されています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
+      description: このページは個人が運営しています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
       ctaLink:
-        text: learn more
-        url: /P4Us/docs/
+        text: よくある質問/問い合わせ先
+        url: /docs/support
 
 
 imageCompare:
@@ -105,7 +105,7 @@ imageText:
   template: image text
 
   title: MISSION # 1
-  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また作成者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
+  subtitle: 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」程度に 日常的なプロンプトやプロンプトに関するknown issue、ノウハウ、 また運営者が講演・ワークショップで使用(収集)したプロンプトを掲載しています。生成AI利用のリテラシーを身に着ける一助になれば幸いです。最終的な目標はリテラシーの普及・浸透によるP4Usの消滅です。 #2
 
   list:
   - text: 生成AIサービスの性質を理解できる

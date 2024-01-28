@@ -12,7 +12,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 [module]
     # uncomment line below for temporary local development of module,
     # when using a 'theme' as a git submodule or git cloned files
-    # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
         disable = false
@@ -45,7 +45,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 
 
     [params.footer]
-        copyright = "© :YEAR: gmoriki. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "© :YEAR: gmoriki. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs), Designed by [**Freepik**](https://jp.freepik.com/) (Icon)"
         # version = true # includes git commit info
 
     [params.social]

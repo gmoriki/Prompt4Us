@@ -11,7 +11,7 @@ toc: true
 ChatGPTをはじめとして、多くの生成AIでは<strong>マークダウン記法</strong>が採用されています。
 {{% alert icon="📖" context="light" %}}
 マークダウンは、プレーンテキスト文書にフォーマット要素を追加するために使用できる軽量マークアップ言語です。2004年にジョン・グルーバーによって作成されたマークダウンは、現在世界で最も人気のあるマークアップ言語の一つです。例えば、見出しを示すために、それの前にナンバーサインを追加します（例：# 見出し1）。または、フレーズを太字にするために、それの前後に2つのアスタリスクを追加します（例：このテキストは太字です）。  
-参考：[Markdown Guide Getting Started(作成者による日本語訳)](https://www.markdownguide.org/getting-started/)
+参考：[Markdown Guide Getting Started(運営者による日本語訳)](https://www.markdownguide.org/getting-started/)
 {{% /alert %}}
 
 
