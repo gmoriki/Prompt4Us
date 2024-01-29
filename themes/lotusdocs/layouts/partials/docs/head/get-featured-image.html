@@ -25,7 +25,7 @@
 
     {{ $filters := slice (images.Text $textTitle $textTitleOptions) }}
 
-    {{ $logo := resources.Get "images/logos/logo.png" }}
+    {{ $logo := resources.Get "images/logos/logo_card.png" }}
     {{ with $logo }}
         {{ $logo = $logo.Resize "x60" }}
         {{ $logoFilter := (images.Overlay $logo 65 110) }}
