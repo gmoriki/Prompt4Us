@@ -18,7 +18,7 @@ toc: true
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../cases/was2023/">
+  <a class="text-decoration-none text-reset" href="../archive/was2023/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Emoji_Objects</i>
@@ -304,7 +304,7 @@ P4Usはプロンプトを提供しますが利用者の生成AIの利用環境�
 好きなものを使ってください。おすすめはChatGPTとCopilotです。  
 
 ##### ChatGPT
-生成AIブームの立役者であり主人公、対話型生成AIサービスです。**「いいから登録しとけ」の筆頭。** 複数のLLMベンチマークではほぼ負けなしのGPT-4をはじめ、無料でも汎用的かつ高速なGPT-3.5を使用できます。画面のシンプルさゆえに何を入力していいから分からない人が続出していいます。
+生成AIブームの立役者であり主人公、対話型生成AIサービスです。**「いいから登録しとけ」の筆頭。** 複数のLLMベンチマークではほぼ負けなしのGPT-4をはじめ、無料でも汎用的かつ高速なGPT-3.5を使用できます。画面のシンプルさゆえに何を入力していいから分からない人が続出しています。
 
 ##### Copilot
 生成AI搭載の検索エンジンです。GPT-4モデルを使用した検索エンジンを無料で使用できる点、検索エンジン故に回答に出典が明記される点、Edgeブラウザ(今後はWindowsOS?)との連携が極めて便利な点が強みです。

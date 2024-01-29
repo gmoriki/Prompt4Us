@@ -34,7 +34,7 @@ toc: true
 {{< table "table-striped" >}}
 | 名称                                                                                     | 説明                                                                     |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [learnprompt](https://www.learnprompt.org/)                                             | プロンプトを学習できるWebサイト                                       |
+| [LearnPrompt.org](https://www.learnprompt.org/)                                             | プロンプトを学習できるWebサイト                                       |
 | [PromptengineeringGuide](https://www.promptingguide.ai/)                                | プロンプトエンジニアリング技術が体系的にまとまったWebサイト           |
 | [Generative AI for Beginners](https://microsoft.github.io/generative-ai-for-beginners/#/) | プロンプトエンジニアリング技術を含む生成AIアプリケーション構築のための基礎がまとまったWebサイト|
 | [PromptEnginnering(OpenAI)](https://platform.openai.com/docs/guides/prompt-engineering) | OpenAI社による開発者向けプロンプトエンジニアリングのベストプラクティス |
@@ -51,6 +51,7 @@ toc: true
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [ChatGPT/生成AIへの対応を表明した国内の大学一覧](https://note.com/pogohopper8/n/n3126b312f209)   | 大学が公表した生成AIポリシーまとめ                                 |
 | [大学業務における生成AI入門](https://speakerdeck.com/gmoriki/da-xue-ye-wu-niokerusheng-cheng-airu-men) | 大学業務において生成AIを利用・整備するために必要な知識まとめ       |
+| [大学業務における生成AI利用の体系](https://speakerdeck.com/gmoriki/da-xue-ye-wu-niokerusheng-cheng-aili-yong-noti-xi) | 大学業務において生成AIを利用・整備するために必要な知識まとめ(入門の短縮版)  [Youtube](https://www.youtube.com/watch?v=KY7jowFG57o&t=963s)に公開されています|
 | [大学職員が参考にできるかもしれないChatGPT使用事例](https://note.com/codemp/n/n559a45977bb5)    | 大学職員によるChatGPT使用事例の紹介                               |
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
 {{< /table >}}
@@ -69,7 +70,8 @@ toc: true
 {{< /table >}}
 
 
-### 書籍(数式・プログラム無し)
+### 書籍
+数式やプログラミングコードを扱わない入門書を紹介します
 
 {{< table "table-striped" >}}
 | 書籍名                                                                                      | 著者名      | 出版年月日   | 備考                                                         |

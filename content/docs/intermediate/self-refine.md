@@ -17,6 +17,14 @@ toc: true
 このようなテクニックは[Maieutic prompting](https://arxiv.org/abs/2205.11822)、[Recursively Criticizes and Improves(RCI,再帰的改善プロンプト)](https://arxiv.org/abs/2303.17491)、フレームワークは[Self-Refine](https://arxiv.org/abs/2303.17651)と呼ばれています。[AIが勝手に議論を深めてくれる弁証法エンジンの構築](https://note.com/fladdict/n/nf5de15f7104d)といった形での紹介も見られます。
 {{% /alert %}}
 
+{{< table "table-responsive" >}}
+| 日時 | このページで使用した生成AI | 
+|----------|--------------|
+| 2024/1/21 | ChatGPT(GPT-3.5) |
+{{< /table >}}
+
+<br>
+
 
 ```
 大学で学ぶことの価値について教えてください。

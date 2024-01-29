@@ -14,6 +14,13 @@ ChatGPTをはじめとして、多くの生成AIでは<strong>マークダウン
 参考：[Markdown Guide Getting Started(運営者による日本語訳)](https://www.markdownguide.org/getting-started/)
 {{% /alert %}}
 
+{{< table "table-responsive" >}}
+| 日時 | このページで使用した生成AI | 
+|----------|--------------|
+| 2024/1/20 | ChatGPT(GPT-4) |
+{{< /table >}}
+
+<br>
 
 
 ## 🎯 マークダウン基本ガイド
