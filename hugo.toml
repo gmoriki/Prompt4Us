@@ -98,3 +98,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
     
     [params.flexsearch] # Parameters for FlexSearch
         enabled             = true
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-RGYMFVVXL5'
