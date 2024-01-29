@@ -1,7 +1,7 @@
 ---
 weight: 32
 title: "生成AIの限界と課題"
-description: "最低限、やっちゃいけないこと"
+description: "最低限やってはいけないこと"
 icon: "Waving_Hand"
 date: "2024-01-20T05:57:52+09:00"
 lastmod: "2024-01-20T05:57:52+09:00"

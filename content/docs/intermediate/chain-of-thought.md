@@ -1,5 +1,5 @@
 ---
-weight: 55
+weight: 52
 title: "思考の連鎖を促す"
 description: "Chain of thoughtを理解する"
 icon: "Steppers"

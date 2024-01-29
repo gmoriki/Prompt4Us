@@ -1,7 +1,7 @@
 ---
 weight: 31
 title: "生成AIの適切な扱い方"
-description: "上手の前に、適切に"
+description: "生成AIと付き合う姿勢を理解する"
 icon: "Reminder"
 date: "2024-01-20T05:57:52+09:00"
 lastmod: "2024-01-20T05:57:52+09:00"

@@ -1,5 +1,5 @@
 ---
-weight: 54
+weight: 55
 title: "一言で回答の質を上げる"
 description: "Zero-shot Cotを理解する"
 icon: "step"

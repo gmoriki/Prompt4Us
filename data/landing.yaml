@@ -55,28 +55,28 @@ featureGrid:
       description: 生成AIに使用されているAI技術そのものではなく、ChatGPT等のAIアプリ・サービスをみんなが適切に・上手に利用できるようになるためのガイドです。 # 5
       ctaLink: # 6
         text: プロンプト一歩前
-        url: /docs/guide_onestep
+        url: /docs/essence
 
     - title: 生成AIを使ってみる
       icon: Touch_App
       description: 現在Web上には生成AIサービスが大量に公開されています。無料で利用できるAIも多いので、まずは使いましょう。使ってから、今後の付き合い方を考えましょう。
       ctaLink:
         text: プロンプトガイド基本編
-        url: /docs/guide_beginner
+        url: /docs/basic
 
     - title: 「それなり」を目指す
       icon: Skateboarding
       description: エキスパート向けコンテンツは提供していません。しかし最初の一歩、その次の一歩には最適かもしれません。
       ctaLink:
         text: プロンプトガイド応用編
-        url: /docs/guide_intermediate
+        url: /docs/intermediate
 
     - title: 事例集を公開しています
       icon: Highlight
       description: 実際に大学職員が現場で使える(かもしれない)プロンプト事例を紹介しています。
       ctaLink:
         text: プロンプト事例集
-        url: /docs/guide_cases
+        url: /docs/cases
 
     - title: リンク集を充実させました
       icon: link

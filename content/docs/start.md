@@ -18,13 +18,13 @@ toc: true
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../guide_cases/was2023/">
+  <a class="text-decoration-none text-reset" href="../cases/was2023/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Emoji_Objects</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">業務の在り方を議論する</p>
+        <p class="fs-5 fw-semibold card-title mb-1">講演(WAS2023)</p>
         <p class="para card-text mb-0">大学業務における生成AI利用の体系</p>
       </div>
     </div>
@@ -32,7 +32,7 @@ toc: true
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../guide_beginner/greeting/">
+  <a class="text-decoration-none text-reset" href="../basic/greeting/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Waving_Hand</i>
@@ -103,16 +103,16 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 {{< alert icon="👇" context="info" text="緑色太字は別ページに飛ぶリンクです🔗" />}}
 
 ❓ 生成AIを全く使ったことが無く、プロンプトの書き方が分からない  
-🔜 [まずは簡単なあいさつ]({{% relref "/docs/guide_beginner/greeting.md" %}}) 
+🔜 [まずは簡単なあいさつ]({{% relref "/docs/basic/greeting.md" %}}) 
 
 ❓ 生成AIを使うときの注意事項を知りたい  
-🔜 [生成AIの限界と課題]({{% relref "/docs/guide_onestep/risk_manage.md" %}})  
+🔜 [生成AIの限界と課題]({{% relref "/docs/essence/risk-management.md" %}})  
 
 ❓ もっと生成AIを使いこなして回答の精度を上げたい  
-🔜 [回答を再帰的に改善させる]({{% relref "/docs/guide_intermediate/self_refine.md" %}})  
+🔜 [回答を再帰的に改善させる]({{% relref "/docs/intermediate/self-refine.md" %}})
 
 ❓ 他のツールを連携した生成AIのイメージを知りたい  
-🔜 [生成AIとツールの連携]({{% relref "/docs/guide_onestep/external_tools.md" %}})  
+🔜 [生成AIとツールの連携]({{% relref "/docs/essence/external-tools.md" %}})  
 
 ❓ 生成AIを使う・学ぶ上で参考になるWebページは書籍を知りたい  
 🔜 [リンク集]({{% relref "/docs/links" %}})
@@ -143,7 +143,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../guide_onestep/">
+  <a class="text-decoration-none text-reset" href="../essence/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Eco</i>
@@ -157,7 +157,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../guide_beginner/">
+  <a class="text-decoration-none text-reset" href="../basic/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Potted_Plant</i>
@@ -171,7 +171,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../guide_intermediate/">
+  <a class="text-decoration-none text-reset" href="../intermediate/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Nature</i>
@@ -240,7 +240,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../links/">
+  <a class="text-decoration-none text-reset" href="../support/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Contact_Support</i>

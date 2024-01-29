@@ -1,7 +1,7 @@
 ---
-weight: 53
+weight: 54
 title: "回答を再帰的に改善させる"
-description: "Self-refine等を理解する"
+description: "Self-refineを理解する"
 icon: "Repeat"
 date: "2024-01-21T19:36:13+09:00"
 lastmod: "2024-01-21T19:36:13+09:00"
@@ -10,7 +10,7 @@ toc: true
 ---
 {{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
-生成AIから得られた回答を人間が検証する必要性は[生成AIの適切な使い方]({{% relref "/docs/guide_onestep/promtpt_mindset" %}})で説明しました。  
+生成AIから得られた回答を人間が検証する必要性は[生成AIの適切な使い方]({{% relref "/docs/essence/mindset" %}})で説明しました。  
 これは生成物の最終的な責任は人間が取るべきという考え方に基づきます。そのうえで、**生成物の途中経過**を生成AI自身に検証・改善させることは有用です。利用者と生成AIとのやり取りの中だけではなく、生成AIの回答を生成AIが自ら改善することで、生成物の品質が向上します。
 
 {{% alert icon="" context="info" %}}
