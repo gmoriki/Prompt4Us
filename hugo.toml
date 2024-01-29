@@ -101,4 +101,4 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-RGYMFVVXL5'
+    ID = 'G-MDYR2DPQXH'
