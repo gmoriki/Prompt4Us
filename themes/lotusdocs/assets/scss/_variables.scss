@@ -142,6 +142,10 @@ $yellow:  #f17425;
 $green:   #2eca8b;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+$custom_green:    #0BA272;
+// $custom_green:    #06aa69;
+  
+
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -159,11 +163,12 @@ $colors: (
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
+  "custom_green":  $custom_green,
 );
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $blue;
+$primary:       $custom_green;
 $secondary:     $gray-600;
 $success:       $green;
 $info:          $cyan;
