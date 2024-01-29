@@ -1,4 +1,4 @@
-# baseURL = 'https://gmoriki.github.io/Prompt4Us'
+baseURL = 'https://promptforus.com/'
 # languageCode = 'en-us'
 languageCode = "ja"
 defaultContentLanguage = "ja"
@@ -39,7 +39,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
   ]
 
   sans_serif_font = "Noto Sans Japanese"     
-  secondary_font  = "Noto Sans Japanese"     
+  secondary_font  = "Inter"     
   mono_font       = "Fira Code" # Default is System font
 
 
