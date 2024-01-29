@@ -7,7 +7,7 @@ hasCJKLanguage = true
 title = 'P4Us | 大学職員のためのプロンプトガイド'
 enableEmoji = true
 enableGitInfo = true # N.B. .GitInfo does not currently function with git submodule content directories
-
+googleAnalytics = 'G-MDYR2DPQXH'
 
 [module]
     # uncomment line below for temporary local development of module,
