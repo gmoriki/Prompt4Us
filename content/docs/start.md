@@ -335,8 +335,20 @@ P4Usでは<u>**ChatGPTやCopilotのような既存サービスだけではなく
 
 ![2タブ](images/twotab.png)
 
-
 <br>
+
+## 🌱 P4Usの位置づけ 
+---
+
+生成AIの開発から利用までのフローを簡潔に示すと研究者、提供者、利用者の3者が存在します。
+![p4us-position1](images/p4us-position1.PNG)
+
+現在ある大きな問題の一つが「提供者と利用者の知識・経験のギャップ」です。
+![p4us-position2](images/p4us-position2.PNG)
+
+P4Usは利用者をサポートすることでその問題を解決する一助となることを目指します。
+![p4us-position3](images/p4us-position3.PNG)
+
 
 ## 👾 P4Usの運営者
 ---
