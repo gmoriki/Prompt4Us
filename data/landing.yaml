@@ -30,7 +30,7 @@ hero:
   cta2Button:
     icon: rocket_launch
     btnText: "はじめる"
-    url: "/docs/start"
+    url: "/docs/start/how-to-use"
 
   # cta2Button:
   #   icon: school
@@ -47,7 +47,7 @@ featureGrid:
   template: feature grid
 
   title: ABOUT P4Us # 1
-  subtitle: "P4Usは**生成AI利用者のためのプロンプトを集めたドキュメントプラットフォーム**です。大学職員をはじめとして、生成AIを活用したい初心者から中級者までを支援します。" # 2
+  subtitle: "P4Usは**テキスト生成AI利用者のためのプロンプトを集めたドキュメントプラットフォーム**です。生成AI利用の基本から応用までを取り扱います。" # 2
 
   items:
     - title: 生成AIの扱い方を理解する # 4
@@ -87,9 +87,9 @@ featureGrid:
 
     - title: ご意見お待ちしております
       icon: Contact_Support
-      description: このページは個人が運営しています。お気づきの点などがあればGithubにPull Requestをお送りいただくか、フォームに投稿いただけますと幸いです。
+      description: このページは個人が運営しています。お気づきの点などがあればお問い合わせいただけますと幸いです。
       ctaLink:
-        text: よくある質問/問い合わせ先
+        text: お問い合わせ先
         url: /docs/support
 
 
