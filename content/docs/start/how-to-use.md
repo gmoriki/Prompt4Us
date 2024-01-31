@@ -19,7 +19,7 @@ toc: true
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../archive/was2023/">
+  <a class="text-decoration-none text-reset" href="../../archive/was2023/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Emoji_Objects</i>
@@ -33,7 +33,7 @@ toc: true
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../basic/greeting/">
+  <a class="text-decoration-none text-reset" href="../../basic/greeting/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Waving_Hand</i>
@@ -144,7 +144,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../essence/">
+  <a class="text-decoration-none text-reset" href="../../essence/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Eco</i>
@@ -158,7 +158,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../basic/">
+  <a class="text-decoration-none text-reset" href="../../basic/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Potted_Plant</i>
@@ -172,7 +172,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../intermediate/">
+  <a class="text-decoration-none text-reset" href="../../intermediate/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Nature</i>
@@ -192,7 +192,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../links/">
+  <a class="text-decoration-none text-reset" href="../../cases/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Nature_People</i>
@@ -206,7 +206,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../links/">
+  <a class="text-decoration-none text-reset" href="../../archive/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Archive</i>
@@ -227,7 +227,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../links/">
+  <a class="text-decoration-none text-reset" href="../../links/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">link</i>
@@ -241,7 +241,7 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 </div>
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../support/">
+  <a class="text-decoration-none text-reset" href="../../support/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
         <i class="material-icons align-middle">Contact_Support</i>
