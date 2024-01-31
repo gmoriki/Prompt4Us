@@ -8,9 +8,12 @@ lastmod: "2024-01-20T05:57:52+09:00"
 draft: false
 toc: true
 ---
+{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
-生成AIを利用することに対する懸念点をおさえましょう。
-最終的にはきちんと<strong>利用しているサービスの利用規約やプライバシーポリシーを確認しましょう。</strong>
+AI利用にはリスクも伴います。気付かないうちに法的・倫理的・社会的な問題を
+
+![生成AIの限界と課題](images/risk-management.png)
+
 
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 

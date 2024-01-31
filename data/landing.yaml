@@ -18,7 +18,7 @@ hero:
 
   title: P4Us🌱
   # title: Prompt Guide for University staff📗
-  subtitle: Here is **`Prompt Guide for University staff;P4Us`**,a document platform for university administrative staff to use **Generative AI**.
+  subtitle: Here is **`Prompt Guide for University staff;P4Us`**,a document platform for university administrative staff to use **Generative AI**. <br> ※ テスト運用中です
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -87,7 +87,7 @@ featureGrid:
 
     - title: ご意見お待ちしております
       icon: Contact_Support
-      description: このページは個人が運営しています。お気づきの点などがあればお問い合わせいただけますと幸いです。
+      description: このページは個人が作成・運営しています。しかし個人では限界があり、生成AI利用者と一緒に良いページを作りたいと考えております。どうか**内容や構成に関するご意見をお聞かせください。🙇**
       ctaLink:
         text: お問い合わせ先
         url: /docs/support
