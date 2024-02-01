@@ -29,7 +29,7 @@ toc: true
 
 
 
-### プロンプトエンジニアリング
+### プロンプトエンジニアリング関係
 
 {{< table "table-striped" >}}
 | 名称                                                                                     | 説明                                                                     |
@@ -40,7 +40,16 @@ toc: true
 | [PromptEnginnering(OpenAI)](https://platform.openai.com/docs/guides/prompt-engineering) | OpenAI社による開発者向けプロンプトエンジニアリングのベストプラクティス |
 | [Prompt Engineering for Generative AI](https://developers.google.com/machine-learning/resources/prompt-eng?hl=en) | Google社による基本的なプロンプトテクニック                            |
 | [各種Prompt Engineeringの日本語実例集](https://qiita.com/YutaroOgawa2/items/aca32f8fd7d551596cf8) | プロンプトエンジニアリング手法の概説と日本語のプロンプト             |
-| [promptia](https://prompt.quel.jp/)                                                      | ChatGPTなどで使える文例集                                             |
+
+{{< /table >}}
+
+### プロンプト事例
+
+{{< table "table-striped" >}}
+| Webサイト名                                                                      | 備考                                                                                           |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) | 東京都が公開している事例集 |
+| [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
 {{< /table >}}
 
 
@@ -56,7 +65,7 @@ toc: true
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
 {{< /table >}}
 
-### 教育
+### 大学教育
 
 {{< table "table-striped" >}}
 | Webサイト名                                                                      | 備考                                                                                           |
@@ -70,14 +79,21 @@ toc: true
 {{< /table >}}
 
 
-### 書籍
-数式やプログラミングコードを扱わない入門書を紹介します
+### 書籍(ハンズオン)
+生成AI利用の実例と併せて読める入門書です
+
+
+### 書籍(読み物)
+数式やプログラミングコードを扱わない入門書です
+
 
 {{< table "table-striped" >}}
 | 書籍名                                                                                      | 著者名      | 出版年月日   | 備考                                                         |
 |-------------------------------------------------------------------------------------------|-----------|------------|------------------------------------------------------------|
-| [大規模言語モデルは新たな知能か](https://www.iwanami.co.jp/book/b625941.html)             | 岡野原 大輔 | 2023/06/20 | 数式を用いずに大規模言語モデルの仕組みを明解に解説した必読書   |
-| [生成AIで世界はこう変わる](https://www.sbcr.jp/product/4815622978/)                       | 今井 翔太   | 2024/01/07 | 新進気鋭の若手AI研究者がAIの現状と展望を示した必読書                   |
+| [大規模言語モデルは新たな知能か](https://www.iwanami.co.jp/book/b625941.html)             | 岡野原 大輔 | 2023/06/20 | 数式を用いずに大規模言語モデルの仕組みを明解に解説した**必読書**   |
+| [生成AIで世界はこう変わる](https://www.sbcr.jp/product/4815622978/)                       | 今井 翔太   | 2024/01/07 | 新進気鋭の若手AI研究者がAIの現状と展望を示した**必読書**                   |
 | [ChatGPT時代の文系AI人材になる](https://str.toyokeizai.net/books/9784492047392/)           | 野口 竜司   | 2023/10/04 | 読みやすいので高校生から大人まで幅広くおすすめできる本          |
 {{< /table >}}
 
+### スライド資料
+生成AIに関するスライド資料です
