@@ -15,7 +15,10 @@ toc: true
 
 {{< alert context="info" text="随時更新します。<strong>大学に関する内容が多くなるかもしれません。</strong>" />}}
 
-### 対話型文章生成AIサービス
+## 🌐 Webサイト
+---
+
+### - 対話型文章生成AIサービス
 
 {{< table "table-striped" >}}
 | 名称                                              | 説明                                                      |
@@ -27,9 +30,16 @@ toc: true
 | [Perplexity](https://www.perplexity.ai/)          | Perplexity AI社が開発・提供する対話型生成AIサービス      |
 {{< /table >}}
 
+### - プロンプト事例
 
+{{< table "table-striped" >}}
+| Webサイト名                                                                      | 備考                                                                                           |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) | 東京都が公開している事例集 |
+| [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
+{{< /table >}}
 
-### プロンプトエンジニアリング関係
+### - プロンプトエンジニアリング
 
 {{< table "table-striped" >}}
 | 名称                                                                                     | 説明                                                                     |
@@ -43,17 +53,8 @@ toc: true
 
 {{< /table >}}
 
-### プロンプト事例
 
-{{< table "table-striped" >}}
-| Webサイト名                                                                      | 備考                                                                                           |
-|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) | 東京都が公開している事例集 |
-| [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
-{{< /table >}}
-
-
-### 大学事務
+### - 大学事務×生成AI
 
 {{< table "table-striped" >}}
 | Webサイト名                                                                                      | 備考                                                                 |
@@ -65,7 +66,7 @@ toc: true
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
 {{< /table >}}
 
-### 大学教育
+### - 大学教育×生成AI
 
 {{< table "table-striped" >}}
 | Webサイト名                                                                      | 備考                                                                                           |
@@ -78,12 +79,29 @@ toc: true
 | [生成AI利用の本質的理解ー大学の授業のためにー](https://speakerdeck.com/gmoriki/sheng-cheng-aili-yong-noben-zhi-de-li-jie-da-xue-noshou-ye-notameni) | 愛媛大学FD資料。[Youtube](https://www.youtube.com/watch?v=KvixMy08y68)に公開されています |
 {{< /table >}}
 
+### - 発表スライド
+その他、生成AIに関するスライド資料です
 
-### 書籍(ハンズオン)
+{{< table "table-striped" >}}
+| タイトル                                                                                      | 作成者      | 公開年月日   | 備考                                                         |
+|-------------------------------------------------------------------------------------------|-----------|------------|------------------------------------------------------------|
+| [本当にわかりやすいAI入門](https://speakerdeck.com/segavvy/ben-dang-niwakariyasuiairu-men)   | segavvy | 2023/12/07 | AIを理解するための丁寧な解説   |
+| [大規模言語モデルの驚異と脅威](https://speakerdeck.com/chokkan/20230327_riken_llm)                       | 岡崎 直観   | 2023/03/28 | 自然言語処理の専門家による大規模言語モデルの解説。「本講演では、ChatGPTがベースにしているInstructGPTを中心に、大規模言語モデルやプロンプト、人間のフィードバックによる強化学習などの技術を概観する。また、ChatGPTのような生成型の人工知能が社会やビジネス、学術にもたらす脅威について述べる。」 |
+| [AI・ChatGPTとの業務上の付き合い方～AIの中身を知って、得意・不得意を知る](https://speakerdeck.com/iij_pr/ai-chatgpt-tono-ye-wu-shang-nofu-kihe-ifang-ai-nozhong-shen-wozhi-tute-de-yi-bu-de-yi-wozhi-ru/) | IIJ   | 2023/07/27 | 生成AIの技術から利用テクニックまで幅広く紹介されている資料 |
+| [ChatGPT - Azure OpenAI 大全](https://speakerdeck.com/hirosatogamo/chatgpt-azure-openai-da-quan)   | Hirosato Gamo | 2023/07/21 | マイクロソフトの蒲生さんによるChatGPTおよびAzureOpenAIの解説スライド   |
+| [ChatGPT で仕事の生産性と質を10倍向上させる方法 -2024年1月バージョン-](https://speakerdeck.com/dahatake/chatgpt-dezi-fen-noshi-shi-gadoule-sikunarunokawokao-erunetaji-2023nian-12yue-baziyon)   | 畠山 大有 | 2023/12/04 | マイクロソフトの畠山さんによる網羅的なChatGPTガイド   |
+| [ IBIS2023チュートリアル「大規模言語モデル活用技術の最前線」](https://speakerdeck.com/1never/ibis2023tiyutoriaru-da-gui-mo-yan-yu-moderuhuo-yong-ji-shu-nozui-qian-xian)   | 稲葉 通将 | 2023/10/29 | スティーブン・ウルフラム著「ChatGPTの頭の中」の監訳者。LLMにまつわる技術を詳細に説明。   |
+
+{{< /table >}}
+
+## 📚 書籍
+---
+
+### - ハンズオン
 生成AI利用の実例と併せて読める入門書です
 
 
-### 書籍(読み物)
+### - 読み物
 数式やプログラミングコードを扱わない入門書です
 
 
@@ -92,8 +110,7 @@ toc: true
 |-------------------------------------------------------------------------------------------|-----------|------------|------------------------------------------------------------|
 | [大規模言語モデルは新たな知能か](https://www.iwanami.co.jp/book/b625941.html)             | 岡野原 大輔 | 2023/06/20 | 数式を用いずに大規模言語モデルの仕組みを明解に解説した**必読書**   |
 | [生成AIで世界はこう変わる](https://www.sbcr.jp/product/4815622978/)                       | 今井 翔太   | 2024/01/07 | 新進気鋭の若手AI研究者がAIの現状と展望を示した**必読書**                   |
-| [ChatGPT時代の文系AI人材になる](https://str.toyokeizai.net/books/9784492047392/)           | 野口 竜司   | 2023/10/04 | 読みやすいので高校生から大人まで幅広くおすすめできる本          |
+| [ChatGPT時代の文系AI人材になる](https://str.toyokeizai.net/books/9784492047392/)           | 野口 竜司   | 2023/10/04 | 高校生から大人までがChatGPT等の使い方や姿勢を学べる良書          |
 {{< /table >}}
 
-### スライド資料
-生成AIに関するスライド資料です
+

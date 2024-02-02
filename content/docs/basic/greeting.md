@@ -12,6 +12,22 @@ toc: true
 早速、生成AIを使ってみましょう。  
 Web検索機能が無いシンプルなChatGPT(GPT-3.5,無料版)を使用しています。
 
+
+以下のページも併せてご活用ください。
+<div id="list-item" class="col-md-4 col-12 py-2">
+  <a class="text-decoration-none text-reset" href="../../essence/mindset">
+  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+      <span class="h1 icon-color">
+        <i class="material-icons align-middle">reminder</i>
+      </span>
+      <div class="card-body p-0 content">
+        <p class="fs-5 fw-semibold card-title mb-1">生成AIの扱い方</p>
+        <p class="para card-text mb-0">生成AIと付き合う姿勢を理解する</p>
+      </div>
+    </div>
+  </a>
+</div>
+
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 共有URL |
 |----------|--------------|---------|
