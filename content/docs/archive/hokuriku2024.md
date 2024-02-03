@@ -1,18 +1,18 @@
 ---
 weight: 999
-title: "Hokuriku2024"
+title: "職員研修@北陸大学"
 description: "ハンズオンで理解する生成AI"
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
-draft: true
+draft: false
 toc: true
 ---
 
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 
 |----------|--------------|
-| 2024/02/03 | ChatGPT(GPT-3.5) |
+| 2024/02/03 | ChatGPT(GPT-3.5) <br> 一部でBardやCopilotを紹介 |
 {{< /table >}}
 <br>
 
@@ -152,6 +152,49 @@ Tableau及びExploratoryと連携した教育プログラムの実施は、中�
 3. 学生はプログラムを通じてデータ分析スキルを習得し、ビッグデータの活用能力や情報の解釈力を向上させることが期待されます。
 {{% /alert %}}
 
+<br>
+
+### - 会話のスレッドを文書化する
+
+```
+ここまでの議論をドキュメント化してください。
+
+### 要件 ###
+* 利用者とAIのやり取りをステップごとに明確にする
+* 見出しを3つつけて、キーワードを太字で示す
+* 議論の結果として得られた内容を簡潔に説明
+```
+
+
+
+{{% alert icon="🤖" context="success" %}}
+
+#### 利用者とAIのやり取り
+
+**利用者:** AI、北陸大学の「データサイエンス・AI教育プログラム」について要約をお願いします。
+
+**AI:** もちろんです。以下に要約いたします。
+
+#### 議論1: プログラムの開始と目的
+
+**利用者:** 北陸大学の「データサイエンス・AI教育プログラム」について詳しく教えてください。
+
+**AI:** 北陸大学は2022年４月から「データサイエンス・AI教育プログラム」を開始し、地域や職場でデータ分析を活用する人材を育成します。これは、ビジュアル分析プラットフォーム「Tableau」とデータサイエンスソフト「Exploratory」の連携により、データリテラシー向上を目指す取り組みで、中部地方の大学では初めての試みです。
+
+#### 議論2: プログラムの内容
+
+**利用者:** プログラムの具体的な内容は何ですか？
+
+**AI:** プログラムでは、学生は情報リテラシー科目でTableau Desktopを用いた演習や、経済経営学部の統計学入門科目でExploratoryを活用した分析を行います。実データを使用した実践的な教育も行われ、株式会社太陽アソシエイツから店舗の販売データを提供し、ヴェルク株式会社から分析結果の指導を受けます。
+
+#### 議論3: プログラムの重要性
+
+**利用者:** なぜこのプログラムが重要なのですか？
+
+**AI:** このプログラムを通じて、学生はデータ分析に必要なスキルを習得し、ビッグデータの活用や情報の解釈能力を向上させることが期待されます。これは、21世紀においてビッグデータを理解し活用する能力が求められており、地域や職場でデータ分析を実施するために重要なステップです。
+{{% /alert %}}
+
+<br>
 
 
 ### - 施設の名前を考える
@@ -191,6 +234,9 @@ Tableau及びExploratoryと連携した教育プログラムの実施は、中�
 
 {{% /alert %}}
 
+<br>
+
+
 ### - Excelの関数を作ってもらう
 
 参考：[東京都：都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/)
@@ -216,48 +262,186 @@ Tableau及びExploratoryと連携した教育プログラムの実施は、中�
 ・シンプルかつ理解しやすい計算式であること
 ```
 
+{{% alert icon="🤖" context="success" %}}
+参加可否を判断するためのシンプルで理解しやすい計算式を作成します。E列に以下の計算式を入力してください：
 
-### - 英語による文案の作成
+`=IF(AND(B2=1, C2=1, D2=1), "参加", "不参加")`
 
-参考：[神戸市：生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf)
+この計算式は、以下の条件を満たす場合に"参加"、それ以外の場合に"不参加"と表示します：
 
+1. B列の値が1（登録済み）であること。
+2. C列の値が1（許可済み）であること。
+3. D列の値が1（提出済み）であること。
+
+これにより、3つの条件が全て満たされている場合に"参加"と表示され、いずれかの条件が満たされていない場合に"不参加"と表示されます。
+{{% /alert %}}
+
+<br>
+
+
+### - 翻訳文の作成
+
+山田(2023)によると翻訳過程には「翻訳の製作工程」と「翻訳の後工程」があります。ここでは「翻訳の製作工程」を紹介します。  
+参考：[ChatGPT翻訳術　新AI時代の超英語スキルブック](https://www.alc.co.jp/entry/7023020)
+
+プロンプトは一部加筆したものです。
 
 ```
-#命令書
-あなたは●●語の翻訳者です。
-以下の # 制約条件 をもとに、# 入力文 を翻訳をしてください。
+次の{原文}の日本語の文章を英語に翻訳してください。
+1. 翻訳するときに以下の条件を満たしてください。
+2. {用語集}の中の対訳を正しく使って{原文}を英語に翻訳してください。{用語集}はカンマ区切りのCSV形式になっています。
 
-# 制約条件
-・○○人が理解しやすい文章にする。
-・▲▲制度を知らない人にもわかりやすく。
-・「▲▲」は「△△」と訳す。
-・「■■課」は「□□」と訳す。
-・重要な言葉、数字を取り残さない。
 
-# 入力文
-神戸 太郎 様
-2023年6月1日にご申請されました▲▲について支払いますので、お知らせの
-はがきをお送りします。
-お知らせのはがきの内容は次のような意味です。
-・区役所は、あなたに対して¥500,000を支払います。
-・ただしこの¥500,000のうち、区役所から病院へ直接、¥300,000を支払い
-ます。
-・区役所は、あなたの銀行口座に残りの¥200,000を振り込みます。
-よろしくお願いいたします。
-2023年10月31日
-神戸市灘区役所■■課 担当者：桜口
-電話番号：078-843-7001 内線111～123
+### 目的 ###
+ビジネスパートナーとの円滑なコミュニケーションによる顧客満足度の向上
+
+### 対象読者 ###
+丁寧なコミュニケーションを必要とする教員
+(利用システムの不備に対して怒りの感情を持っている)
+
+### 用語集 ###
+JA,EN
+"架空の研究科","Faculty of NAZO"
+"XYZシステム","x-y-z application"
+
+### 原文 ###
+架空の研究科
+X先生
+
+大変お世話になっております。
+Y大学の佐藤です。
+
+ご連絡いただきありがとうございました。
+XYZシステムについて、ご意見いただいた内容を踏まえまして本学で検討いたします。
+今しばらくお待ちいただけますと幸いです。
+
+ご多忙のところ恐れ入りますが、
+どうぞよろしくお願いいたします。
+
+### 出力 ###
+**翻訳された原文**だけを出力
 ```
+
+{{% alert icon="🤖" context="success" %}}
+"Faculty of NAZO" 
+Professor X
+
+Thank you very much for your kind assistance.
+This is Sato from Y University.
+
+Thank you for contacting us.
+We will consider the feedback you provided regarding the XYZ System at our university.
+We would appreciate your patience while we review it.
+
+I apologize for your busy schedule, but 
+thank you very much in advance.
+{{% /alert %}}
+
+参考までに、他の生成AIの回答も掲載します。  
+**ChatGPT(GPT-4)**
+
+{{% alert icon="🤖" context="success" %}}
+**Translated Text:**
+
+Faculty of NAZO
+Professor X
+
+Thank you very much for your continuous support.
+I am Sato from Y University.
+
+Thank you for getting in touch with us.
+Based on the feedback you provided about the x-y-z application, we will consider it at our university.
+We would appreciate your patience for a while longer.
+
+We apologize for the inconvenience during your busy schedule,
+but we kindly ask for your continued cooperation.
+{{% /alert %}}
+
+**Copilot(GPT-4)**
+
+{{% alert icon="🤖" context="success" %}}
+Faculty of NAZO
+Professor X,
+
+I hope this message finds you well.
+This is Sato from Y University.
+
+Thank you for reaching out to us.
+We will consider your feedback about the x-y-z application at our university.
+We would appreciate your patience in this matter.
+
+We apologize for any inconvenience this may cause you,
+and we thank you for your understanding.
+{{% /alert %}}
+
+
+**Bard(Gemini Pro)**
+{{% alert icon="🤖" context="success" %}}
+#### 翻訳された原文
+
+**Faculty of NAZO**
+
+**Dr. X**
+
+Dear Dr. X,
+
+Thank you very much for your email.
+
+I appreciate your feedback on the XYZ application. We will take your comments into consideration as we evaluate the application for use at our university.
+
+We apologize for the inconvenience and appreciate your patience as we continue our review.
+
+Sincerely,
+
+**Satoh**
+
+**Y University**
+
+**Note:**
+
+* "架空の研究科" was translated to "Faculty of NAZO" as per the provided terminology.
+* "XYZシステム" was translated to "x-y-z application" as per the provided terminology.
+* The original Japanese text was translated into a formal and polite English style, appropriate for communication with a business partner.
+
+#### Additional Information
+
+* The translated text includes a closing signature with the sender's name, title, and affiliation.
+* The translated text uses appropriate salutations and closing remarks for a business email.
+* The translated text is grammatically correct and free of errors.
+
+#### Improvement Notes
+
+* The translated text could be further improved by adding a specific timeframe for when the sender will provide an update. For example, the sender could state that they will provide an update within the next two weeks.
+* The translated text could also be improved by including a brief explanation of how the sender will use the recipient's feedback. For example, the sender could state that they will use the feedback to improve the XYZ application.
+
+#### Other Considerations
+
+* The tone of the translated text should be appropriate for the relationship between the sender and the recipient. If the sender and recipient have a close relationship, the tone of the text could be more informal.
+* The translated text should be culturally appropriate for the recipient. For example, in some cultures, it is considered rude to address someone by their first name without their permission.
+
+#### Conclusion
+
+The translated text is a clear and concise communication of the sender's message to the recipient. The text is grammatically correct, free of errors, and appropriate for the context.
+{{% /alert %}}
+
+<br>
+
 
 ### - 誤字脱字の修正をしてもらう
 
 参考：[神戸市：生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf)
 
+
+プロンプトは一部加筆したものです。
+
 ```
 あなたは、プロの編集者です。
 下記文章について、誤字・脱字及び語尾の言い回しに気を付け、より適
 切な表現に修正してください。
-また、どの箇所を修正したか箇条書きで記載して下さい。
+
+### 条件 ###
+* モダリティの観点から自然な日本語の文章を生成してください
+* 修正した箇所を**全て**箇条書きで記載して下さい
 
 #文章
 これまで4月にプロジェクトチームを設置して、そのプラス面、マイナス
@@ -268,11 +452,36 @@ Tableau及びExploratoryと連携した教育プログラムの実施は、中�
 ん、職員の業務の全体の中の業務の中で限られるものと認識をしていま
 す。
 
+### 出力 ###
+#### 修正された文章
+...
+#### 修正した箇所
+* ...
+* ...
+
 ```
 
+{{% alert icon="🤖" context="success" %}}
+修正された文章:  
+これまで4月にプロジェクトチームを設置し、そのプラス面とマイナス面を見極めながら、この導入について検討してまいりました。全般的な展開は、デジタルサービス局内で6月から行われました。ChatGPTの試行環境を提供し、その状況についてのアンケート結果をご紹介いたします。前提として、文章生成AIを利用できる業務はもちろん、職員の業務全体の中で特定の業務に限定されていると認識しております。
+
+修正した箇所:  
+* 4月にプロジェクトチームを設置し → 4月にプロジェクトチームを設立し
+* そのプラス面、マイナス面を見極めながら → その利点と欠点を考慮しながら
+* 全曲展開するにあたり → 全般的な展開は
+* デジタルサービス局内で6月からですね → デジタルサービス局内で6月から行われました
+* このChatGPTの試行環境を提供致しまして → ChatGPTの試行環境を提供し
+* その状況についてのアンケート結果でございます → その状況についてのアンケート結果をご紹介いたします
+* 文章生成AIを利用できる業務というのはもちろん → 文章生成AIを利用できる業務はもちろん
+* 業務の中で限られるものと認識をしています → 職員の業務全体の中で特定の業務に限定されていると認識しております
+{{% /alert %}}
+
+<br>
 
 
-### - 部下との面談のシミュレーション
+### - (参考)部下との面談のシミュレーション
+
+GPT-4等の性能が良い生成AIの利用を推奨します  
 
 参考：[神戸市：生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf)
 
@@ -344,6 +553,29 @@ Tableau及びExploratoryと連携した教育プログラムの実施は、中�
 ・自分を動物で表すと？
 ・なんでも自慢していいとしたら、自分のどういうことを自慢する？
 ・自分の好きなところを３つ教えて。
-
 ```
 
+{{% alert icon="🤖" context="success" %}}
+こんにちは！コーチングのプロとして、あなたをサポートすることができることを嬉しく思います。それでは、まずは{## 近況報告}から始めてみましょう。
+
+Tableauの勉強はどのように進めていますか？特に有効だと感じた学習方法があれば教えてください。また、その中で何か新しい発見はありましたか？
+{{% /alert %}}
+
+```
+本を読んでよく勉強しているよ
+```
+
+{{% alert icon="🤖" context="success" %}}
+素晴らしいですね！本を通じて学ぶことは、深い理解を得るのに非常に有効な方法です。次に、あなたの仕事について教えていただけますか？具体的には、普段何をしているのか、またはこれまでどのような仕事を経験してきたのかなど、お聞かせください。それがTableauの学習にどのように影響しているかも気になります。よろしくお願いします！
+{{% /alert %}}
+
+...  
+
+
+## 🚪 さいごに
+---
+
+- 生成AIができること・できないことは使ってみないと分からない
+- プロンプトはとにかく明確に・具体的に、を心がける
+- 「自動化や効率化」に留まらず、「自分の能力の拡張」にも積極的に活用しほう
+- このWebページ、正直どうですかね？良かった点・悪かった点があれば教えてください🙇
