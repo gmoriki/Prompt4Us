@@ -37,6 +37,8 @@ toc: true
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) | 東京都が公開している事例集 |
 | [生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf) | 神戸市が公開している事例集 |
+| [兵庫県生成AI利用ガイドラインプロンプト集](https://www.pref.chiba.lg.jp/dejisui/press/2023/documents/guideline20240201-pr.pdf) | 千葉県総務部デジタル改革推進局デジタル推進課が公開している事例集 |
+| [生成 AI の利用ガイドライン 別冊 プロンプト集](https://web.pref.hyogo.lg.jp/kk26/johoseisaku/documents/hyogo_gai_prompts.rtf) | 兵庫県が公開している事例集 |
 | [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
 {{< /table >}}
 
