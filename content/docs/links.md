@@ -36,6 +36,7 @@ toc: true
 | Webサイト名                                                                      | 備考                                                                                           |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) | 東京都が公開している事例集 |
+| [生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf) | 神戸市が公開している事例集 |
 | [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
 {{< /table >}}
 
