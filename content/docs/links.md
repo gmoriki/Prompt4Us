@@ -24,7 +24,7 @@ toc: true
 | 名称                                              | 説明                                                      |
 |---------------------------------------------------|-----------------------------------------------------------|
 | [ChatGPT](https://chat.openai.com/)               | OpenAI社が開発・提供する対話型生成AIサービス              |
-| [Bard](https://bard.google.com/chat)              | Google社が開発・提供する対話型生成AIサービス              |
+| [Gemini](https://gemini.google.com/chat)              | Google社が開発・提供する対話型生成AIサービス              |
 | [Claude](https://claude.ai/)                      | Anthropic社が開発・提供する対話型生成AIサービス           |
 | [Copilot](https://copilot.microsoft.com/)         | Microsoft社が開発・提供する対話型生成AIサービス          |
 | [Perplexity](https://www.perplexity.ai/)          | Perplexity AI社が開発・提供する対話型生成AIサービス      |
