@@ -53,7 +53,7 @@ P4Usはプロンプトを提供しますが利用者の生成AIの利用環境�
   * OpenAIが開発・提供する生成AI
 * [Copilot](https://copilot.microsoft.com/ "Copilot")
   * Microsoftが開発・提供する生成AI / OpenAIが開発したAIを利用
-* [Bard](https://bard.google.com/chat "Bard")
+* [Gemini](https://gemini.google.com/chat "gemini")
   * Googleが開発・提供する生成AI
 * [Claude](https://claude.ai/ "Claude")
   * Anthropicが開発・提供する生成AI

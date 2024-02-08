@@ -14,7 +14,7 @@ toc: true
 {{< alert context="warning" text="分かりやすさを重視し、詳細を省略しています" />}}
 
 生成AIサービスでは事前に収集したデータを学習(訓練)する過程を経て作成した学習済みモデルが使用しています。  
-例えばChatGPTにはGPTが、BardにはPalm2が使用されています。  
+例えばChatGPTにはGPTが、GeminiにはGemini Pro/Ultraが使用されています。  
 それはどのように作成(学習)され、生成AIサービスとして使われているのでしょうか。  
 
 

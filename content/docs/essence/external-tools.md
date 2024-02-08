@@ -50,7 +50,7 @@ Web検索に対応していない生成AIサービスです。このほか、例
 
 ### - 検索エンジン型
 #### LLM+Web検索
-例：Copilot(旧Bing AI)、Bard、Perprexity
+例：Copilot(旧Bing AI)、Gemini(旧 Bard)、Perprexity
 
 検索エンジンが搭載された生成AIサービスです。無料で高性能なAIモデルを活用できるケースも多いため、ChatGPTではなくこちらを積極的に活用している方もいます。
 
