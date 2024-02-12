@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 73
 title: "職員研修@北陸大学"
 description: "ハンズオンで理解する生成AI"
 icon: "article"
@@ -448,7 +448,7 @@ The translated text is a clear and concise communication of the sender's message
 
 ### - 誤字脱字の修正をしてもらう
 
-参考：[神戸市：生成AIによる市役所の業務効率化－ プロンプト事例集 －](https://www.city.kobe.lg.jp/documents/63928/jireishu_1.pdf)
+参考：[東京都：都職員のアイデアが詰まった文章生成AI活用事例集](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/)
 
 
 プロンプトは一部加筆したものです。
