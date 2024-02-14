@@ -1,11 +1,11 @@
   ---
 weight: 999
-title: "ChatGPTハンズオンの会"
+title: "[作成中]ChatGPTハンズオンの会"
 description: "主催：教職員能力開発拠点（愛媛大学教育・学生支援機構教育企画室）"
 icon: "article"
 date: "2024-02-09T15:13:55+09:00"
 lastmod: "2024-02-09T15:13:55+09:00"
-draft: true
+draft: false
 toc: true
 ---
 
