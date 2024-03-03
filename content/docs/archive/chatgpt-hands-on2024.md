@@ -1,5 +1,5 @@
   ---
-weight: 999
+weight: 75
 title: 大学職員のためのChatGPTハンズオンの会
 description: "主催：教職員能力開発拠点（愛媛大学教育・学生支援機構教育企画室）"
 icon: "article"
