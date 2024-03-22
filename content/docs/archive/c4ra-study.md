@@ -853,9 +853,29 @@ sorted_df.to_csv('result.csv', index=False)
 * エラー処理を追加する
 * コードをより読みやすくする
 * 処理速度を向上させる
-```
+````
 
 ### - 作成したプログラムにコメントをつける
+
+````
+```
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+filtered_df = df[df['score'] >= 80]
+sorted_df = filtered_df.sort_values('id')
+sorted_df.to_csv('result.csv', index=False)
+```
+
+上記のPythonプログラムに、適切なコメントを追加してください。コメントは以下の基準を満たすようにしてください。
+
+各処理の目的や内容を簡潔に説明する
+変数名やメソッド名の意味を必要に応じて説明する
+コードの重要な部分や注意点を強調する
+````
+
+### - プログラムのエラーを読み解く
+
 
 ````
 ```python
@@ -869,9 +889,6 @@ sorted_df.to_csv('result.csv')
 
 上記のPythonプログラムを実行したところ、以下のエラーが発生しました。
 
-### - プログラムのエラーを読み解く
-
-````
 ```
 Traceback (most recent call last):
   File "script.py", line 6, in <module>
