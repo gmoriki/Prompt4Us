@@ -527,38 +527,6 @@ ChatGPTを使う2つの目的に触れましたが、それぞれハッキリと
 ・いつまでに（期限）
 ```
 
-<br>
-
-## ⚙️ 良いプロンプトの基礎
----
-ChatGPTの回答は**確率的なゆらぎ**をもちます。  
-100回やって100回とも違う回答が返ってくるかもしれません。またその中には誤った内容が含まれているかもしれません。
-
-ここでは、利用者の目的・意図に適した回答である度合いを「回答の質・精度が高さ」として、回答の質・精度を上げるための**良いプロンプトの基礎**について説明します。
-
-<div class="row flex-xl-wrap pb-4">
-
-<div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../../essence/basic-prompt">
-  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
-      <span class="h1 icon-color">
-        <i class="material-icons align-middle">Thumb_Up</i>
-      </span>
-      <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">良いプロンプトの基礎</p>
-        <p class="para card-text mb-0">生成AIを上手に使うために</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-</div>
-
-<br>
-
-## 👉 ChatGPTをもっと活用する
----
-
 ### - 文章を要約する
 
 ```
@@ -758,6 +726,39 @@ SynViz S2の採用の決め手となったのは、シャドウ機能です。�
 {{% /alert %}}
 
 
+
+<br>
+
+## ⚙️ 良いプロンプトの基礎
+---
+ChatGPTの回答は**確率的なゆらぎ**をもちます。  
+100回やって100回とも違う回答が返ってくるかもしれません。またその中には誤った内容が含まれているかもしれません。
+
+ここでは、利用者の目的・意図に適した回答である度合いを「回答の質・精度が高さ」として、回答の質・精度を上げるための**良いプロンプトの基礎**について説明します。
+
+<div class="row flex-xl-wrap pb-4">
+
+<div id="list-item" class="col-md-4 col-12 py-2">
+  <a class="text-decoration-none text-reset" href="../../essence/basic-prompt">
+  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+      <span class="h1 icon-color">
+        <i class="material-icons align-middle">Thumb_Up</i>
+      </span>
+      <div class="card-body p-0 content">
+        <p class="fs-5 fw-semibold card-title mb-1">良いプロンプトの基礎</p>
+        <p class="para card-text mb-0">生成AIを上手に使うために</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+</div>
+
+<br>
+
+## 👉 ChatGPTをプログラミングに活用する
+---
+
 ### -  プログラムを作成する
 
 ```
@@ -870,6 +871,7 @@ sorted_df.to_csv('result.csv')
 
 ### - プログラムのエラーを読み解く
 
+````
 ```
 Traceback (most recent call last):
   File "script.py", line 6, in <module>
