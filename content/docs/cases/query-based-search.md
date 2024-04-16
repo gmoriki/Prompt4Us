@@ -1,11 +1,11 @@
 ---
 weight: 67
 title: "Copilotで英語圏の情報を収集する"
-description: "上手な検索"
+description: "上手なWeb検索"
 icon: "article"
 date: "2024-01-30T15:39:50+09:00"
 lastmod: "2024-01-30T15:39:50+09:00"
-draft: true
+draft: false
 toc: true
 ---
 
