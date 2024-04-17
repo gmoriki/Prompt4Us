@@ -139,7 +139,7 @@ test中 betabeta
             iframe.id = 'inline-frame';
             iframe.width = '100%';
             iframe.height = '100%';
-            iframe.dataSrc = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
+            iframe.dataSrc = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89%E3%81%95%E3%82%93';
             iframe.scrolling = 'no';
             iframe.frameBorder = 'no';
             body.appendChild(iframe);
@@ -160,7 +160,7 @@ test中 betabeta
 
             if (chatbox.style.display === 'none' || utterance) {
                 chatbox.style.display = 'block';
-                var src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
+                var src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89%E3%81%95%E3%82%93';
                 // 可変引数からクエリパラメータを生成
                 states.forEach(state => {
                     if (state.key && state.value) {
