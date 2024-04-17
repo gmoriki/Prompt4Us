@@ -78,10 +78,10 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
     link.rel = 'stylesheet';
     document.head.appendChild(link);
    
-    link = document.createElement('link');
-    link.href = 'https://miibo.jp/chat2.css';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
+    // link = document.createElement('link');
+    // link.href = 'https://miibo.jp/chat2.css';
+    // link.rel = 'stylesheet';
+    // document.head.appendChild(link);
    
     // トグルボタンを作成し、追加します。
     const toggleBtn = document.createElement('div');
