@@ -71,7 +71,6 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 {{% /alert %}}
 
 
-test中 betabeta
 
 <script>
         // CSSとアイコンのリンクを追加する関数
@@ -106,7 +105,7 @@ test中 betabeta
             header.style.background = '#4169e1';
             const logo = document.createElement('div');
             logo.id = 'chatbot-logo';
-            logo.innerText = 'GinRuAI';
+            logo.innerText = '「プロンプトガイドさん」にプロンプトを入力する';
             // const closeIcon = document.createElement('i');
             // closeIcon.id = 'chatbot-close-icon';
             // closeIcon.className = 'material-icons material-symbols-outlined waves-light';
