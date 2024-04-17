@@ -71,78 +71,146 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 {{% /alert %}}
 
 
-test中
+test中 beta
 
 <script>
-    // CSSとアイコンのリンクを作成し、追加します。
-    let link = document.createElement('link');
-    link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
-   
-    // link = document.createElement('link');
-    // link.href = 'https://miibo.jp/chat2.css';
-    // link.rel = 'stylesheet';
-    // document.head.appendChild(link);
-   
-    // トグルボタンを作成し、追加します。
-    const toggleBtn = document.createElement('div');
-    toggleBtn.id = 'chatbot-toggle_button';
-    const anchor = document.createElement('a');
-    anchor.id = 'chat-button';
-    anchor.href = '#';
-    anchor.addEventListener('click', toggleChatbox);
-    const img = document.createElement('img');
-    img.src = 'https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52';
-    img.width = '100';
-    img.height = '100';
-    anchor.appendChild(img);
-    toggleBtn.appendChild(anchor);
-    document.body.appendChild(toggleBtn);
-
-    // チャットボックスを作成し、追加します。
-    const chatbox = document.createElement('div');
-    chatbox.id = 'chatbot';
-    chatbox.style.display = 'none';
-   
-    const header = document.createElement('div');
-    header.id = 'chatbot-header';
-    header.style.background = '#4169e1';
-    const logo = document.createElement('div');
-    logo.id = 'chatbot-logo';
-    logo.innerText = 'GinRuAI';
-    const closeIcon = document.createElement('i');
-    closeIcon.id = 'chatbot-close-icon';
-    closeIcon.className = 'material-icons material-symbols-outlined waves-light';
-    closeIcon.innerText = 'close';
-    closeIcon.addEventListener('click', toggleChatbox);
-    header.appendChild(logo);
-    header.appendChild(closeIcon);
-   
-    const body = document.createElement('div');
-    body.id = 'chatbot-body';
-    const iframe = document.createElement('iframe');
-    iframe.id = 'inline-frame';
-    iframe.width = '100%';
-    iframe.height = '100%';
-    iframe.src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
-    iframe.scrolling = 'no';
-    iframe.frameBorder = 'no';
-    body.appendChild(iframe);
-   
-    chatbox.appendChild(header);
-    chatbox.appendChild(body);
-   
-    document.body.appendChild(chatbox);
-
-    // チャットボックスの表示/非表示を切り替える関数
-    function toggleChatbox() {
-        if (chatbox.style.display === 'none') {
-            chatbox.style.display = 'block';
-            toggleBtn.style.display = 'none';
-        } else {
-            chatbox.style.display = 'none';
-            toggleBtn.style.display = 'block';
+        // CSSとアイコンのリンクを追加する関数
+        function addStylesheet(href) {
+            let link = document.createElement('link');
+            link.href = href;
+            link.rel = 'stylesheet';
+            document.head.appendChild(link);
         }
-    }
-</script>
+
+        // トグルボタンを作成し、追加する関数
+        function createToggleButton() {
+            const toggleBtn = document.createElement('div');
+            toggleBtn.id = 'chatbot-toggle_button';
+            const anchor = document.createElement('a');
+            anchor.id = 'chat-button';
+            anchor.href = '#';
+            anchor.addEventListener('click', toggleChatbox);
+            const img = document.createElement('img');
+            img.src = 'https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52';
+            img.width = '100';
+            img.height = '100';
+            anchor.appendChild(img);
+            toggleBtn.appendChild(anchor);
+            document.body.appendChild(toggleBtn);
+        }
+
+        // チャットボックスのヘッダーを作成する関数
+        function createChatboxHeader() {
+            const header = document.createElement('div');
+            header.id = 'chatbot-header';
+            header.style.background = '#4169e1';
+            const logo = document.createElement('div');
+            logo.id = 'chatbot-logo';
+            logo.innerText = 'GinRuAI';
+            const closeIcon = document.createElement('i');
+            closeIcon.id = 'chatbot-close-icon';
+            closeIcon.className = 'material-icons material-symbols-outlined waves-light';
+            closeIcon.innerText = 'close';
+            closeIcon.addEventListener('click', toggleChatbox);
+            header.appendChild(logo);
+            header.appendChild(closeIcon);
+            return header;
+        }
+
+        // チャットボックスを作成し、追加する関数
+        function createChatbox() {
+            const chatbox = document.createElement('div');
+            chatbox.id = 'chatbot';
+            chatbox.style.display = 'none';
+
+            const header = createChatboxHeader();
+            const body = document.createElement('div');
+            body.id = 'chatbot-body';
+            const iframe = document.createElement('iframe');
+            iframe.id = 'inline-frame';
+            iframe.width = '100%';
+            iframe.height = '100%';
+            iframe.dataSrc = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
+            iframe.scrolling = 'no';
+            iframe.frameBorder = 'no';
+            body.appendChild(iframe);
+            chatbox.appendChild(header);
+            chatbox.appendChild(body);
+            document.body.appendChild(chatbox);
+        }
+
+        // チャットボックスの表示/非表示を切り替える関数
+        function toggleChatbox(utterance, ...states) {
+            var chatbox = document.getElementById('chatbot');
+            var iframe = document.getElementById('inline-frame');
+
+            // ここでイベントオブジェクトではなく、文字列または未定義の値が渡されることを確認します。
+            if (typeof utterance !== 'string') {
+                utterance = null;
+            }
+
+            if (chatbox.style.display === 'none' || utterance) {
+                chatbox.style.display = 'block';
+                var src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
+                // 可変引数からクエリパラメータを生成
+                states.forEach(state => {
+                    if (state.key && state.value) {
+                        src += `${encodeURIComponent(state.key)}=${encodeURIComponent(state.value)}`;
+                    }
+                });
+
+                // 以下の条件を追加して、再読み込みの必要性をチェック
+                if (!iframeLoaded || (utterance && lastUtterance !== utterance)) {
+                    if (utterance) {
+                        src += "&utterance=" + encodeURIComponent(utterance);
+                    }
+                    iframe.src = src;
+                    iframeLoaded = true;
+                    lastUtterance = utterance;
+                }
+            } else {
+                chatbox.style.display = 'none';
+            }
+        }
+        // イベントリスナーを設定する関数
+        function setupEventListeners() {
+            document.querySelectorAll('.chatButton').forEach(button => {
+                button.addEventListener('click', event => {
+                    event.preventDefault();
+                    const utterance = button.getAttribute('data-utterance');
+                    const statesData = button.getAttribute('data-states');
+                    let states = [];
+                    try {
+                        // JSON 形式の文字列をオブジェクトに変換
+                        const statesObj = JSON.parse(statesData);
+                        // オブジェクトから key-value ペアの配列を生成
+                        states = Object.keys(statesObj).map(key => ({ key, value: statesObj[key] }));
+                    } catch (e) {
+                        console.error("Error parsing states data", e);
+                    }
+
+                    toggleChatbox(utterance, ...states);
+                });
+            });
+
+            // ここでイベントオブジェクトを直接渡さないようにします。
+            document.getElementById('chat-toggle').addEventListener('click', event => {
+                event.preventDefault();
+                toggleChatbox();
+            });
+
+            document.getElementById('chatbot-close-icon').addEventListener('click', () => {
+                toggleChatbox();
+            });
+        }
+
+        // メイン実行部
+        addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+        addStylesheet('https://miibo.jp/chat3.css');
+        createToggleButton();
+        createChatbox();
+        setupEventListeners();
+
+        var iframeLoaded = false; // iframeがロードされたかどうかを追跡するフラグ
+        var lastUtterance = ""; // 最後に発話した内容を追跡するフラグ
+    </script>
