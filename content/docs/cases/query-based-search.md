@@ -69,3 +69,80 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 (5) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.  
 (6) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.  
 {{% /alert %}}
+
+
+https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52
+
+<script>
+    // CSSとアイコンのリンクを作成し、追加します。
+    let link = document.createElement('link');
+    link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+   
+    link = document.createElement('link');
+    link.href = 'https://miibo.jp/chat2.css';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+   
+    // トグルボタンを作成し、追加します。
+    const toggleBtn = document.createElement('div');
+    toggleBtn.id = 'chatbot-toggle_button';
+    const anchor = document.createElement('a');
+    anchor.id = 'chat-button';
+    anchor.href = '#';
+    anchor.addEventListener('click', toggleChatbox);
+    const img = document.createElement('img');
+    img.src = 'https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52';
+    img.width = '100';
+    img.height = '100';
+    anchor.appendChild(img);
+    toggleBtn.appendChild(anchor);
+    document.body.appendChild(toggleBtn);
+
+    // チャットボックスを作成し、追加します。
+    const chatbox = document.createElement('div');
+    chatbox.id = 'chatbot';
+    chatbox.style.display = 'none';
+   
+    const header = document.createElement('div');
+    header.id = 'chatbot-header';
+    header.style.background = '#4169e1';
+    const logo = document.createElement('div');
+    logo.id = 'chatbot-logo';
+    logo.innerText = 'GinRuAI';
+    const closeIcon = document.createElement('i');
+    closeIcon.id = 'chatbot-close-icon';
+    closeIcon.className = 'material-icons material-symbols-outlined waves-light';
+    closeIcon.innerText = 'close';
+    closeIcon.addEventListener('click', toggleChatbox);
+    header.appendChild(logo);
+    header.appendChild(closeIcon);
+   
+    const body = document.createElement('div');
+    body.id = 'chatbot-body';
+    const iframe = document.createElement('iframe');
+    iframe.id = 'inline-frame';
+    iframe.width = '100%';
+    iframe.height = '100%';
+    iframe.src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=GinRuAI';
+    iframe.scrolling = 'no';
+    iframe.frameBorder = 'no';
+    body.appendChild(iframe);
+   
+    chatbox.appendChild(header);
+    chatbox.appendChild(body);
+   
+    document.body.appendChild(chatbox);
+
+    // チャットボックスの表示/非表示を切り替える関数
+    function toggleChatbox() {
+        if (chatbox.style.display === 'none') {
+            chatbox.style.display = 'block';
+            toggleBtn.style.display = 'none';
+        } else {
+            chatbox.style.display = 'none';
+            toggleBtn.style.display = 'block';
+        }
+    }
+</script>
