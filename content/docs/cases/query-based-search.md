@@ -71,7 +71,7 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 {{% /alert %}}
 
 
-test中 beta
+test中 betabeta
 
 <script>
         // CSSとアイコンのリンクを追加する関数
@@ -107,14 +107,23 @@ test中 beta
             const logo = document.createElement('div');
             logo.id = 'chatbot-logo';
             logo.innerText = 'GinRuAI';
-            const closeIcon = document.createElement('i');
+            // const closeIcon = document.createElement('i');
+            // closeIcon.id = 'chatbot-close-icon';
+            // closeIcon.className = 'material-icons material-symbols-outlined waves-light';
+            // closeIcon.innerText = 'close';
+            const closeIcon = document.createElement('img');
             closeIcon.id = 'chatbot-close-icon';
-            closeIcon.className = 'material-icons material-symbols-outlined waves-light';
-            closeIcon.innerText = 'close';
+            closeIcon.src = 'images/imagetext.png'; // 閉じるアイコンの画像パスを指定
+            closeIcon.alt = 'Close';
             closeIcon.addEventListener('click', toggleChatbox);
             header.appendChild(logo);
             header.appendChild(closeIcon);
             return header;
+        }
+        #chatbot-close-icon {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
         }
 
         // チャットボックスを作成し、追加する関数
@@ -205,7 +214,7 @@ test中 beta
         }
 
         // メイン実行部
-        // addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+        addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
         addStylesheet('https://miibo.jp/chat3.css');
         createToggleButton();
         createChatbox();
