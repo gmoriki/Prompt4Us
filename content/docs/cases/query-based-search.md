@@ -205,7 +205,7 @@ test中 beta
         }
 
         // メイン実行部
-        addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
+        // addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
         addStylesheet('https://miibo.jp/chat3.css');
         createToggleButton();
         createChatbox();
