@@ -71,8 +71,6 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 {{% /alert %}}
 
 
-https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52
-
 <script>
     // CSSとアイコンのリンクを作成し、追加します。
     let link = document.createElement('link');
