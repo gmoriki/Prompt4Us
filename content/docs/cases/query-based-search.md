@@ -71,6 +71,8 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 {{% /alert %}}
 
 
+test中
+
 <script>
     // CSSとアイコンのリンクを作成し、追加します。
     // let link = document.createElement('link');
