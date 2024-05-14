@@ -40,6 +40,8 @@ toc: true
 | [生成AI利用ガイドラインプロンプト集](https://www.pref.chiba.lg.jp/dejisui/press/2023/documents/guideline20240201-pr.pdf) | 千葉県総務部デジタル改革推進局デジタル推進課が公開している事例集 |
 | [生成 AI の利用ガイドライン 別冊 プロンプト集](https://web.pref.hyogo.lg.jp/kk26/johoseisaku/documents/hyogo_gai_prompts.rtf) | 兵庫県が公開している事例集 |
 | [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
+| [デジタル庁検証資料](https://www.digital.go.jp/news/19c125e9-35c5-48ba-a63f-f817bce95715)| 2023年度 デジタル庁・行政における生成AIの適切な利活用に向けた技術検証 |
+
 {{< /table >}}
 
 ### - プロンプトエンジニアリング
