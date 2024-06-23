@@ -9577,7 +9577,7 @@ html {
 body {
   font-family: Inter;
   overflow-x: hidden !important;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--body-color);
   background-color: var(--body-bg); }
 
@@ -9585,7 +9585,7 @@ body {
   html {
     scroll-padding-top: 120px; }
   body {
-    font-size: 0.9rem; } }
+    font-size: 1.1rem; } }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: var(--bs-font-sans-serif);
@@ -9605,7 +9605,7 @@ a {
     color: var(--primary-800); }
 
 p {
-  line-height: 1.6; }
+  line-height: 1.8; }
 
 img {
   height: auto; }
@@ -9635,7 +9635,10 @@ img {
   --inline-code-border: 1px solid var(--gray-600); }
 
 .docs-content {
-  order: 1; }
+  order: 1;
+  width: 720px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .docs-content .main-content a {
   font-weight: 600;
@@ -9686,14 +9689,19 @@ i.title-icon {
       align-self: auto; } }
 .docs-content p.lead {
   color: var(--text-muted);
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 3rem !important; }
 
 @media (max-width: 1199px) {
   .docs-content {
     padding-left: calc(var(--bs-gutter-x) * 1.05);
     padding-right: calc(var(--bs-gutter-x) * 1.05); }
     .docs-content h2, .docs-content .h2 {
-      margin-bottom: 1rem; }
+      margin-top: 3rem;
+      margin-bottom: 2rem; }
+    .docs-content h3, .docs-content .h3 {
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
     .docs-content p.lead {
       font-size: 1rem; } }
 
@@ -9926,7 +9934,7 @@ i.title-icon {
         .page-wrapper .sidebar-wrapper .sidebar-menu li.no-icon > button:hover {
           margin: 1px 0 1px 0; }
       .page-wrapper .sidebar-wrapper .sidebar-menu .sidebar-root-link {
-        font-size: 1rem; }
+        font-size: 14px; }
       .page-wrapper .sidebar-wrapper .sidebar-menu .sidebar-dropdown.no-icon > button:after {
         top: inherit !important; }
       .page-wrapper .sidebar-wrapper .sidebar-menu .sidebar-dropdown > button:after {
@@ -10133,7 +10141,8 @@ i.title-icon {
   top: 85px;
   padding-left: calc(var(--bs-gutter-x) * 1.05);
   padding-right: calc(var(--bs-gutter-x) * 1.05);
-  z-index: 20; }
+  z-index: 20;
+  font-size: 12px; }
   .docs-toc-mobile a {
     color: var(--text-default); }
   .docs-toc-mobile a:hover {
@@ -10215,13 +10224,13 @@ i.title-icon {
 #TableOfContents a,
 #toc a {
   display: block;
-  color: var(--text-default);
+  color: gray;
   padding: 0 10px 0 10px;
   padding-block: 0px 0.05rem;
   margin: 0 0 0 -10px;
   border-radius: 4px;
   width: fit-content;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.02em;
   transition: all 0.1s;
   -webkit-transition: all 0.1s; }
@@ -10230,6 +10239,18 @@ i.title-icon {
     background-color: var(--toc-link-hover-bg-color);
     transition: all 0.1s;
     -webkit-transition: all 0.2s; }
+
+/* 最上位の<ul>直下の<li>内の<a>タグのスタイル */
+#TableOfContents > ul > li > a,
+#toc > ul > li > a {
+  font-size: 14px;
+  /* 最上位の項目のフォントサイズを14pxに設定 */ }
+
+/* 2階層目以降の<ul>内の<li>の<a>タグのスタイル */
+#TableOfContents > ul > li > ul a,
+#toc > ul > li > ul a {
+  font-size: 12px;
+  /* 2階層目以降の項目のフォントサイズを12pxに設定 */ }
 
 #toc a.active {
   color: var(--white);
@@ -10327,7 +10348,7 @@ body .toggle-light {
   padding: 8px 20px;
   outline: none;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   transition: all 0.3s;
   font-weight: 600;
@@ -10397,6 +10418,11 @@ button:not(:disabled) {
 
 .breadcrumb .breadcrumb-item.active {
   color: var(--text-muted); }
+
+.breadcrumb {
+  /* ... 他のスタイル ... */
+  font-size: var(--bs-breadcrumb-font-size, 14px);
+  /* 1remはフォールバック値の例 */ }
 
 @media (max-width: 1199px) {
   .breadcrumb {
@@ -10508,7 +10534,7 @@ button:not(:disabled) {
   --alert-dark-border-color: var(--gray-200); }
 
 .alert {
-  font-size: var(--font-size-sm);
+  font-size: 0.85rem;
   border-radius: 4px;
   color: var(--gray-700); }
   .alert p {
