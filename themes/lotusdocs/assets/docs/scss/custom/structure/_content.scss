@@ -42,6 +42,17 @@
     width: 720px;
     margin-right: auto;
     margin-left: auto;
+
+    h2 {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
 }
 
 // Links
@@ -124,15 +135,15 @@ i {
         // padding-right: calc(var(--bs-gutter-x) * 10);
 
         
-        h2 {
-            margin-top: 3rem;
-            margin-bottom: 2rem;
-        }
+        // h2 {
+        //     margin-top: 3rem;
+        //     margin-bottom: 2rem;
+        // }
 
-        h3 {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
+        // h3 {
+        //     margin-top: 2rem;
+        //     margin-bottom: 2rem;
+        // }
 
         p {
             &.lead {

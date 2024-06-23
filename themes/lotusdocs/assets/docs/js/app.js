@@ -124,6 +124,20 @@ if (document.getElementById("close-sidebar")) {
     });
 }
 
+// ショートカットキーでサイドバーを切り替える機能
+document.addEventListener('keydown', function(event) {
+    // Windows/Linuxの場合はctrlKey、Macの場合はmetaKey（Commandキー）をチェック
+    if (event.shiftKey && event.key.toLowerCase() === 's' && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault(); // デフォルトの動作を防止
+        toggleSidebar();
+    }
+});
+
+// サイドバーを切り替える関数
+function toggleSidebar() {
+    document.getElementsByClassName("page-wrapper")[0].classList.toggle("toggled");
+}
+
 // Close Sidebar (mobile)
 if (!window.matchMedia('(min-width: 1024px)').matches) {
     if (document.getElementById("close-sidebar")) {
