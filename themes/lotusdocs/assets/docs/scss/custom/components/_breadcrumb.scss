@@ -1,5 +1,5 @@
 //
-// breadcrumb.scss
+// breadcru-3b.scss
 //
 
 :root {
@@ -16,6 +16,11 @@
 .breadcrumb .breadcrumb-item.active {
     color: var(--text-muted);
 }
+
+.breadcrumb {
+    /* ... 他のスタイル ... */
+    font-size: var(--bs-breadcrumb-font-size, 14px);  /* 1remはフォールバック値の例 */
+  }
 
 @media (max-width: 1199px) {
     .breadcrumb {

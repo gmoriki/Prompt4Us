@@ -72,7 +72,7 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 
 
 
-<script>
+<!-- <script>
         // CSSとアイコンのリンクを追加する関数
         function addStylesheet(href) {
             let link = document.createElement('link');
@@ -221,4 +221,4 @@ Microsoftの蒲生さんがTwitterで共有されたテクニックです。
 
         var iframeLoaded = false; // iframeがロードされたかどうかを追跡するフラグ
         var lastUtterance = ""; // 最後に発話した内容を追跡するフラグ
-    </script>
+    </script> -->

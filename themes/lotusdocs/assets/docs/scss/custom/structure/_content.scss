@@ -39,6 +39,9 @@
 
 .docs-content {
     order: 1;
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 // Links
@@ -109,16 +112,26 @@ i {
     &.lead {
         color: var(--text-muted);
         font-weight: 400;
+        margin-bottom: 3rem !important;
     }
 }
 
 @media (max-width: 1199px) {
     .docs-content {
         padding-left: calc(var(--bs-gutter-x) * 1.05);
+        // padding-left: calc(var(--bs-gutter-x) * 10);
         padding-right: calc(var(--bs-gutter-x) * 1.05);
+        // padding-right: calc(var(--bs-gutter-x) * 10);
 
+        
         h2 {
-            margin-bottom: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
 
         p {
@@ -179,6 +192,7 @@ i {
         content: counter(listitem);
         background: var(--ordered-list-bg);
         color: var(--ordered-list-color);
+        // font-size: 12px;
         font-size: 12px;
         font-weight: 500;
         line-height: 10px;

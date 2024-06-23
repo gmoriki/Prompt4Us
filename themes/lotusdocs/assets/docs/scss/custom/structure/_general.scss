@@ -6,6 +6,7 @@ body {
     font-family: $font-family-secondary;
     overflow-x: hidden !important;
     font-size: $font-size-base;
+    // font-size: $font-size-base * 1.1;
     color: var(--body-color);
     background-color: var(--body-bg);
 }
@@ -14,11 +15,13 @@ body {
         scroll-padding-top: 120px;
     }
     body {
-        font-size: 0.9rem;
+        // font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $font-family-base;
+    // line-height: 1.4;
     line-height: 1.4;
     font-weight: 600;
 }
@@ -37,7 +40,8 @@ a {
     }
 }
 p {
-    line-height: 1.6;
+    // line-height: 1.6;
+    line-height: 1.8;
 }
 img {
     height: auto;

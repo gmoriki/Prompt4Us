@@ -23,6 +23,7 @@
     padding-left: calc(var(--bs-gutter-x) * 1.05);
     padding-right: calc(var(--bs-gutter-x) * 1.05);
     z-index: 20;
+    font-size: 12px;
 
     // &.toc-pinned {
     //     padding: 0;
@@ -82,6 +83,7 @@
     overflow-y: auto;
     order: 2;
 
+
     scrollbar-width: thin;
     scrollbar-color: var(--simplebar-color) rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 
@@ -114,6 +116,8 @@
     border: transparent;
 }
 
+
+
 #TableOfContents ul,
 #toc ul {
     padding-left: 0;
@@ -138,13 +142,14 @@
 #TableOfContents a,
 #toc a {
     display: block;
-    color: var(--text-default);
+    // color: var(--text-default);
+    color: gray;
     padding: 0 10px 0 10px;
     padding-block: 0px 0.05rem;
     margin: 0 0 0 -10px;
     border-radius: 4px;
     width: fit-content;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.02em;
     transition: all 0.1s;
     -webkit-transition: all 0.1s;
@@ -154,6 +159,18 @@
         transition: all 0.1s;
         -webkit-transition: all 0.2s;
     }
+}
+
+/* 最上位の<ul>直下の<li>内の<a>タグのスタイル */
+#TableOfContents > ul > li > a,
+#toc > ul > li > a {
+    font-size: 14px;  /* 最上位の項目のフォントサイズを14pxに設定 */
+}
+
+/* 2階層目以降の<ul>内の<li>の<a>タグのスタイル */
+#TableOfContents > ul > li > ul a,
+#toc > ul > li > ul a {
+    font-size: 12px;  /* 2階層目以降の項目のフォントサイズを12pxに設定 */
 }
 
 #toc a.active {

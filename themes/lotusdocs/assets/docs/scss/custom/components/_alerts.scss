@@ -85,7 +85,8 @@
 }
 .alert {
     // font-family: $font-family-monospace;
-    font-size: var(--font-size-sm);
+    // font-size: var(--font-size-sm) !important;
+    font-size: 0.85rem;
     border-radius: 4px;
     color: var(--gray-700);
 
