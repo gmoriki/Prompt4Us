@@ -1,6 +1,6 @@
 ---
 weight: 100
-title: "お問い合わせ先"
+title: "FAQ"
 description: "お問い合わせ・ご相談はお気軽にどうぞ"
 icon: "Contact_Support"
 date: "2024-01-20T05:57:52+09:00"

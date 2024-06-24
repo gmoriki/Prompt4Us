@@ -127,7 +127,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Eco</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">プロンプト一歩前</p>
+        <p class="fs-5 fw-semibold card-title mb-1">リテラシー</p>
         <p class="para card-text mb-0">プロンプトの前提を把握する</p>
       </div>
     </div>
@@ -141,7 +141,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Potted_Plant</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">プロンプトガイド基本編</p>
+        <p class="fs-5 fw-semibold card-title mb-1">基本</p>
         <p class="para card-text mb-0">生成AIを使ってみる</p>
       </div>
     </div>
@@ -155,7 +155,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Nature</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">プロンプトガイド応用編</p>
+        <p class="fs-5 fw-semibold card-title mb-1">応用</p>
         <p class="para card-text mb-0">生成AIをもっと使ってみる</p>
       </div>
     </div>
@@ -175,7 +175,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Nature_People</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">プロンプト事例集</p>
+        <p class="fs-5 fw-semibold card-title mb-1">プロンプト集</p>
         <p class="para card-text mb-0">生成AIを使いこなす</p>
       </div>
     </div>
@@ -189,7 +189,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Archive</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">アーカイブ資料室</p>
+        <p class="fs-5 fw-semibold card-title mb-1">アーカイブ</p>
         <p class="para card-text mb-0">過去の講演のプロンプトを参照する</p>
       </div>
     </div>
@@ -224,7 +224,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
         <i class="material-icons align-middle">Contact_Support</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">お問い合わせ先</p>
+        <p class="fs-5 fw-semibold card-title mb-1">FAQ</p>
         <p class="para card-text mb-0">お問い合わせ・ご相談はお気軽にどうぞ</p>
       </div>
     </div>

@@ -78,8 +78,8 @@ googleAnalytics = 'G-MDYR2DPQXH'
 
         # ToC
         toc             = true                                # enable table of contents? default is true
-        tocMobile       = true                                # enable table of contents in mobile view? default is true
-        scrollSpy       = true                                # enable scrollspy on ToC? default is true
+        tocMobile       = false                               # enable table of contents in mobile view? default is true
+        scrollSpy       = false                                # enable scrollspy on ToC? default is true
 
         # front matter
         descriptions    = true                                # enable front matter descriptions under content title?

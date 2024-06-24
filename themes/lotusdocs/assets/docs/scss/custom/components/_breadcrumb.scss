@@ -20,6 +20,7 @@
 .breadcrumb {
     /* ... 他のスタイル ... */
     font-size: var(--bs-breadcrumb-font-size, 14px);  /* 1remはフォールバック値の例 */
+
   }
 
 @media (max-width: 1199px) {
@@ -27,3 +28,13 @@
         --bs-breadcrumb-padding-x: 0.7rem;
     }
 }
+
+// // breadcrumbsの位置を変更
+// .d-md-flex{
+//     padding-left: calc(var(--bs-gutter-x) * 1.05);
+//     padding-right: calc(var(--bs-gutter-x) * 1.05);
+//     width: 1020px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     text-align: left;
+// }

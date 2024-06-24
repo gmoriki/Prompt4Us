@@ -1,6 +1,6 @@
 ---
 weight: 67
-title: "Copilotで英語圏の情報を収集する"
+title: "情報を収集する"
 description: "上手なWeb検索"
 icon: "article"
 date: "2024-01-30T15:39:50+09:00"
@@ -9,7 +9,14 @@ draft: false
 toc: true
 ---
 
-Microsoftの蒲生さんがTwitterで共有されたテクニックです。
+### 情報システムに関する知識を調査する
+---
+
+### 多言語圏の情報を調査する
+---
+
+### 特定のWebサイトから収集する
+---
 
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 
