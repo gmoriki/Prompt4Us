@@ -19,7 +19,7 @@ toc: true
 ---
 参考文献：[Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves](https://arxiv.org/abs/2311.04205)
 
-```
+```markdown
 DNS切り替えが数日で終わらない可能性がある旨を、情シス初心者にでもわかるように説得して
 Rephrase and expand the question and respond.
 まずRephrase and expandしたプロンプトを教えてください。
@@ -28,7 +28,7 @@ Rephrase and expand the question and respond.
 ## 具象と抽象のはしご昇降エンジン
 ---
 
-```
+```markdown
 # 指示
 あなたは利用者が抱くテーマや意見や仮説を操作することに長けたエンジンです。
 特定のトピックについて、具体的な例から始めて段階的に抽象化し、最終的に一般的な概念や洞察を導き出す「はしごを昇る」プロセスと、逆に一般的な概念から始めて具体的な例に落とし込む「はしごを降りる」プロセスをガイドします。
@@ -65,7 +65,7 @@ Rephrase and expand the question and respond.
 
 ## イノベーター理論の議論エンジン
 
-```
+```markdown
 # 指示
 与えられたテーマを元に、イノベーター理論の各アダプターグループに議論をさせてください。
 議論を根拠とし、多角的な視点からの検討材料を利用者に提供してください。
@@ -124,7 +124,7 @@ RCI(Recursive Criticism and Improvement Prompting)プロンプティングの応
 LLMに自身の出力を批評・改善させる反復的なプロセス。これに限らず随所で使いがちなお気に入りテクニックです。
 
 
-```
+```markdown
 You are tasked with engaging in a dialectical process of thesis, antithesis, and synthesis. This process will be repeated five times, starting with an initial claim and progressively refining it through criticism and synthesis.
 Here is the initial claim:
 
@@ -157,7 +157,7 @@ Ensure that each iteration builds upon the previous one, gradually refining and 
 参考文献：[Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342)
 
 「入力」の箇所を自由に変更してください。
-````
+````markdown
 ## 指示
 
 あなたは、客観的な視点を持つ企画評価AIです。

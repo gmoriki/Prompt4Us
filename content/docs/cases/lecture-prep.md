@@ -18,7 +18,7 @@ toc: true
 ## シラバスを作成する
 ---
 
-```
+```markdown
 あなたは大学教員である私とともに良質な講義をデザインする「共同デザイナー」です。
 以下の条件を参考に、大学1年生向け教養科目[### 講義名 ###]の講義シラバスを作成してください。
 
@@ -94,7 +94,7 @@ let's think step by step
 ##  講義導入事例作成
 ---
 
-```
+```markdown
 ### 指示
 「情報検索」の講義導入で使える、学生が興味を持ちやすい具体的な事例を挙げてください。
 インターネット検索以外の情報検索方法についても触れていればなお良いです。
@@ -122,7 +122,7 @@ let's think step by step
 ## 主要概念の説明文作成
 ---
 
-```
+```markdown
 ### 指示
 ミクロ経済学の主要概念である「需要と供給の法則」について、図表を用いずに、専門用語を避けた平易な言葉で簡潔に説明してください。
 
@@ -147,7 +147,7 @@ let's think step by step
 ## 議論を活性化させるための質問生成
 ---
 
-```
+```markdown
 ### 指示
 「持続可能な開発目標(SDGs)」の講義において、学生の議論を活性化させるために、SDGs目標13「気候変動に具体的な対策を」をテーマにした質問を作成してください。
 
@@ -172,7 +172,7 @@ let's think step by step
 ## 小テスト問題作成
 ---
 
-```
+```markdown
 ### 指示
 「日本文学史」の講義で扱った「源氏物語」に関する小テスト問題を作成してください。
 
@@ -202,7 +202,7 @@ let's think step by step
 ## グループワークのテーマ提案
 ---
 
-```
+```markdown
 ### 指示
 「マーケティング戦略」の講義で、学生がグループワークを行う際のテーマを5つ提案してください。
 
@@ -227,7 +227,7 @@ let's think step by step
 
 ## 異なる学問分野との関連付け
 
-```
+```markdown
 ### 指示
 「環境問題」の講義において、環境問題と経済学の関連性を、具体的な事例やデータを含めて、学生が理解しやすいように分かりやすく説明してください。
 
@@ -251,7 +251,7 @@ let's think step by step
 
 ## 講義後の振り返り質問作成
 
-```
+```markdown
 ### 指示
 「社会学」の講義後に、学生に投げかける振り返り質問を3つ作成してください。
 
@@ -283,7 +283,7 @@ let's think step by step
 
 「lecture_content」の箇所を自由に変更してください。
 
-```
+```markdown
 You are tasked with creating a set of review questions based on a university lecture. These questions will help students reinforce their understanding of the key concepts covered in the lecture. Follow these instructions carefully to create effective and relevant questions.
 
 First, here is the content of the lecture:

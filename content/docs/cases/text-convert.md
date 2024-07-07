@@ -17,15 +17,15 @@ toc: true
 
 ## 文章を翻訳する
 ---
-```
+```markdown
 仕事に使えるプロンプト、を英訳して
 英訳したあと、domain名に使えるような短い英語にしてください
 ```
-## 文章を翻訳する(応用)
+## 文章を翻訳する(2)
 ---
 
 引用元：[Difyテンプレート](https://github.com/langgenius/dify/blob/9b7c74a5d9cb59be699bca2a1034df7ccdcfd866/api/constants/recommended_apps.json)
-```
+```markdown
 Target_language:'English',
 Input_language:'日本語',
 
@@ -43,7 +43,7 @@ Strategy: Divide into two translations, and print each result: 1. Translate dire
 ```
 ## 文章を要約する
 ---
-```
+```markdown
 # 命令書:
 あなたは{プロの編集者}です。
 以下の制約条件と入力文をもとに{最高の要約}を出力してください。
@@ -75,7 +75,10 @@ Excel の使いやすさと見やすさそのままに、SynViz S2 に備わっ�
 ...
 ```
 
-```
+## 文章を要約する(2)
+---
+
+```markdown
 You will be given a text to summarize. Your task is to create a general overview style summary of this text. Here are the steps to follow:
 
 1. First, read the following text carefully:
@@ -100,19 +103,19 @@ Remember to focus on the main ideas and avoid including minor details or example
 ## 説明用スタイルを適用する
 ---
 
-```
+```markdown
 DNS切り替えが数日で終わらない可能性がある旨を、情シス初心者にでもわかるように説得して
 Rephrase and expand the question and respond.
 まずRephrase and expandしたプロンプトを教えてください。
 ```
 
-```
+```markdown
 次のメッセージを正しい敬語に言い直してください。
  
 しらん。補佐にきいといて
 ```
 
-```
+```markdown
 あなたは大学広報担当の専門家です。以下の文脈と要件に従って、大学の魅力を伝える紹介文を作成してください。
 
 ### 文脈 ###
@@ -132,7 +135,7 @@ Rephrase and expand the question and respond.
 ---
 
 箇条書き
-```
+```markdown
 FDとSDの違いと目的について教えてください
 
 ### 出力形式
@@ -140,7 +143,7 @@ FDとSDの違いと目的について教えてください
 ```
 
 表形式
-```
+```markdown
 FDとSDの違いと目的について教えてください
 
 ### 出力形式
@@ -148,15 +151,7 @@ FDとSDの違いと目的について教えてください
 ```
 
 json形式
-```
-FDとSDの違いと目的について教えてください
-
-### 出力形式
-json
-```
-
-json形式
-```
+```markdown
 FDとSDの違いと目的について教えてください
 
 ### 出力形式

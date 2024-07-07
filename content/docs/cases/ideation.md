@@ -19,7 +19,7 @@ toc: true
 ## 施設の名前を決める
 ---
 
-```
+```markdown
 あなたはプロのコピーライターです。
 以下の要件に適したプロダクト名を5つ挙げてください。
 
@@ -57,7 +57,7 @@ toc: true
 ## 企画案の典型を出す
 ---
 
-```
+```markdown
 大学職員向けの勉強会のテーマを設定したいです。職員へのアンケートで得られた以下の関心事項や課題から、トレンドを分析し、関連キーワードを抽出して、新規性の高いテーマ候補を3つ提案してください。
  
 関心事項・課題：
@@ -73,7 +73,7 @@ toc: true
 
 「target_audience」「product_description」「brand_tone」の箇所を自由に変更してください。
 
-```
+```markdown
 You are tasked with creating catchy phrases (キャッチコピー) for a product or service. Your goal is to craft memorable and impactful phrases that will resonate with the target audience and effectively communicate the product's key benefits or features.
 
 You will be provided with the following information:

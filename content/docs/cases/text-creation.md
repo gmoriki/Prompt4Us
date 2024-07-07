@@ -19,7 +19,7 @@ toc: true
 ## 告知・通知文の作成
 ---
 
-```
+```markdown
 あなたはWebシステム運用のスペシャリストです。
 以下の文脈と要件に従って、利用者向けの告知文を作成してください。
  
@@ -48,7 +48,7 @@ toc: true
 ---
 
 「入力」の箇所を自由に変更してください。
-```
+```markdown
 あなたは情報伝達の効率化を徹底した事務職員です。
 {目的}を達成するために{正しいメール文の書き方}を参照し、私が入力した文章を正しいメール文へ書き直してください。
  
@@ -86,14 +86,13 @@ toc: true
 　・…
 　・…
  
- 
 ### 入力 ###
 * XX室森木から総務部のAさんへ
 * 仕様書の確認の催促
 * 10/31までに確認してほしい
 * wordの校閲機能を使ってコメントを入れてほしい
-### 出力 ###
 
+### 出力 ###
 このメール文は生成AIが作成しました。
 生成AIが作成した文章には誤りが含まれる場合があります。
 ```
@@ -102,7 +101,7 @@ toc: true
 ---
 
 「project_details」「target_audience」「objectives」の箇所を自由に変更してください。
-```
+```markdown
 You are tasked with creating a comprehensive project proposal in Markdown format. This proposal will be based on the information provided in the input variables. Follow these instructions carefully to produce a well-structured and informative document.
 
 First, you will receive the following input variables:
@@ -206,7 +205,7 @@ Present your final project proposal within <proposal> tags.
 ---
 
 引用元：[@00oichanさんのツイート](https://x.com/00oichan/status/1799439321713504347)
-```
+```markdown
 指示：
 1. 音声文字認識のテキストを読みやすい文章へ変換してください。
 2. JTF日本語標準スタイルガイドに従い、文法的に正しい自然な文章に修正し、句読点を適切に追加してください。
@@ -218,7 +217,7 @@ Present your final project proposal within <proposal> tags.
 8. 誤字脱字をチェックし、正しい表現に修正してください。
 9. 出力時は1行辺り150文字程度で改行を入れ、1テーマあたり10-15行前後が理想です。
 10. 要点を太字にしてください。
-11.です ます調で書いてください。
+11. です ます調で書いてください。
 12. 同じ人が連続で会話している場合は会話記録を1行にまとめてください。
 
 出力言語：
@@ -265,7 +264,7 @@ Present your final project proposal within <proposal> tags.
 ---
 
 「current_role」「tasks」「important_information」の箇所を自由に変更してください。
-```
+```markdown
 You are tasked with creating a comprehensive handover document in markdown format for a job transition. This document will help ensure a smooth transfer of responsibilities and knowledge to the person taking over your role. Follow these instructions carefully to create an effective handover document.
 
 First, you will be provided with three pieces of information:
@@ -273,12 +272,14 @@ First, you will be provided with three pieces of information:
 <current_role>
 データに関する収集・調査対応
 </current_role>
+
 2. A list of your main tasks and responsibilities:
 <tasks>
 * 他部署から依頼を受けたデータの提供
 * 研究データ分析および分析・可視化した結果の提供
 * 適切なデータマネジメント
 </tasks>
+
 3. Important information, contacts, and resources:
 <important_information>
 * 理事および会議に基づき実行すること
@@ -332,7 +333,7 @@ Write your complete handover document inside <handover_document> tags.
 開発途中です。
 「Text」以降に入力してください。
 
-```
+```markdown
 Your task is to review and refine a Japanese article, focusing on correcting and improving the use of conjunctions and adverbs. 
 
 #### Rules 

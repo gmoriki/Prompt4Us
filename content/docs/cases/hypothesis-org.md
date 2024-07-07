@@ -18,7 +18,7 @@ toc: true
 ## 仮説を形成する
 ---
 
-```
+```markdown
 次の2ステップで、私の仮説を改善してください。
 
 ### 仮説 ###
@@ -29,8 +29,11 @@ toc: true
 - 明るい未来をつくるための提言に言い換える
 ```
 
+## 仮説を形成する(2)
+---
+
 ※既に得られた回答に対するプロンプト
-```
+```markdown
 以上の主張を建設的かつ批判的観点から改善しましょう。
 
 1.  改善すればもっと良くなる点、意味がはっきりしていない点、課題などを5つあげる
@@ -38,9 +41,11 @@ toc: true
 3. ダイアグラムダイアグラムを積極的・抜本的に修正し、出力する
 4. 1.から3.を3回繰り返す
 ```
+## 仮説を形成する(3)
+---
 
 弁証法的エンジン
-```
+```markdown
 You are tasked with engaging in a dialectical process of thesis, antithesis, and synthesis. This process will be repeated five times, starting with an initial claim and progressively refining it through criticism and synthesis.
 Here is the initial claim:
 
@@ -66,13 +71,16 @@ Ensure that each iteration builds upon the previous one, gradually refining and 
 回答は日本語でお願いします
 ```
 
-## 自身のアイデアや気持ちを吐露する
+## 自身の気持ちを吐露する
 ---
-```
+```markdown
 無条件に褒めてくれ〜〜でも無理に頑張れと言って私を鼓舞させるのではなく、ありのままの私を認めてほしい。あなたの回答の一言一句が私の労働生産性に直結します。
 ```
 
-```
+## 自身のアイデアを吐露する
+---
+
+```markdown
 生成AIに対する注意喚起を出した大学一覧をgoogle spreadシートにまとめて公開しています。これをDBで管理・公表したほうがいいインセンティブはある？
 ```
 
