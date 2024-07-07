@@ -1,29 +1,22 @@
 ---
 weight: 63
 title: "授業を支援する"
-description: ""
+description: "シラバス・講義・問題"
 icon: "article"
 date: "2024-01-21T19:42:26+09:00"
 lastmod: "2024-01-21T19:42:26+09:00"
 draft: false
 toc: true
 ---
-{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
-
-
-
-以下、授業関連？
-
-### シラバスを作成する
----
 
 {{< table "table-responsive" >}}
-| 日時 | このページで使用した生成AI | 
+| 日時 | 使用した生成AI | 
 |----------|--------------|
-| 2024/1/21 | ChatGPT(GPT-3.5) |
+| 2024/7/7 | ChatGPT(GPT-3.5),<br>Claude(3.5 Sonnet),<br>Copilot(GPT-4) |
 {{< /table >}}
 
-<br>
+## シラバスを作成する
+---
 
 ```
 あなたは大学教員である私とともに良質な講義をデザインする「共同デザイナー」です。
@@ -98,6 +91,247 @@ let's think step by step
 このような講義シラバスと講義計画を基に、心理学入門の講義をデザインすることができます。各回の講義内容とねらいを明確にし、学生が心理学の基本的な知識とスキルを習得できるように工夫されています。
 {{% /alert %}}
 
-
-### 問題を作成する
+##  講義導入事例作成
 ---
+
+```
+### 指示
+「情報検索」の講義導入で使える、学生が興味を持ちやすい具体的な事例を挙げてください。
+インターネット検索以外の情報検索方法についても触れていればなお良いです。
+
+### 条件: 
+- 学生の興味関心を引くような身近な事例
+- インターネット検索以外の情報検索方法を含む
+- 具体例を挙げて分かりやすく説明
+
+#### 講義テーマ
+情報検索の基礎
+
+#### 講義対象
+大学1年生
+
+#### 講義レベル
+初級
+
+
+### 期待する出力形式
+箇条書き
+
+```
+
+## 主要概念の説明文作成
+---
+
+```
+### 指示
+ミクロ経済学の主要概念である「需要と供給の法則」について、図表を用いずに、専門用語を避けた平易な言葉で簡潔に説明してください。
+
+### 条件: 
+- 需要と供給の法則
+- 図表を用いない
+- 専門用語を避けた平易な言葉遣い
+
+#### 講義テーマ
+ミクロ経済学
+
+#### 講義対象
+大学2年生
+
+#### 講義レベル
+中級
+
+### 期待する出力形式
+テキスト形式、300字以内
+```
+
+## 議論を活性化させるための質問生成
+---
+
+```
+### 指示
+「持続可能な開発目標(SDGs)」の講義において、学生の議論を活性化させるために、SDGs目標13「気候変動に具体的な対策を」をテーマにした質問を作成してください。
+
+### 条件: 
+- 学生の多様な意見を引き出すようなオープンクエスチョン
+- SDGsの目標13「気候変動に具体的な対策を」に焦点を当てる
+- グローバルな視点とローカルな視点を意識した質問
+
+#### 講義テーマ
+持続可能な開発目標(SDGs)
+
+#### 講義対象
+大学3年生
+
+#### 講義レベル
+中級
+
+### 期待する出力形式
+質問文5つ
+```
+
+## 小テスト問題作成
+---
+
+```
+### 指示
+「日本文学史」の講義で扱った「源氏物語」に関する小テスト問題を作成してください。
+
+### 条件: 
+- 講義で扱った「源氏物語」に関する問題
+- 正解と解説付きの4択問題を5問
+- 各問題に難易度レベル (易・中・難) を付与
+
+#### 講義テーマ
+日本文学史
+
+#### 講義対象
+大学1年生
+
+#### 講義レベル
+初級
+
+### 期待する出力形式
+表形式
+
+| 問題番号 | 問題文 | 選択肢 | 正解 | 解説 | 難易度 |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+```
+
+
+## グループワークのテーマ提案
+---
+
+```
+### 指示
+「マーケティング戦略」の講義で、学生がグループワークを行う際のテーマを5つ提案してください。
+
+### 条件: 
+- 学生が興味を持ちやすく、実践的なテーマ
+- 特定の業界(例: 食品業界、アパレル業界)を指定
+- 各グループ4～5名で取り組むことを想定
+
+#### 講義テーマ
+マーケティング戦略
+
+#### 講義対象
+大学2年生
+
+#### 講義レベル
+初級
+
+### 期待する出力形式
+箇条書き
+```
+
+
+## 異なる学問分野との関連付け
+
+```
+### 指示
+「環境問題」の講義において、環境問題と経済学の関連性を、具体的な事例やデータを含めて、学生が理解しやすいように分かりやすく説明してください。
+
+### 条件: 
+- 環境問題と経済学の関連性を示す
+- 具体的な事例やデータを含める
+- 学生が理解しやすいように分かりやすく説明
+
+#### 講義テーマ
+環境問題
+
+#### 講義対象
+大学2年生
+
+#### 講義レベル
+中級
+
+### 期待する出力形式
+テキスト形式、500字以内
+```
+
+## 講義後の振り返り質問作成
+
+```
+### 指示
+「社会学」の講義後に、学生に投げかける振り返り質問を3つ作成してください。
+
+### 条件: 
+- 学生の理解度を確認できる質問
+- 学生自身の考えを深めるための質問
+- 講義内容の復習と次の講義への期待につなげる
+
+#### 講義テーマ
+社会学
+
+#### 講義対象
+大学1年生
+
+#### 講義レベル
+初級
+
+#### 講義の重要なポイント
+{{ここに入力してください}}
+
+
+### 期待する出力形式
+質問文3つ
+``` 
+
+
+## 講義後の確認問題を作成する
+---
+
+「lecture_content」の箇所を自由に変更してください。
+
+```
+You are tasked with creating a set of review questions based on a university lecture. These questions will help students reinforce their understanding of the key concepts covered in the lecture. Follow these instructions carefully to create effective and relevant questions.
+
+First, here is the content of the lecture:
+<lecture_content>
+{{LECTURE_CONTENT}}
+</lecture_content>
+
+You are to create {{NUM_QUESTIONS}} questions based on this lecture content.
+
+To create these questions, follow these steps:
+
+1. Carefully read and analyze the lecture content.
+2. Identify the main topics, key concepts, and important details from the lecture.
+3. Create questions that cover a range of these topics and concepts.
+4. Ensure that the questions are directly related to the content of the lecture.
+
+Guidelines for creating questions:
+
+1. Use a variety of question types, such as:
+   - Multiple choice
+   - True/False
+   - Short answer
+   - Fill in the blank
+2. Vary the difficulty level of the questions:
+   - Include some basic recall questions
+   - Include some questions that require deeper understanding or application of concepts
+3. Make sure the questions are clear and unambiguous.
+4. For multiple choice questions, include plausible distractors as incorrect options.
+
+Present your questions in the following format:
+
+<questions>
+<question1>
+[Question text]
+[Answer options if applicable]
+<correct_answer>[Correct answer]</correct_answer>
+</question1>
+
+<question2>
+[Question text]
+[Answer options if applicable]
+<correct_answer>[Correct answer]</correct_answer>
+</question2>
+
+[Continue for the specified number of questions]
+</questions>
+
+After creating the questions, provide a brief explanation of how these questions relate to the lecture content and how they will help reinforce student learning. Present this explanation within <explanation> tags.
+
+Remember to focus solely on the content provided in the lecture and do not introduce external information or concepts not covered in the given material.
+```

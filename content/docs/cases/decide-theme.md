@@ -1,23 +1,22 @@
 ---
 weight: 62
 title: "アイデアを出す"
-description: "記事や施設や物に名前を付ける"
+description: "施設名・企画案・コピー"
 icon: "article"
 date: "2024-01-21T19:45:42+09:00"
 lastmod: "2024-01-21T19:45:42+09:00"
 draft: false
 toc: true
 ---
-{{< alert context="warning" text="このドキュメントは作成中です！👷" />}}
 
 {{< table "table-responsive" >}}
-| 日時 | このページで使用した生成AI | 
+| 日時 | 使用した生成AI | 
 |----------|--------------|
-| 2024/1/21 | ChatGPT(GPT-3.5) |
+| 2024/7/7 | ChatGPT(GPT-3.5),<br>Claude(3.5 Sonnet),<br>Copilot(GPT-4) |
 {{< /table >}}
 
 
-### 施設の名前を決める
+## 施設の名前を決める
 ---
 
 ```
@@ -55,4 +54,63 @@ toc: true
 
 {{% /alert %}}
 
-### 企画案の典型を出す
+## 企画案の典型を出す
+---
+
+```
+大学職員向けの勉強会のテーマを設定したいです。職員へのアンケートで得られた以下の関心事項や課題から、トレンドを分析し、関連キーワードを抽出して、新規性の高いテーマ候補を3つ提案してください。
+ 
+関心事項・課題：
+- 学生対応におけるコミュニケーション能力向上
+- 教学システムの効果的な運用方法
+- 海外大学との連携促進
+- 研究助成金の獲得支援
+- オンライン教育の質的向上
+```
+
+## キャッチコピーの作成
+---
+
+「target_audience」「product_description」「brand_tone」の箇所を自由に変更してください。
+
+```
+You are tasked with creating catchy phrases (キャッチコピー) for a product or service. Your goal is to craft memorable and impactful phrases that will resonate with the target audience and effectively communicate the product's key benefits or features.
+
+You will be provided with the following information:
+
+<target_audience>
+{{TARGET_AUDIENCE}}
+</target_audience>
+
+<product_description>
+{{PRODUCT_DESCRIPTION}}
+</product_description>
+
+<brand_tone>
+{{BRAND_TONE}}
+</brand_tone>
+
+Analyze the provided information carefully. Consider the target audience's characteristics, needs, and preferences. Understand the product's unique selling points and key features. Pay attention to the brand's tone and ensure your phrases align with it.
+
+When creating catchy phrases, keep the following guidelines in mind:
+1. Be concise and impactful - aim for phrases that are short but memorable
+2. Highlight the product's unique selling points or benefits
+3. Use language that resonates with the target audience
+4. Incorporate wordplay, rhymes, or alliteration when appropriate
+5. Ensure the phrases are easy to understand and remember
+6. Align the tone and style with the brand's image
+
+Generate 5 catchy phrases in Japanese. For each phrase, provide a brief explanation (in Japanese) of why it's effective and how it relates to the product and target audience.
+
+Present your output in the following format:
+
+<catchphrase_list>
+<catchphrase>
+<phrase>[Catchy phrase in Japanese]</phrase>
+<explanation>[Brief explanation in Japanese]</explanation>
+</catchphrase>
+[Repeat for all 5 phrases]
+</catchphrase_list>
+
+Remember to be creative and think from the perspective of the target audience. Your goal is to create phrases that will grab attention and leave a lasting impression.
+```

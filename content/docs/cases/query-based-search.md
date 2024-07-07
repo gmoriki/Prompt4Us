@@ -1,7 +1,7 @@
 ---
 weight: 67
 title: "情報を収集する"
-description: "上手なWeb検索"
+description: "情報収集・検索"
 icon: "article"
 date: "2024-01-30T15:39:50+09:00"
 lastmod: "2024-01-30T15:39:50+09:00"
@@ -9,20 +9,48 @@ draft: false
 toc: true
 ---
 
-### 情報システムに関する知識を調査する
----
-
-### 多言語圏の情報を調査する
----
-
-### 特定のWebサイトから収集する
----
-
 {{< table "table-responsive" >}}
-| 日時 | このページで使用した生成AI | 
+| 日時 | 使用した生成AI | 
 |----------|--------------|
-| 2024/1/30 | Copilot(GPT-4) |
+| 2024/7/7 | <br>Copilot(GPT-4) |
 {{< /table >}}
+
+{{< alert context="info" text="Copilot等のWeb検索が可能なAIを使用してください" />}}
+
+
+## 回答スタイルを指定して知識を調査する
+---
+
+```
+IPアドレスとは何ですか？
+その技術の目的と解決したい技術的課題を踏まえて回答してください
+```
+
+```
+大学設置基準なんもわからん。教えてください
+1. その仕組が必要とされる歴史的背景
+2. 今に至るまでの変遷の概要
+
+#条件
+検索クエリは検索対象ごとに分割し、stepごとに検索および回答を返してください。
+```
+
+参考：https://www.perplexity.ai/search/da-xue-she-zhi-ji-zhun-nanmowa-aGCm8d8wTf6jKLWe_6T8Dw
+
+## 特定のWebサイトから収集する
+---
+
+```
+明治期以前の学制に言及した箇所を教えて下さい。
+クエリは以下のSearch Queryを必ず使用すること。
+
+### Search Query
+https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
+```
+
+
+## 多言語圏の情報を調査する
+---
 
 ```
 プロンプトエンジニアリングガイドとは何か。
