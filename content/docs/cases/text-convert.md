@@ -134,6 +134,7 @@ Rephrase and expand the question and respond.
 ## 参考文献をフォーマットする
 ---
 
+「引用・参考文献スタイル」と「入力文」の個所を自由に変更してください。
 ```markdown
 入力文は、私の引用・参考文献一覧です。
 以下の引用・参考文献スタイルにフォーマットしてください。
@@ -174,7 +175,7 @@ Encarnación-Pinedo E. On Webbed Monsters, Revolutionary Activists and Plutonium
 
 Diamond J. Guns, Germs, and Steel: The Fates of Human Societies. New York City: W.W. Norton; 1997.
 
-###入力文###
+### 入力文 ###
 
 1）次世代レーザプロセシングとその産業応用調査専門委員会：最新レーザプロセシングの基礎と産業応用，電気学会（2007）, 64-67.
 
@@ -195,6 +196,24 @@ Diamond J. Guns, Germs, and Steel: The Fates of Human Societies. New York City: 
 9）片山聖二：アルミニウム合金のレーザ溶接，軽金属，62-2（2012）, 75-83.
 ```
 
+## 形態素を解析する
+---
+
+自然言語による簡易的なプログラミングが可能であることの説明用です。
+
+「入力」の個所を自由に変更してください。
+```
+あなたはPythonエンジニアです。データの変換をお願いします。
+1.文章を形態素ごとに分割された文字列として、Pythonリストにしてください。
+2.1.の各要素に該当する品詞を付与したJSONを出力してください
+
+### 入力 ###
+九州大学IR室で精一杯働いている森木です
+
+### 出力 ###
+「途中経過を省略し、最終結果を出力します。」を最初に出力してください
+(変換後の最終結果だけを簡潔に出力してください。)
+```
 
 ## 出力の形式を指定する
 ---

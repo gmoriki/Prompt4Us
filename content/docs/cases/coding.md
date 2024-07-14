@@ -43,6 +43,21 @@ toc: true
 ---
 
 ```markdown
+# 以下の仕様を満たすPythonプログラムを作成してください
+
+## 仕様
+- CSVファイル `data.csv` を読み込む
+- CSVファイルには `id`, `name`, `age`, `score` の4つのカラムがある
+- `score` が80以上の行のみを抽出する
+- 抽出した行を `id` の昇順で並べ替える
+- 並べ替えた結果を `result.csv` として出力する
+
+## 注意点
+- プログラムにはコメントを付けて、処理の内容を説明してください
+- 変数名やメソッド名は分かりやすい名前を使用してください
+```
+
+```markdown
 jsondata=[{'metricType': 'AcademicCorporateCollaboration',  'values': [{'collabType': 'Academic-corporate collaboration',    'value': 1,    'percentage': 5},   {'collabType': 'No academic-corporate collaboration',    'value': 18,    'percentage': 94.73685}]}, {'metricType': 'AcademicCorporateCollaborationImpact',  'values': [{'collabType': 'Academic-corporate collaboration', 'value': 0.0},   {'collabType': 'No academic-corporate collaboration', 'value': 6.5}]}, {'metricType': 'Collaboration',  'values': [{'collabType': 'International collaboration', 'value': 0.0},   {'collabType': 'National collaboration', 'value': 0.9}]}, {'metricType': 'CitationCount', 'value': 117}, {'metricType': 'CitationsPerPublication', 'value': 9}, {'metricType': 'CollaborationImpact',  'values': [{'collabType': 'Institutional collaboration', 'value': 3.0},   {'collabType': 'International collaboration', 'value': 7.4},   {'collabType': 'National collaboration', 'value': 9.7},   {'collabType': 'Single authorship', 'value': 0.0}]}, {'metricType': 'CitedPublications', 'value': 14, 'percentage': 56}, {'metricType': 'FieldWeightedCitationImpact', 'value': 0.62636673}, {'metricType': 'HIndices', 'value': 15.0, 'indexType': 'h-index'}, {'metricType': 'ScholarlyOutput', 'value': 30}, {'metricType': 'PublicationsInTopJournalPercentiles',  'impactType': 'CiteScore',  'values': [{'threshold': 1, 'value': 0, 'percentage': 0.0},   {'threshold': 5, 'value': 1, 'percentage': 5.263158},   {'threshold': 10, 'value': 3, 'percentage': 15.789473},   {'threshold': 25, 'value': 10, 'percentage': 52.63158}]}, {'metricType': 'OutputsInTopCitationPercentiles',  'values': [{'threshold': 1, 'value': 0, 'percentage': 0.0},   {'threshold': 5, 'value': 0, 'percentage': 0.0},   {'threshold': 10, 'value': 0, 'percentage': 0.0},   {'threshold': 25, 'value': 4, 'percentage': 21.4}]}]
  
  
@@ -71,6 +86,23 @@ jsondata=[{'metricType': 'AcademicCorporateCollaboration',  'values': [{'collabT
 
 ## 既存コードの解説
 ---
+
+````markdown
+```
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+filtered_df = df[df['score'] >= 80]
+sorted_df = filtered_df.sort_values('id')
+sorted_df.to_csv('result.csv', index=False)
+```
+
+上記のPythonプログラムに、適切なコメントを追加してください。コメントは以下の基準を満たすようにしてください。
+
+各処理の目的や内容を簡潔に説明する
+変数名やメソッド名の意味を必要に応じて説明する
+コードの重要な部分や注意点を強調する
+````
 
 ```markdown
 以下に示すプログラミングコードを解説してください。
@@ -113,4 +145,154 @@ function toggleMenu() {
         isOpen.style.display = "block";
     }
 };
+```
+
+
+```markdown
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+filtered_df = df[df['score'] >= 80]
+
+sorted_df = filtered_df.sort_values('id')
+
+sorted_df.to_csv('result.csv', index=False)
+
+上記のPythonプログラムについて、コードの各部分の処理内容を解説してください。また、pandasを使用している利点についても説明してください。
+```
+
+## 既存コードの改善
+---
+
+````markdown
+```
+import pandas as pd
+
+# CSVファイルを読み込む
+df = pd.read_csv('data.csv')
+
+# scoreが80以上の行を抽出する
+filtered_df = df[df['score'] >= 80]
+
+# idの昇順で並べ替える
+sorted_df = filtered_df.sort_values('id')
+
+# 結果をCSVファイルに出力する
+sorted_df.to_csv('result.csv', index=False)
+```
+
+上記のPythonプログラムを改善してください。以下の点を考慮してください。
+
+* エラー処理を追加する
+* コードをより読みやすくする
+* 処理速度を向上させる
+````
+
+
+## プログラムのエラーを読み解く
+---
+
+````markdown
+```python
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+filtered_df = df[df['score'] > 80]
+sorted_df = filtered_df.sort_values('id')
+sorted_df.to_csv('result.csv')
+```
+
+上記のPythonプログラムを実行したところ、以下のエラーが発生しました。
+
+```
+Traceback (most recent call last):
+  File "script.py", line 6, in <module>
+    sorted_df.to_csv('result.csv')
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 3463, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/usr/local/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/usr/local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 241, in save
+    self._save()
+  File "/usr/local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 256, in _save
+    self._save_header()
+  File "/usr/local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 281, in _save_header
+    writer.writerow(encoded_labels)
+  File "/usr/local/lib/python3.9/site-packages/pandas/io/common.py", line 707, in writerow
+    self.writer.writerow(self._encode_types(row))
+UnicodeEncodeError: 'utf-8' codec can't encode characters in position 0-2: surrogates not allowed
+```
+
+このエラーの原因を特定し、修正方法を説明してください。
+````
+
+## いろんなものを変換する
+---
+
+```markdown
+以下のJSONデータをPythonのデータフレームに変換し、CSVファイルとして出力するプログラムを作成してください。
+
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "山田太郎",
+      "age": 30,
+      "department": "営業部"
+    },
+    {
+      "id": 2,
+      "name": "鈴木花子",
+      "age": 25,
+      "department": "経理部"
+    },
+    {
+      "id": 3,
+      "name": "佐藤次郎",
+      "age": 35,
+      "department": "営業部"
+    }
+  ]
+}
+
+- JSONデータは `data.json` というファイル名で保存されているとします
+- 出力するCSVファイルは `employees.csv` というファイル名にしてください
+- CSVファイルのヘッダーは `id`, `name`, `age`, `department` としてください
+```
+
+## 変数名・クラス名を命名する
+---
+
+```markdown
+以下の仕様を満たすPythonプログラムを作成してください。
+
+- Excelファイル `sales_data.xlsx` を読み込む
+- Excelファイルには `商品ID`, `商品名`, `単価`, `数量`, `売上日` の5つのカラムがある
+- `売上日` が2023年1月1日から2023年12月31日までのデータのみを抽出する
+- 抽出したデータを `商品ID` と `売上日` でグループ化し、`数量` の合計を計算する
+- グループ化した結果を `売上日` の昇順で並べ替える
+- 並べ替えた結果を新しいExcelファイル `sales_summary.xlsx` として出力する
+
+プログラムを作成する際、変数名やメソッド名、クラス名は適切で分かりやすい名前を使用してください。
+```
+
+## リファレンス代わりにする
+---
+
+```markdown
+pandasの以下のメソッドについて説明してください。
+
+1. read_csv()
+2. groupby()
+3. agg()
+4. sort_values()
+5. to_csv()
+
+それぞれのメソッドについて、以下の点を説明してください。
+
+- メソッドの目的と主な機能
+- メソッドの引数とその意味
+- メソッドの返り値
+- メソッドの使用例
 ```

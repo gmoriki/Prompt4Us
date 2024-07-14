@@ -97,6 +97,26 @@ toc: true
 生成AIが作成した文章には誤りが含まれる場合があります。
 ```
 
+## 企画書の作成(IR活動)
+---
+
+```markdown
+あなたはInstitutional research(以下、IR)の責任者です。
+※ Institutional research is research conducted within an institution of higher education to provide information which supports institutional planning, policy formation and decision making.
+
+以下の要件に従い、まずIR活動の企画書の枠組みを設計してください。
+その後、枠組みの概要を出力してください。
+
+### 要件 ###
+* 教員の研究時間を阻害する要因を特定したい。
+* 分析した結果を研究力不足の改善に役立てたい。
+
+### 出力 ###
+企画書：1000文字程度
+概要：200文字程度
+```
+
+
 ## 企画書の作成
 ---
 
@@ -350,4 +370,17 @@ the principles for using commas (、) in Japanese:
 2. Place a comma when the natural order of words is reversed.
 
 ### Text
+```
+
+
+## AIとの対話を文書化する
+---
+
+```
+ここまでの議論をドキュメント化してください。
+
+### 要件 ###
+* 利用者とAIのやり取りをステップごとに明確にする
+* 見出しを3つつけて、キーワードを太字で示す
+* 議論の結果として得られた内容を簡潔に説明
 ```
