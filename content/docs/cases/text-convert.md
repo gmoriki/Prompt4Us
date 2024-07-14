@@ -131,6 +131,71 @@ Rephrase and expand the question and respond.
 * 紹介文は日本語で400文字程度とする
 ```
 
+## 参考文献をフォーマットする
+---
+
+```markdown
+入力文は、私の引用・参考文献一覧です。
+以下の引用・参考文献スタイルにフォーマットしてください。
+不足している部分は[XXX]を挿入ください。
+
+###引用・参考文献スタイル###
+(https://wordvice.jp/citation-guide/vancouver)
+
+
+バンクーバースタイル　ウエブサイト:
+[苗字] [名前のイニシャル]. [ページ題]. Available from: [URL] [アクセスした日].
+
+[Last Name] [First Initial]. [Page Title]. Available from: [URL] [Accessed [Accessed Date]].
+
+Kim A. The History and Big Business of Academic Publishing. Available from: https://medium.com/wordviceediting/the-history-and-big-business-of-academic-publishing-90a23bb7cc4c [Accessed 25th January 2021].
+
+
+バンクーバースタイル　ジャーナル記事(印刷物):
+[苗字] [名前のイニシャル]. [記事名]. [ジャーナル名]. [発行年]; [巻]([号]): [記事記載箇所全域].
+
+[Last Name] [First Initial]. [Article Title]. [Journal Name]. [Year Published]; [Volume]([Issue]): [Entire Page Range of Article].
+
+Encarnación-Pinedo E. On Webbed Monsters, Revolutionary Activists and Plutonium Glow: Eco-Crisis in Diane di Prima and Anne Waldman. Humanities. 2020; 10(4): 1-14.
+
+
+バンクーバースタイル　ジャーナル記事(電子):
+[苗字] [名前のイニシャル]. [記事の題名]. [ジャーナル名>]. [発行年]; [巻]([号]): [記事記載箇所全域]. Available from: [URL or DOI] [アクセスした日].
+
+[Last Name] [First Initial]. [Article Title]. [Journal Name>]. [Year Published]; [Volume]([Issue]): [Entire Page Range of Article]. Available from: [URL or DOI] [Accessed [Accessed Date]].
+
+Encarnación-Pinedo E. On Webbed Monsters, Revolutionary Activists and Plutonium Glow: Eco-Crisis in Diane di Prima and Anne Waldman. Humanities. 2020; 10(4): 1-14. Available from: https://medium.com/wordviceediting/the-history-and-big-business-of-academic-publishing-90a23bb7cc4c [Accessed 25th January 2021].
+
+
+バンクーバースタイル　書籍:
+[苗字] [名前のイニシャル]. [書籍題名]. [発行場所]: [発行社]; [出版年].
+
+[Last Name] [First Initial]. [Book Title]. [Publication Location]: [Publisher Name]; [Year Published].
+
+Diamond J. Guns, Germs, and Steel: The Fates of Human Societies. New York City: W.W. Norton; 1997.
+
+###入力文###
+
+1）次世代レーザプロセシングとその産業応用調査専門委員会：最新レーザプロセシングの基礎と産業応用，電気学会（2007）, 64-67.
+
+2）片山聖二，川人洋介：高速度ビデオ観察法およびX 線透視法による溶接現象の可視化，高温学会誌，33-3（2007）, 118-127.
+
+3）小野守章，海津享，大村雅紀，樺澤真事，森清和：亜鉛めっき鋼板のレーザ重ね溶接性，溶接学会論文集，15-3（1997）, 438-444.
+
+4）A. Das，I. Butterworth，I. Masters and D. Williams： Evaluation of Key Geometrical and Mechanical Properties for Remote Laser Welded AC-170PX Aluminum Joints，Journal of Laser Micro/Nano engineering，14-1（2019）, 1-7.
+
+5）渋江和久：（株）UACJ の高機能アルミニウム材料開発と将来展望，UACJ Technical Reports, Vol. 5,（2018）, 2-13.
+
+6）小西徳次郎：自動車車体の溶接・接合，溶接学会誌，74-8（2005）, 6-9.
+
+7）圓城敏男：アルミニウムおよびその合金の溶接，軽金属，33-8（1983）, 482-490.
+
+8）山岡弘人，結城正弘，土屋和之：Al-Mg-Si 系合金レーザ溶接部における凝固割れ防止に関する検討，溶接学会論文集，18-3（2000）, 422-430.
+
+9）片山聖二：アルミニウム合金のレーザ溶接，軽金属，62-2（2012）, 75-83.
+```
+
+
 ## 出力の形式を指定する
 ---
 
