@@ -241,3 +241,25 @@ FDとSDの違いと目的について教えてください
 ### 出力形式
 json
 ```
+
+<script>
+ window.difyChatbotConfig = {
+  token: '6jfuLWqu0wJCZdjH'
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="6jfuLWqu0wJCZdjH"
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #0BA272 !important;
+    width: 64px !important;  /* アイコンの幅を増やす */
+    height: 64px !important; /* アイコンの高さを増やす */
+  }
+  #dify-chatbot-bubble-button svg {
+    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
+    height: 32px !important;
+  }
+</style>

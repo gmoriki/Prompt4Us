@@ -108,154 +108,24 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 {{% /alert %}}
 
 
-
-<!-- <script>
-        // CSSとアイコンのリンクを追加する関数
-        function addStylesheet(href) {
-            let link = document.createElement('link');
-            link.href = href;
-            link.rel = 'stylesheet';
-            document.head.appendChild(link);
-        }
-
-        // トグルボタンを作成し、追加する関数
-        function createToggleButton() {
-            const toggleBtn = document.createElement('div');
-            toggleBtn.id = 'chatbot-toggle_button';
-            const anchor = document.createElement('a');
-            anchor.id = 'chat-button';
-            anchor.href = '#';
-            anchor.addEventListener('click', toggleChatbox);
-            const img = document.createElement('img');
-            img.src = 'https://firebasestorage.googleapis.com/v0/b/mabo-f1cc7.appspot.com/o/chaticon.png?alt=media&token=1777070f-a83c-403d-8c83-f387f68ecd52';
-            img.width = '100';
-            img.height = '100';
-            anchor.appendChild(img);
-            toggleBtn.appendChild(anchor);
-            document.body.appendChild(toggleBtn);
-        }
-
-        // チャットボックスのヘッダーを作成する関数
-        function createChatboxHeader() {
-            const header = document.createElement('div');
-            header.id = 'chatbot-header';
-            header.style.background = '#4169e1';
-            const logo = document.createElement('div');
-            logo.id = 'chatbot-logo';
-            logo.innerText = '「プロンプトガイドさん」にプロンプトを入力する';
-            // const closeIcon = document.createElement('i');
-            // closeIcon.id = 'chatbot-close-icon';
-            // closeIcon.className = 'material-icons material-symbols-outlined waves-light';
-            // closeIcon.innerText = 'close';
-            const closeIcon = document.createElement('img');
-            closeIcon.id = 'chatbot-close-icon';
-            closeIcon.src = 'images/imagetext.png'; // 閉じるアイコンの画像パスを指定
-            closeIcon.alt = 'Close';
-            closeIcon.addEventListener('click', toggleChatbox);
-            header.appendChild(logo);
-            header.appendChild(closeIcon);
-            return header;
-        }
-        #chatbot-close-icon {
-            width: 24px;
-            height: 24px;
-            cursor: pointer;
-        }
-
-        // チャットボックスを作成し、追加する関数
-        function createChatbox() {
-            const chatbox = document.createElement('div');
-            chatbox.id = 'chatbot';
-            chatbox.style.display = 'none';
-
-            const header = createChatboxHeader();
-            const body = document.createElement('div');
-            body.id = 'chatbot-body';
-            const iframe = document.createElement('iframe');
-            iframe.id = 'inline-frame';
-            iframe.width = '100%';
-            iframe.height = '100%';
-            iframe.dataSrc = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89%E3%81%95%E3%82%93';
-            iframe.scrolling = 'no';
-            iframe.frameBorder = 'no';
-            body.appendChild(iframe);
-            chatbox.appendChild(header);
-            chatbox.appendChild(body);
-            document.body.appendChild(chatbox);
-        }
-
-        // チャットボックスの表示/非表示を切り替える関数
-        function toggleChatbox(utterance, ...states) {
-            var chatbox = document.getElementById('chatbot');
-            var iframe = document.getElementById('inline-frame');
-
-            // ここでイベントオブジェクトではなく、文字列または未定義の値が渡されることを確認します。
-            if (typeof utterance !== 'string') {
-                utterance = null;
-            }
-
-            if (chatbox.style.display === 'none' || utterance) {
-                chatbox.style.display = 'block';
-                var src = 'https://miibo.jp/chat/61063623-1709-4167-b956-c6202d60d56718edb5cabb015?name=%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89%E3%81%95%E3%82%93';
-                // 可変引数からクエリパラメータを生成
-                states.forEach(state => {
-                    if (state.key && state.value) {
-                        src += `${encodeURIComponent(state.key)}=${encodeURIComponent(state.value)}`;
-                    }
-                });
-
-                // 以下の条件を追加して、再読み込みの必要性をチェック
-                if (!iframeLoaded || (utterance && lastUtterance !== utterance)) {
-                    if (utterance) {
-                        src += "&utterance=" + encodeURIComponent(utterance);
-                    }
-                    iframe.src = src;
-                    iframeLoaded = true;
-                    lastUtterance = utterance;
-                }
-            } else {
-                chatbox.style.display = 'none';
-            }
-        }
-        // イベントリスナーを設定する関数
-        function setupEventListeners() {
-            document.querySelectorAll('.chatButton').forEach(button => {
-                button.addEventListener('click', event => {
-                    event.preventDefault();
-                    const utterance = button.getAttribute('data-utterance');
-                    const statesData = button.getAttribute('data-states');
-                    let states = [];
-                    try {
-                        // JSON 形式の文字列をオブジェクトに変換
-                        const statesObj = JSON.parse(statesData);
-                        // オブジェクトから key-value ペアの配列を生成
-                        states = Object.keys(statesObj).map(key => ({ key, value: statesObj[key] }));
-                    } catch (e) {
-                        console.error("Error parsing states data", e);
-                    }
-
-                    toggleChatbox(utterance, ...states);
-                });
-            });
-
-            // ここでイベントオブジェクトを直接渡さないようにします。
-            document.getElementById('chat-toggle').addEventListener('click', event => {
-                event.preventDefault();
-                toggleChatbox();
-            });
-
-            document.getElementById('chatbot-close-icon').addEventListener('click', () => {
-                toggleChatbox();
-            });
-        }
-
-        // メイン実行部
-        addStylesheet('https://fonts.googleapis.com/icon?family=Material+Icons');
-        addStylesheet('https://miibo.jp/chat3.css');
-        createToggleButton();
-        createChatbox();
-        setupEventListeners();
-
-        var iframeLoaded = false; // iframeがロードされたかどうかを追跡するフラグ
-        var lastUtterance = ""; // 最後に発話した内容を追跡するフラグ
-    </script> -->
+<script>
+ window.difyChatbotConfig = {
+  token: '6jfuLWqu0wJCZdjH'
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="6jfuLWqu0wJCZdjH"
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #0BA272 !important;
+    width: 64px !important;  /* アイコンの幅を増やす */
+    height: 64px !important; /* アイコンの高さを増やす */
+  }
+  #dify-chatbot-bubble-button svg {
+    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
+    height: 32px !important;
+  }
+</style>

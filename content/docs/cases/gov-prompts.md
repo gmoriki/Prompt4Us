@@ -430,3 +430,25 @@ Excelの列の内容:
 3. Userが回答を入力した場合、答え合わせを行ってください。
 4. 2~4までを4回繰り返し、計4問出題を行ってください。
 ```
+
+<script>
+ window.difyChatbotConfig = {
+  token: '6jfuLWqu0wJCZdjH'
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="6jfuLWqu0wJCZdjH"
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #0BA272 !important;
+    width: 64px !important;  /* アイコンの幅を増やす */
+    height: 64px !important; /* アイコンの高さを増やす */
+  }
+  #dify-chatbot-bubble-button svg {
+    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
+    height: 32px !important;
+  }
+</style>
