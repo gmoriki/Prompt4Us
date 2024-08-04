@@ -12,7 +12,7 @@ toc: true
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI |
 |----------|--------------|
-| 2024/02/03 | ChatGPT |
+| 2024/08/05 | ChatGPT |
 {{< /table >}}
 
 
