@@ -253,3 +253,25 @@ SDGs目標13「気候変動に具体的な対策を」をテーマにした質�
 
 ルーブリックは、大学教育の質保証や学習者中心の教育を実現するための重要なツールとして注目されています。適切に活用することで、学生の学びの質を高め、教育活動の改善にもつながる可能性があります。
 ```
+
+<script>
+ window.difyChatbotConfig = {
+  token: '6jfuLWqu0wJCZdjH'
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="6jfuLWqu0wJCZdjH"
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #0BA272 !important;
+    width: 64px !important;  /* アイコンの幅を増やす */
+    height: 64px !important; /* アイコンの高さを増やす */
+  }
+  #dify-chatbot-bubble-button svg {
+    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
+    height: 32px !important;
+  }
+</style>
