@@ -40,6 +40,8 @@ toc: true
 ### AIプロダクト
 ---
 
+[利用規約](https://promptforus.com/docs/termsofservice/)もご覧ください。
+
 <iframe
  src="https://udify.app/chatbot/rBWsXhxcIme1A2FE"
  style="width: 100%; height: 100%; min-height: 500px"
