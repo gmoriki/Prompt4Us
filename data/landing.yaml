@@ -18,7 +18,7 @@ hero:
 
   title: P4Us🌱
   # title: Prompt Guide for University staff📗
-  subtitle: Here is **`Prompt Guide for University staff;P4Us`**,a document platform for university administrative staff to use **Generative AI**. <br> ※ テスト運用中です
+  subtitle: Here is **`Prompt Guide for University staff;P4Us`**,a document platform for university administrative staff to use **Generative AI**.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
