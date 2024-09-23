@@ -5,7 +5,7 @@ description: "大学業務における生成AI活用（初級編）"
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
-draft: true
+draft: false
 toc: true
 ---
 
