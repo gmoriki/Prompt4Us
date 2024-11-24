@@ -1,5 +1,5 @@
 ---
-weight: 81
+weight: 83
 title: "大学業務に今日から使える生成AI入門"
 description: "学校広報ソーシャルメディア活用勉強会"
 icon: "article"
