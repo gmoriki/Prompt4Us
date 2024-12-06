@@ -58,6 +58,46 @@ toc: true
 ```
 
 ```markdown
+以下の要件に従って、Excel VBAのコードを作成してください。
+
+### 入力情報 ###
+処理対象シート名：Sheet1
+
+処理対象範囲：
+- 入力：A列（2行目から最終行まで）
+- 出力：B列（入力行に対応）
+
+必要な機能：
+- 基本機能：
+  * 氏名から敬称（様、殿、さん等）を削除
+  * 前後の空白を削除
+  * 全角・半角の統一
+  * 削除した敬称は別シートに記録
+
+### 要件 ###
+* エラーハンドリングを適切に実装する
+* パフォーマンスを考慮した実装を行う
+* コードの可読性を重視する
+* 再利用性の高い設計にする
+* 必要に応じてログ機能を実装する
+
+### 出力形式 ###
+以下の構造でコードと説明を提供します：
+1. コードの概要（処理内容の説明）
+2. 主要な変数・定数の説明
+3. VBAコード
+  - エラー処理
+  - メイン処理
+  - サブルーチン
+4. 使用方法と注意点
+
+### 補足 ###
+* 特殊なケースの処理方法を記載
+* パフォーマンスに関する注意点を説明
+* 既知の制限事項がある場合は明記
+```
+
+```markdown
 jsondata=[{'metricType': 'AcademicCorporateCollaboration',  'values': [{'collabType': 'Academic-corporate collaboration',    'value': 1,    'percentage': 5},   {'collabType': 'No academic-corporate collaboration',    'value': 18,    'percentage': 94.73685}]}, {'metricType': 'AcademicCorporateCollaborationImpact',  'values': [{'collabType': 'Academic-corporate collaboration', 'value': 0.0},   {'collabType': 'No academic-corporate collaboration', 'value': 6.5}]}, {'metricType': 'Collaboration',  'values': [{'collabType': 'International collaboration', 'value': 0.0},   {'collabType': 'National collaboration', 'value': 0.9}]}, {'metricType': 'CitationCount', 'value': 117}, {'metricType': 'CitationsPerPublication', 'value': 9}, {'metricType': 'CollaborationImpact',  'values': [{'collabType': 'Institutional collaboration', 'value': 3.0},   {'collabType': 'International collaboration', 'value': 7.4},   {'collabType': 'National collaboration', 'value': 9.7},   {'collabType': 'Single authorship', 'value': 0.0}]}, {'metricType': 'CitedPublications', 'value': 14, 'percentage': 56}, {'metricType': 'FieldWeightedCitationImpact', 'value': 0.62636673}, {'metricType': 'HIndices', 'value': 15.0, 'indexType': 'h-index'}, {'metricType': 'ScholarlyOutput', 'value': 30}, {'metricType': 'PublicationsInTopJournalPercentiles',  'impactType': 'CiteScore',  'values': [{'threshold': 1, 'value': 0, 'percentage': 0.0},   {'threshold': 5, 'value': 1, 'percentage': 5.263158},   {'threshold': 10, 'value': 3, 'percentage': 15.789473},   {'threshold': 25, 'value': 10, 'percentage': 52.63158}]}, {'metricType': 'OutputsInTopCitationPercentiles',  'values': [{'threshold': 1, 'value': 0, 'percentage': 0.0},   {'threshold': 5, 'value': 0, 'percentage': 0.0},   {'threshold': 10, 'value': 0, 'percentage': 0.0},   {'threshold': 25, 'value': 4, 'percentage': 21.4}]}]
  
  
