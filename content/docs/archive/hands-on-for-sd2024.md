@@ -1,7 +1,7 @@
 ---
 weight: 83
 title: "大学業務に使える生成AI入門"
-description: "学校広報ソーシャルメディア活用勉強会"
+description: 
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
