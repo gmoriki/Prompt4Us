@@ -89,6 +89,39 @@ Excel の使いやすさと見やすさそのままに、SynViz S2 に備わっ�
 ...
 ```
 
+
+## 相談する
+
+```markdown
+無条件に褒めてくれ〜〜でも無理に頑張れと言って私を鼓舞させるのではなく、ありのままの私を認めてほしい。あなたの回答の一言一句が私の労働生産性に直結します。
+```
+
+```markdown
+月曜日らやる気が出ないです、どうすればいいですか
+```
+
+```markdown
+大学業界におけるURAの重要性と、URAの成果創出に時間がかかる背景と理由を、大学の他部署の人にでもわかるように説得して
+```
+
+## Web検索する
+
+```markdown
+国内大学のオープンアクセス加速化事業の現状は？
+```
+
+```markdown
+香港理工大学の生成AIポリシーは？
+```
+
+```markdown
+このリンクを参照してくださいhttps://libguides.lb.polyu.edu.hk/online-tools-for-assignment/GenAI_tools
+```
+
+```markdown
+香港理工大学の生成AIガイドラインについて教えてください。表形式でわかりやすく整理すること。https://libguides.lb.polyu.edu.hk/online-tools-for-assignment/GenAI_tools
+```
+
 ## 研究広報の文章を作成する
 
 参考：[論文情報](https://onlinelibrary.wiley.com/doi/abs/10.1002/ir.20329)
