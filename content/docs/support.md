@@ -4,7 +4,7 @@ title: "FAQ"
 description: "お問い合わせ・ご相談はお気軽にどうぞ"
 icon: "Contact_Support"
 date: "2024-01-20T05:57:52+09:00"
-lastmod: "2024-01-20T05:57:52+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -38,7 +38,7 @@ Prompt Guide for University staffの略称。大学職員のためのプロン�
 
 ##### Q. 中身スカスカやんけ！  
 {{% alert icon="" context="light" %}}
-ごめんなさい。個人で運用しているので、ちまちま更新します。しばらくはβ版のつもりでご利用ください。
+ごめんなさい。個人で運用しているので、ちまちま更新しています。2024年の公開以降、継続的に内容を拡充中です。
 {{% /alert %}}
 
 ##### Q. ここがおかしい/ここが間違っている  
@@ -55,6 +55,12 @@ Prompt Guide for University staffの略称。大学職員のためのプロン�
 {{% alert icon="" context="light" %}}
 大歓迎です。お気軽にお問い合わせください。  
 ただし「まだ定量データが無いので私の感想ですが...」や「まず使ってみましょう」と言ってしまいがちです。
+{{% /alert %}}
+
+##### Q. P4Us以外にも活用できる情報はある？
+{{% alert icon="" context="light" %}}
+P4Usはプロンプト学習のための教材サイトです。最新のAI活用情報やツール紹介は [うえきばちポータル🪴](https://gmoriki.notion.site/uekibachi) をご覧ください。
+また運営者の [note](https://note.com/pogohopper8) でも生成AIに関する記事を公開しています。
 {{% /alert %}}
 
 ##### Q. Webサイトの運営者について知りたい  

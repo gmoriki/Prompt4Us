@@ -4,7 +4,7 @@ title: "学習済みモデルの概要"
 description: "生成AIの中身をざっくり知る"
 icon: "Tenancy"
 date: "2024-01-22T20:50:17+09:00"
-lastmod: "2024-01-22T20:50:17+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -14,7 +14,7 @@ toc: true
 {{< alert context="warning" text="分かりやすさを重視し、詳細を省略しています" />}}
 
 生成AIサービスでは事前に収集したデータを学習(訓練)する過程を経て作成した学習済みモデルが使用しています。  
-例えばChatGPTにはGPTが、GeminiにはGemini Pro/Ultraが使用されています。  
+例えばChatGPTにはGPTシリーズが、GeminiにはGeminiシリーズのモデルが使用されています。  
 それはどのように作成(学習)され、生成AIサービスとして使われているのでしょうか。  
 
 

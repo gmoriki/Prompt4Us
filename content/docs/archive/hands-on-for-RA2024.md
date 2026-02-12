@@ -27,7 +27,7 @@ toc: true
 {{< table "table-striped" >}}
 | 名称                                              | 説明                                                      |
 |---------------------------------------------------|-----------------------------------------------------------|
-| [ChatGPT](https://chat.openai.com/)               | OpenAI社が開発・提供する対話型生成AIサービス              |
+| [ChatGPT](https://chatgpt.com/)               | OpenAI社が開発・提供する対話型生成AIサービス              |
 | [Gemini](https://gemini.google.com/chat)              | Google社が開発・提供する対話型生成AIサービス              |
 | [Claude](https://claude.ai/)                      | Anthropic社が開発・提供する対話型生成AIサービス           |
 | [Perplexity](https://www.perplexity.ai/)          | Perplexity AI社が開発・提供する対話型生成AIサービス      |

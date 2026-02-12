@@ -4,7 +4,7 @@ title: "リンク集"
 description: "生成AIに関するWebページ/書籍を見てみる"
 icon: "link"
 date: "2024-01-17T13:47:20+09:00"
-lastmod: "2024-01-17T13:47:20+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -22,7 +22,7 @@ toc: true
 {{< table "table-striped" >}}
 | 名称                                              | 説明                                                      |
 |---------------------------------------------------|-----------------------------------------------------------|
-| [ChatGPT](https://chat.openai.com/)               | OpenAI社が開発・提供する対話型生成AIサービス              |
+| [ChatGPT](https://chatgpt.com/)               | OpenAI社が開発・提供する対話型生成AIサービス              |
 | [Gemini](https://gemini.google.com/chat)              | Google社が開発・提供する対話型生成AIサービス              |
 | [Claude](https://claude.ai/)                      | Anthropic社が開発・提供する対話型生成AIサービス           |
 | [Copilot](https://copilot.microsoft.com/)         | Microsoft社が開発・提供する対話型生成AIサービス          |
@@ -68,6 +68,7 @@ toc: true
 | [大学業務における生成AI利用の体系](https://speakerdeck.com/gmoriki/da-xue-ye-wu-niokerusheng-cheng-aili-yong-noti-xi) | 大学業務において生成AIを利用・整備するために必要な知識まとめ(入門の短縮版)  [Youtube](https://www.youtube.com/watch?v=KY7jowFG57o&t=963s)に公開されています|
 | [大学職員が参考にできるかもしれないChatGPT使用事例](https://note.com/codemp/n/n559a45977bb5)    | 大学職員によるChatGPT使用事例の紹介                               |
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
+| [うえきばちポータル🪴](https://gmoriki.notion.site/uekibachi) | 大学職員のためのAI活用ポータルサイト |
 {{< /table >}}
 
 ### - 大学教育×生成AI

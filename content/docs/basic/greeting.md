@@ -31,7 +31,7 @@ Web検索機能が無いシンプルなChatGPT(GPT-3.5,無料版)を使用して
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 共有URL |
 |----------|--------------|---------|
-| 2024/1/20 | ChatGPT (GPT-3.5) |https://chat.openai.com/share/3c0de797-52f1-4cf7-8f15-9ffda21944aa|
+| 2024/1/20 | ChatGPT (GPT-3.5) |https://chatgpt.com/share/3c0de797-52f1-4cf7-8f15-9ffda21944aa|
 {{< /table >}}
 
 <br>
