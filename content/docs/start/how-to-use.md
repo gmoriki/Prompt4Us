@@ -4,7 +4,7 @@ title: "P4Usの使い方"
 description: "取扱説明書を読む"
 icon: "Temp_Preferences_Eco"
 date: "2024-01-30T14:12:11+09:00"
-lastmod: "2024-01-30T14:12:11+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -44,6 +44,20 @@ toc: true
   </a>
 </div>
 
+<div id="list-item" class="col-md-4 col-12 py-2">
+  <a class="text-decoration-none text-reset" href="../../essence/ai-partnership/">
+  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+      <span class="h1 icon-color">
+        <i class="material-icons align-middle">Handshake</i>
+      </span>
+      <div class="card-body p-0 content">
+        <p class="fs-5 fw-semibold card-title mb-1">AIとの付き合い方</p>
+        <p class="para card-text mb-0">AIを「相棒」として使いこなす実践的な考え方</p>
+      </div>
+    </div>
+  </a>
+</div>
+
 </div>
 {{% /alert %}}
 
@@ -75,7 +89,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
 - **まずは一つ一つのプロンプトの意味や目的が分かるように、できる限りていねいな説明を重視しています**
 - **上級者向けのプロンプトや複雑すぎるプロンプトは掲載していません**
 
-{{< alert icon="" context="warning" text="プロンプト事例集や応用編は現在作成中です。ページが空でもお許しください。" />}}
+{{< alert icon="" context="info" text="プロンプト事例集や応用編は随時更新しています。" />}}
 
 
 ### - 生成AIとの付き合い方を知る

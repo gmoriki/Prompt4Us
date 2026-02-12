@@ -9,10 +9,12 @@ draft: false
 toc: true
 ---
 
+仮説やアイデアを生成AIに投げて、批判的・建設的に整理してもらうためのプロンプト集です。
+
 {{< table "table-responsive" >}}
-| 日時 | 使用した生成AI | 
+| 日時 | 使用した生成AI |
 |----------|--------------|
-| 2024/7/7 | ChatGPT(GPT-3.5),<br>Claude(3.5 Sonnet),<br>Copilot(GPT-4) |
+| 2024/7/7 | ChatGPT,<br>Claude,<br>Copilot |
 {{< /table >}}
 
 ## 仮説を形成する
@@ -84,24 +86,3 @@ Ensure that each iteration builds upon the previous one, gradually refining and 
 生成AIに対する注意喚起を出した大学一覧をgoogle spreadシートにまとめて公開しています。これをDBで管理・公表したほうがいいインセンティブはある？
 ```
 
-<script>
- window.difyChatbotConfig = {
-  token: '6jfuLWqu0wJCZdjH'
- }
-</script>
-<script
- src="https://udify.app/embed.min.js"
- id="6jfuLWqu0wJCZdjH"
- defer>
-</script>
-<style>
-  #dify-chatbot-bubble-button {
-    background-color: #0BA272 !important;
-    width: 64px !important;  /* アイコンの幅を増やす */
-    height: 64px !important; /* アイコンの高さを増やす */
-  }
-  #dify-chatbot-bubble-button svg {
-    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
-    height: 32px !important;
-  }
-</style>

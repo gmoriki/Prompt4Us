@@ -4,7 +4,7 @@ title: "文書を作成する"
 description: "メール・告知・企画書"
 icon: "article"
 date: "2024-01-21T19:40:05+09:00"
-lastmod: "2024-01-21T19:40:05+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -13,7 +13,7 @@ toc: true
 {{< table "table-responsive" >}}
 | 日時 | 使用した生成AI | 
 |----------|--------------|
-| 2024/7/7 | ChatGPT(GPT-3.5),<br>Claude(3.5 Sonnet),<br>Copilot(GPT-4) |
+| 2024/7/7 | ChatGPT,<br>Claude,<br>Copilot |
 {{< /table >}}
 
 ## 告知・通知文の作成
@@ -350,14 +350,14 @@ Write your complete handover document inside <handover_document> tags.
 ## 文章を校正する
 ---
 
-開発途中です。
-「Text」以降に入力してください。
+日本語の文章を生成AIに校正してもらうプロンプトです。
+英語でルールを記述しているのは、日本語の文法規則を生成AIに正確に伝えるためです。以下のプロンプトをコピーし、末尾の「Text」以降に校正したい文章を入力してください。
 
 ```markdown
-Your task is to review and refine a Japanese article, focusing on correcting and improving the use of conjunctions and adverbs. 
+Your task is to review and refine a Japanese article, focusing on correcting and improving the use of conjunctions and adverbs.
 
-#### Rules 
-Ensure that your corrections and suggestions are accurate and natural-sounding in Japanese. Check for grammatical errors, inconsistencies, and unclear expressions. Provide clear and concise feedback, highlighting specific areas of improvement and suggesting alternative phrases or sentences where necessary. You MUST prioritize clarity and coherence in your revisions. 
+#### Rules
+Ensure that your corrections and suggestions are accurate and natural-sounding in Japanese. Check for grammatical errors, inconsistencies, and unclear expressions. Provide clear and concise feedback, highlighting specific areas of improvement and suggesting alternative phrases or sentences where necessary. You MUST prioritize clarity and coherence in your revisions.
 
 ### Advanced Rules
 the four principles for determining the order of modifiers of Japanese:
@@ -372,6 +372,18 @@ the principles for using commas (、) in Japanese:
 ### Text
 ```
 
+このプロンプトに含まれるAdvanced Rulesは、日本語の文章を読みやすくするための基本原則です。
+
+**修飾語の語順4原則**（長い修飾語ほど前に、短い修飾語ほど後に配置する等のルール）:
+1. 句よりも節を前に置く
+2. 長い修飾語を前に、短い修飾語を後に置く
+3. より広い文脈や重要な情報を前に置く
+4. 内容との親和性（なじみやすさ）に応じて並べ替える
+
+**読点の原則**（読みやすさのために読点「、」を打つ位置のルール）:
+1. 長い修飾語が2つ以上あるとき、その境界に読点を打つ
+2. 語順が通常と逆になっているとき、読点を打つ
+
 
 ## AIとの対話を文書化する
 ---
@@ -384,25 +396,3 @@ the principles for using commas (、) in Japanese:
 * 見出しを3つつけて、キーワードを太字で示す
 * 議論の結果として得られた内容を簡潔に説明
 ```
-
-<script>
- window.difyChatbotConfig = {
-  token: '6jfuLWqu0wJCZdjH'
- }
-</script>
-<script
- src="https://udify.app/embed.min.js"
- id="6jfuLWqu0wJCZdjH"
- defer>
-</script>
-<style>
-  #dify-chatbot-bubble-button {
-    background-color: #0BA272 !important;
-    width: 64px !important;  /* アイコンの幅を増やす */
-    height: 64px !important; /* アイコンの高さを増やす */
-  }
-  #dify-chatbot-bubble-button svg {
-    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
-    height: 32px !important;
-  }
-</style>

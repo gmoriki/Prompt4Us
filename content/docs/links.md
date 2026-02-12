@@ -69,6 +69,7 @@ toc: true
 | [大学職員が参考にできるかもしれないChatGPT使用事例](https://note.com/codemp/n/n559a45977bb5)    | 大学職員によるChatGPT使用事例の紹介                               |
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
 | [うえきばちポータル🪴](https://gmoriki.notion.site/uekibachi) | 大学職員のためのAI活用ポータルサイト |
+| [あとから効いてくるAIとの付き合い方](https://note.com/pogohopper8/n/n6616108810c6) | AIを「相棒」として活用するための実践的な考え方の紹介 |
 {{< /table >}}
 
 ### - 大学教育×生成AI
@@ -78,7 +79,7 @@ toc: true
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [大阪大学教育学習支援部 生成AI教育ガイド](https://www.tlsc.osaka-u.ac.jp/project/generative_ai/) | 生成AIを授業で扱うために必要なコンテンツが充実したWebサイト                                     |
 | [ChatGPT・AI の教育関連情報まとめ](https://edulab.t.u-tokyo.ac.jp/chatgpt-ai-resources/)      | 吉田塁先生が2023年3月より公開されているChatGPT関係情報まとめ                                   |
-| [文科省 初等中等教育段階における生成AIの利用に関する暫定的なガイドライン](https://www.mext.go.jp/content/20230710-mxt_shuukyo02-000030823_003.pdf) | 文科省公表                                                                                   |
+| [文科省 初等中等教育段階における生成AIの利用に関する暫定的なガイドライン](https://www.mext.go.jp/content/20230718-mtx_syoto02-000031167_011.pdf) | 文科省公表                                                                                   |
 | [文科省 大学・高専における生成AIの教学面の取扱いについて](https://www.mext.go.jp/b_menu/houdou/2023/mext_01260.html) | 文科省公表                                                                                   |
 | [文科省 情報モラル教育ポータルサイト](https://www.mext.go.jp/zyoukatsu/moral/index.html)     | 生成AI含む「情報活用能力」のためのWebサイト                                                   |
 | [生成AI利用の本質的理解ー大学の授業のためにー](https://speakerdeck.com/gmoriki/sheng-cheng-aili-yong-noben-zhi-de-li-jie-da-xue-noshou-ye-notameni) | 愛媛大学FD資料。[Youtube](https://www.youtube.com/watch?v=KvixMy08y68)に公開されています |
@@ -108,7 +109,7 @@ toc: true
 
 | 書籍名                                                                                      | 著者名      | 出版年月日   | 備考                                                         |
 |-------------------------------------------------------------------------------------------|-----------|------------|------------------------------------------------------------|
-| [ChatGPT翻訳術　新AI時代の超英語スキルブック](https://www.alc.co.jp/entry/7023020) | 山田 優 | 2023/09/08 | 翻訳におけるChatGPT利用のノウハウが網羅されている良書   |
+| [ChatGPT翻訳術　新AI時代の超英語スキルブック](https://book.alc.co.jp/book/b10038198.html) | 山田 優 | 2023/09/08 | 翻訳におけるChatGPT利用のノウハウが網羅されている良書   |
 | [ChatGPT最強の仕事術](https://www.forestpub.co.jp/author/ikeda_tomohiro/book/B-2094)             | 池田 朋弘 | 2023/08/09 | ハンズオンかつ入門書の中でも、各具体例に対するChatGPTの価値が整理されている良書   |
 {{< /table >}}
 

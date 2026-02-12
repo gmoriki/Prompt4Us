@@ -15,7 +15,7 @@ toc: true
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI | 
 |----------|--------------|
-| 2024/1/20 | ChatGPT(GPT-3.5) |
+| 2024/1/20 | ChatGPT |
 {{< /table >}}
 
 <br>
