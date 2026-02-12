@@ -4,15 +4,18 @@ title: "情報を収集する"
 description: "情報収集・検索"
 icon: "article"
 date: "2024-01-30T15:39:50+09:00"
-lastmod: "2024-01-30T15:39:50+09:00"
+lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
 ---
 
+Web検索機能を持つ生成AIでは、検索クエリの言語や検索先を指定することで、情報収集の精度を上げることができます。
+ここでは、回答スタイルの指定、特定サイトからの情報取得、英語クエリの活用といったテクニックを紹介します。
+
 {{< table "table-responsive" >}}
-| 日時 | 使用した生成AI | 
+| 日時 | 使用した生成AI |
 |----------|--------------|
-| 2024/7/7 | <br>Copilot(GPT-4) |
+| 2024/7/7 | Copilot |
 {{< /table >}}
 
 {{< alert context="info" text="Copilot等のWeb検索が可能なAIを使用してください" />}}
@@ -60,7 +63,7 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ```
 <br>
 
-![英語でクエリを作成](images/query-based-search.png)
+<!-- 画像は準備中です -->
 
 <br>
 
@@ -108,24 +111,3 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 {{% /alert %}}
 
 
-<script>
- window.difyChatbotConfig = {
-  token: '6jfuLWqu0wJCZdjH'
- }
-</script>
-<script
- src="https://udify.app/embed.min.js"
- id="6jfuLWqu0wJCZdjH"
- defer>
-</script>
-<style>
-  #dify-chatbot-bubble-button {
-    background-color: #0BA272 !important;
-    width: 64px !important;  /* アイコンの幅を増やす */
-    height: 64px !important; /* アイコンの高さを増やす */
-  }
-  #dify-chatbot-bubble-button svg {
-    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
-    height: 32px !important;
-  }
-</style>

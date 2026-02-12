@@ -12,7 +12,7 @@ toc: true
 {{< table "table-responsive" >}}
 | 日時 | 使用した生成AI | 
 |----------|--------------|
-| 2024/7/7 | ChatGPT(GPT-3.5),<br>Claude(3.5 Sonnet),<br>Copilot(GPT-4) |
+| 2024/7/7 | ChatGPT,<br>Claude,<br>Copilot |
 {{< /table >}}
 
 
@@ -167,24 +167,3 @@ Fewshotで論点を整理した上で、ブログタイトルを考案するプ�
 大学における教育と研究の関係について
 ```
 
-<script>
- window.difyChatbotConfig = {
-  token: '6jfuLWqu0wJCZdjH'
- }
-</script>
-<script
- src="https://udify.app/embed.min.js"
- id="6jfuLWqu0wJCZdjH"
- defer>
-</script>
-<style>
-  #dify-chatbot-bubble-button {
-    background-color: #0BA272 !important;
-    width: 64px !important;  /* アイコンの幅を増やす */
-    height: 64px !important; /* アイコンの高さを増やす */
-  }
-  #dify-chatbot-bubble-button svg {
-    width: 32px !important;  /* SVGアイコン自体のサイズも大きくする */
-    height: 32px !important;
-  }
-</style>

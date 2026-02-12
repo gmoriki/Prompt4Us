@@ -18,7 +18,7 @@ toc: true
 {{< table "table-responsive" >}}
 | 日時 | このページで参考にした情報 |
 |----------|--------------|
-| 2026/2/12 | note記事「[あとから効いてくるAIとの付き合い方](https://note.com/pogohopper8/n/n89f61e70ebb0)」(2026/01/12) |
+| 2026/2/12 | note記事「[あとから効いてくるAIとの付き合い方](https://note.com/pogohopper8/n/n6616108810c6)」(2026/01/12) |
 {{< /table >}}
 
 
