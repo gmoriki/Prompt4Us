@@ -291,7 +291,7 @@ P4Usが想定する生成AIはこのように**利用者が入力したプロン
 P4Usはプロンプトを提供しますが利用者の生成AIの利用環境までは準備できません。  
 以下は代表的な生成AIの一例です。無料で使える生成AIも多いので、まずはアカウントを作成しておきましょう。  
 
-* [ChatGPT](https://chat.openai.com/ "ChatGPT") 
+* [ChatGPT](https://chatgpt.com/ "ChatGPT") 
   * OpenAIが開発・提供する生成AI
 * [Copilot](https://copilot.microsoft.com/ "Copilot")
   * Microsoftが開発・提供する生成AI / OpenAIが開発したAIを利用

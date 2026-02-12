@@ -23,6 +23,6 @@ toc: true
   - IT人材は中級スタートで十分、あたりのボーダーを設けたい
   - 潜在的な初級は相当いるはず
 - 利用シーン洗い出しのプロンプト
-  - https://chat.openai.com/share/138c3da3-f73b-4df2-808c-f680ad7d5a4e
+  - https://chatgpt.com/share/138c3da3-f73b-4df2-808c-f680ad7d5a4e
 - サービス間の比較は多分やらない
   

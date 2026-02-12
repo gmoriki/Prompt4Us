@@ -85,7 +85,7 @@ Excelはオフィス業務で幅広く使用される表計算ソフトであり
 
 その中でも**メジャーな対話型文章生成AIサービス**を4つ、ざっくり紹介します。
 
-* [ChatGPT](https://chat.openai.com/ "ChatGPT")
+* [ChatGPT](https://chatgpt.com/ "ChatGPT")
   * OpenAIが開発・提供する生成AI
   * 王道
 * [Copilot](https://copilot.microsoft.com/ "Copilot")
