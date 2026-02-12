@@ -4,7 +4,7 @@ title: "P4Usの使い方"
 description: "取扱説明書を読む"
 icon: "Temp_Preferences_Eco"
 date: "2024-01-30T14:12:11+09:00"
-lastmod: "2026-02-12T00:00:00+09:00"
+lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -17,28 +17,14 @@ toc: true
 <div class="row flex-xl-wrap pb-4">
 
 <div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../../archive/was2023/">
+  <a class="text-decoration-none text-reset" href="../ai-start-pack/">
   <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
       <span class="h1 icon-color">
-        <i class="material-icons align-middle">Emoji_Objects</i>
+        <i class="material-icons align-middle">Rocket_Launch</i>
       </span>
       <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">講演(WAS2023)</p>
-        <p class="para card-text mb-0">大学業務における生成AI利用の体系</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div id="list-item" class="col-md-4 col-12 py-2">
-  <a class="text-decoration-none text-reset" href="../../basic/greeting/">
-  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
-      <span class="h1 icon-color">
-        <i class="material-icons align-middle">Waving_Hand</i>
-      </span>
-      <div class="card-body p-0 content">
-        <p class="fs-5 fw-semibold card-title mb-1">まずは簡単なあいさつ</p>
-        <p class="para card-text mb-0">生成AIにプロンプトを入力してみよう</p>
+        <p class="fs-5 fw-semibold card-title mb-1">AIスタートパック</p>
+        <p class="para card-text mb-0">生成AI 最初の一歩を踏み出す</p>
       </div>
     </div>
   </a>
@@ -53,6 +39,20 @@ toc: true
       <div class="card-body p-0 content">
         <p class="fs-5 fw-semibold card-title mb-1">AIとの付き合い方</p>
         <p class="para card-text mb-0">AIを「相棒」として使いこなす実践的な考え方</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div id="list-item" class="col-md-4 col-12 py-2">
+  <a class="text-decoration-none text-reset" href="../../essence/prompt-landscape/">
+  <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+      <span class="h1 icon-color">
+        <i class="material-icons align-middle">Explore</i>
+      </span>
+      <div class="card-body p-0 content">
+        <p class="fs-5 fw-semibold card-title mb-1">プロンプトの現在地</p>
+        <p class="para card-text mb-0">プロンプトの役割はどう変わりつつあるのか</p>
       </div>
     </div>
   </a>
@@ -97,7 +97,10 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
 
 {{< alert icon="👇" context="info" text="緑色太字は別ページに飛ぶリンクです🔗" />}}
 
-❓ 生成AIを全く使ったことが無く、プロンプトの書き方が分からない  
+❓ 生成AIを全く使ったことが無く、何から始めればいいか分からない
+🔜 [AIスタートパック]({{% relref "/docs/start/ai-start-pack.md" %}})
+
+❓ 生成AIを全く使ったことが無く、プロンプトの書き方が分からない
 🔜 [まずは簡単なあいさつ]({{% relref "/docs/basic/greeting.md" %}}) 
 
 ❓ 生成AIを使うときの注意事項を知りたい  
@@ -122,8 +125,8 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
 ❌ AI研究の知見や最新動向を理解する  
 ⭕ <strong>生成AI利用の最低限の姿勢・リテラシーを身に付ける  </strong>
 
-❌ プロンプトエンジニアリングの最新動向を理解する  
-⭕ <strong>それなりに良いプロンプトの在り方を理解する  </strong>
+❌ プロンプトエンジニアリングの最新動向を理解する
+⭕ <strong>生成AIとの付き合い方の「型」を身に付ける  </strong>
 
 
 ## 🔭 プロンプトガイドの構成
