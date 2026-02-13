@@ -22,7 +22,7 @@ toc: true
 ## ルーブリックを作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 教員がレポート課題の評価基準を明確化し、学生に事前提示するためのルーブリックを作成する" />}}
+{{< alert context="info" text="**対象: 大学教員**<br>**想定シーン**: 教員がレポート課題の評価基準を明確化し、学生に事前提示するためのルーブリックを作成する" />}}
 
 {{< alert context="warning" text="引用元: [UNSW AI Rubric Design Tips](https://www.education.unsw.edu.au/news-events/events/ai-rubric-design-tips) / [Wharton GAIL Prompt Library](https://gail.wharton.upenn.edu/prompt-library/) を参考に作成" />}}
 
@@ -67,7 +67,7 @@ toc: true
 ## 授業評価アンケートを分析する
 ---
 
-{{< alert context="info" text="**想定シーン**: IR担当職員が、授業評価アンケートの自由記述欄を分類・分析し、改善提案を行う" />}}
+{{< alert context="info" text="**対象: IR担当者**<br>**想定シーン**: IR担当職員が、授業評価アンケートの自由記述欄を分類・分析し、改善提案を行う" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -129,7 +129,7 @@ toc: true
 ## レポートへのフィードバックコメントを作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 教員が学生のレポートに対して、学びの促進につながる建設的なフィードバックを作成する" />}}
+{{< alert context="info" text="**対象: 大学教員**<br>**想定シーン**: 教員が学生のレポートに対して、学びの促進につながる建設的なフィードバックを作成する" />}}
 
 {{< alert context="warning" text="引用元: [Maastricht University AI Prompt Library](https://library.maastrichtuniversity.nl/apps-tools/ai-prompt-library/) を参考に作成" />}}
 
@@ -177,7 +177,7 @@ toc: true
 ## 成績評価基準を設計する
 ---
 
-{{< alert context="info" text="**想定シーン**: 教員が新規科目の成績評価配分を検討し、妥当性のある評価設計を行う" />}}
+{{< alert context="info" text="**対象: 大学教員**<br>**想定シーン**: 教員が新規科目の成績評価配分を検討し、妥当性のある評価設計を行う" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -229,7 +229,7 @@ toc: true
 ## ピアレビューの観点を設計する
 ---
 
-{{< alert context="info" text="**想定シーン**: 教員が授業内で実施する学生同士の相互評価（ピアレビュー）の指針と評価シートを設計する" />}}
+{{< alert context="info" text="**対象: 大学教員**<br>**想定シーン**: 教員が授業内で実施する学生同士の相互評価（ピアレビュー）の指針と評価シートを設計する" />}}
 
 {{< alert context="warning" text="引用元: [AI for Education Prompt Library](https://www.aiforeducation.io/prompt-library) を参考に作成" />}}
 
@@ -279,7 +279,7 @@ toc: true
 ## 研修の理解度テスト問題を作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 人事課職員が、FD/SD研修後の理解度確認テストを作成する" />}}
+{{< alert context="info" text="**対象: 教務課職員**<br>**想定シーン**: 人事課職員が、FD/SD研修後の理解度確認テストを作成する" />}}
 
 {{< alert context="warning" text="引用元: [東京都デジタルサービス局「文章生成AI活用事例集」](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) を参考に大学文脈に改変" />}}
 

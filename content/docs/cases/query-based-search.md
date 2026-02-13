@@ -12,13 +12,19 @@ toc: true
 Web検索機能を持つ生成AIでは、検索クエリの言語や検索先を指定することで、情報収集の精度を上げることができます。
 ここでは、回答スタイルの指定、特定サイトからの情報取得、英語クエリの活用といったテクニックを紹介します。
 
+{{< table "table-responsive" >}}
+| 日時 | 使用した生成AI |
+|----------|--------------|
+| 2026/2/13 | Copilot,<br>ChatGPT,<br>Gemini,<br>Perplexity |
+{{< /table >}}
+
 {{< alert context="info" text="Copilot等のWeb検索が可能なAIを使用してください" />}}
 
 
 ## 回答スタイルを指定して知識を調査する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、学内ネットワーク管理のためにIPアドレスの基礎知識を技術的背景も含めて理解したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、学内ネットワーク管理のためにIPアドレスの基礎知識を技術的背景も含めて理解したいとき" />}}
 
 ```markdown
 IPアドレスとは何ですか？
@@ -46,7 +52,7 @@ IPアドレス（Internet Protocol Address）は、ネットワーク上の機�
 ## 回答スタイルを指定して知識を調査する(2)
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、大学設置基準の改正対応のために制度の歴史的背景と変遷を調査したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、大学設置基準の改正対応のために制度の歴史的背景と変遷を調査したいとき" />}}
 
 ```markdown
 大学設置基準なんもわからん。教えてください
@@ -83,7 +89,7 @@ IPアドレス（Internet Protocol Address）は、ネットワーク上の機�
 ## 特定のWebサイトから収集する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、文部科学省の学制百年史から明治期以前の学制に関する記述を効率的に探したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、文部科学省の学制百年史から明治期以前の学制に関する記述を効率的に探したいとき" />}}
 
 ```markdown
 明治期以前の学制に言及した箇所を教えて下さい。
@@ -113,7 +119,7 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ## 多言語圏の情報を調査する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、プロンプトエンジニアリングの最新情報を英語圏の一次情報から収集したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、プロンプトエンジニアリングの最新情報を英語圏の一次情報から収集したいとき" />}}
 
 ```markdown
 プロンプトエンジニアリングガイドとは何か。
@@ -124,21 +130,25 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 <br>
 
 {{% alert icon="🤖" context="success" %}}
-プロンプトエンジニアリングガイドは、大規模な言語モデル（GPTモデルとも呼ばれる）からより良い結果を得るための戦略と戦術を共有するガイドです¹。これは、マシン学習モデルが正確な出力を生成するように導く高品質なプロンプトを設計することを含みます³⁵。
+**出力例**
 
-以下に、より良い結果を得るためのいくつかの戦略を示します¹：
-- **明確な指示を書く**：モデルはあなたの心を読むことはできません。出力が長すぎる場合は、簡潔な返答を求めます。出力が単純すぎる場合は、専門レベルの文章を求めます。フォーマットが気に入らない場合は、見たいフォーマットを示します。モデルがあなたが何を望んでいるかを推測する必要が少なければ少ないほど、あなたが望むものを得る可能性が高くなります。
-- **複雑なタスクをより単純なサブタスクに分割する**：ソフトウェアエンジニアリングで複雑なシステムを一連のモジュラーコンポーネントに分解するのが良い実践であるのと同様に、言語モデルに提出されるタスクについても同じことが言えます。複雑なタスクは、より単純なタスクよりもエラー率が高い傾向があります。さらに、複雑なタスクは、初期のタスクの出力を使用して後のタスクの入力を構築するような、より単純なタスクのワークフローとして再定義できることがよくあります。
-- **モデルに「考える」時間を与える**：17と28を掛けるように求められた場合、あなたはすぐに答えを知らないかもしれませんが、時間をかけて答えを出すことができます。同様に、モデルは、すぐに答えを出そうとすると、より多くの推論エラーを犯す傾向があります。答えの前に「思考の連鎖」を求めることで、モデルはより確実に正しい答えにたどり着くための推論を行うことができます。
+#### プロンプトエンジニアリングガイドとは
 
-これらの方法は、組み合わせて使用することで効果を発揮することがあります¹。また、これらの方法は、特定のタスクに最適な方法を見つけるための実験を奨励しています¹。⁴でも日本語での試用例が紹介されています。²では、DAIR.AIによるプロンプトエンジニアリングガイドのプロジェクトが紹介されており、研究者や実践者にプロンプトエンジニアリングについて教育することを目指しています。
+プロンプトエンジニアリングガイドは、大規模言語モデル（LLM）からより良い結果を得るための戦略と戦術をまとめたガイドです。AIモデルが正確な出力を生成するように導く、高品質なプロンプトの設計方法を体系的に解説しています。
 
-ソース: Bing との会話 2024/1/30
-(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
-(2) What Is Prompt Engineering? Definition and best practices .... https://www.educative.io/blog/what-is-prompt-engineering.
-(3) What is prompt engineering? | IBM. https://www.ibm.com/topics/prompt-engineering.
-(4) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
-(5) About | Prompt Engineering Guide. https://www.promptingguide.ai/about.
+#### 主な戦略
+
+- **明確な指示を書く**: モデルはユーザーの意図を推測できないため、出力の長さ・専門度・フォーマットを具体的に指定することで、期待に近い回答を得やすくなります。
+- **複雑なタスクをサブタスクに分割する**: 一つの複雑な指示よりも、段階的な小さなタスクに分けたほうがエラー率が低下します。前のステップの出力を次のステップの入力に使うワークフロー設計が効果的です。
+- **モデルに「考える」時間を与える**: 答えの前に推論過程（Chain of Thought）を求めることで、より正確な回答を引き出せます。
+
+これらの戦略は組み合わせて使うことで効果が高まります。
+
+#### 代表的なガイド
+
+- **OpenAI Prompt Engineering Guide** -- OpenAI公式ドキュメントに掲載されている、GPTモデル向けのプロンプト設計指南
+- **Prompt Engineering Guide（DAIR.AI）** -- 研究者・実務者向けにプロンプトエンジニアリングの知見を体系的にまとめたオープンソースプロジェクト
+- **各社の公式ドキュメント** -- Anthropic、Google、IBMなども独自のプロンプト設計ガイドを公開しています
 {{% /alert %}}
 
 
@@ -147,30 +157,32 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 英語で検索クエリを作成し、回答は日本語で出力して
 ```
 
-今回のクエリは**Websites providing the Prompt Engineering Guide**です。
-
 {{% alert icon="🤖" context="success" %}}
-以下に、プロンプトエンジニアリングガイドを提供しているウェブページをいくつか紹介します：
-1. [OpenAI API](^1^)：OpenAIの公式APIドキュメント内にあるプロンプトエンジニアリングガイドです。大規模な言語モデルからより良い結果を得るための戦略と戦術を共有しています¹。
-2. [Gihyo.jp](^2^)：DAIR.AIが公開しているプロンプトエンジニアリングガイドの日本語訳が公開されています²。
-3. [Zenn.dev](^3^)：OpenAIのプロンプトエンジニアリングガイドを日本語で試したり、自分なりに応用して実践してみる記事が掲載されています³。
+**出力例**
 
-ただし、現時点では検索結果から得られたウェブページは3つだけです。他のウェブページについては、具体的なウェブサイト名やURLが必要な場合は、それらの情報を提供していただければと思います。それにより、より具体的な検索を行うことが可能となります。ご理解いただけますと幸いです。¹²³
+プロンプトエンジニアリングガイドを提供しているWebページを以下にまとめます。
 
-ソース: Bing との会話 2024/1/30
-(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
-(2) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
-(3) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.
-(4) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.
-(5) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
-(6) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
+| No. | 提供元 | 概要 |
+|-----|--------|------|
+| 1 | OpenAI | 公式ドキュメント内のPrompt Engineering Guide。GPTモデル向けの戦略を詳細に解説 |
+| 2 | Anthropic | Claude向けのプロンプト設計ガイド。明確な指示や構造化の手法を紹介 |
+| 3 | Google（Gemini） | Geminiモデル向けのプロンプトエンジニアリングガイド |
+| 4 | DAIR.AI | Prompt Engineering Guideプロジェクト。多言語対応のオープンソース教材 |
+| 5 | Microsoft | Azure OpenAI Service向けのプロンプトエンジニアリング解説 |
+| 6 | IBM | プロンプトエンジニアリングの基礎概念と実践手法の解説 |
+| 7 | AWS | Amazon Bedrock向けのプロンプト設計ベストプラクティス |
+| 8 | Cohere | LLM向けプロンプト設計の実践ガイド |
+| 9 | Hugging Face | オープンソースモデル向けのプロンプトチューニング手法 |
+| 10 | Learn Prompting | プロンプトエンジニアリングを体系的に学べるオープン教材 |
+
+各ガイドはモデルや用途に応じて最適な手法が異なるため、複数のガイドを比較しながら参照することをおすすめします。
 {{% /alert %}}
 
 
 ## 法令・通知を調査する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、大学設置基準の改正内容や文科省通知を正確に調査したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、大学設置基準の改正内容や文科省通知を正確に調査したいとき" />}}
 
 {{< alert context="warning" text="このプロンプトはWeb検索機能を持つ生成AI（Copilot、ChatGPT検索、Perplexity等）での使用を推奨します" />}}
 
@@ -225,7 +237,7 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ## 他大学の事例を調査する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、IR（Institutional Research）の取組について他大学のベンチマーク事例を収集したいとき" />}}
+{{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 大学職員が、IR（Institutional Research）の取組について他大学のベンチマーク事例を収集したいとき" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -272,7 +284,7 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ## 補助金・助成金情報を調査する
 ---
 
-{{< alert context="info" text="**想定シーン**: 大学職員が、科研費以外の外部資金（補助金・助成金）の情報を効率的に調査したいとき" />}}
+{{< alert context="info" text="**対象: 研究支援担当者**<br>**想定シーン**: 大学職員が、科研費以外の外部資金（補助金・助成金）の情報を効率的に調査したいとき" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
