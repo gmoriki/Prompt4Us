@@ -1,10 +1,10 @@
 ---
-weight: 67
+weight: 75
 title: "情報を収集する"
-description: "情報収集・検索"
-icon: "article"
+description: "Web検索・文献調査・法令調査"
+icon: "Search"
 date: "2024-01-30T15:39:50+09:00"
-lastmod: "2026-02-12T00:00:00+09:00"
+lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -12,25 +12,41 @@ toc: true
 Web検索機能を持つ生成AIでは、検索クエリの言語や検索先を指定することで、情報収集の精度を上げることができます。
 ここでは、回答スタイルの指定、特定サイトからの情報取得、英語クエリの活用といったテクニックを紹介します。
 
-{{< table "table-responsive" >}}
-| 日時 | 使用した生成AI |
-|----------|--------------|
-| 2024/7/7 | Copilot |
-{{< /table >}}
-
 {{< alert context="info" text="Copilot等のWeb検索が可能なAIを使用してください" />}}
 
 
 ## 回答スタイルを指定して知識を調査する
 ---
 
+{{< alert context="info" text="**想定シーン**: 大学職員が、学内ネットワーク管理のためにIPアドレスの基礎知識を技術的背景も含めて理解したいとき" />}}
+
 ```markdown
 IPアドレスとは何ですか？
 その技術の目的と解決したい技術的課題を踏まえて回答してください
 ```
 
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+**IPアドレスとは**
+
+IPアドレス（Internet Protocol Address）は、ネットワーク上の機器を識別するための番号です。
+
+**目的**: インターネットや学内LANに接続された各機器（PC、プリンタ、サーバなど）を一意に識別し、データの送受信先を正しく指定すること。
+
+**解決したい技術的課題**:
+- **機器の識別**: 数千台の端末が接続される大学ネットワークで、どの機器宛のデータかを正確に区別する
+- **経路制御**: データを送信元から宛先まで、複数のネットワークを経由して届けるためのルーティング
+- **アドレス体系の統一**: 異なるメーカーの機器同士でも共通の仕組みで通信を可能にする
+
+**具体例**: 大学の情報基盤センターが管理するIPアドレス `192.168.1.100` は、例えば研究室Aのプリンタを示す、というように機器とアドレスが対応しています。
+{{% /alert %}}
+
+
 ## 回答スタイルを指定して知識を調査する(2)
 ---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、大学設置基準の改正対応のために制度の歴史的背景と変遷を調査したいとき" />}}
 
 ```markdown
 大学設置基準なんもわからん。教えてください
@@ -41,9 +57,33 @@ IPアドレスとは何ですか？
 検索クエリは検索対象ごとに分割し、stepごとに検索および回答を返してください。
 ```
 
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+**Step 1: 大学設置基準の歴史的背景**
+
+大学設置基準は1956年（昭和31年）に文部省令として制定されました。戦後の学制改革により新制大学が急増する中、大学教育の質を一定水準以上に保つための最低基準を定める必要がありました。
+
+- 1947年: 学校教育法の制定により新制大学が発足
+- 1949年: 多くの旧制専門学校が大学に昇格し、大学数が急増
+- 1956年: 教育の質を担保するため「大学設置基準」を制定
+
+**Step 2: 主な変遷**
+
+| 年 | 主な改正内容 |
+|---|---|
+| 1991年 | 大綱化（カリキュラム編成の自由化） |
+| 2003年 | 法科大学院の設置基準を追加 |
+| 2022年 | 設置基準の大幅改正（基幹教員制度の導入、校地面積基準の緩和等） |
+
+特に2022年の改正では「基幹教員」の考え方が導入され、専任教員の定義が見直されるなど、大学運営に大きな影響を与える変更がありました。
+{{% /alert %}}
+
 
 ## 特定のWebサイトから収集する
 ---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、文部科学省の学制百年史から明治期以前の学制に関する記述を効率的に探したいとき" />}}
 
 ```markdown
 明治期以前の学制に言及した箇所を教えて下さい。
@@ -53,9 +93,27 @@ IPアドレスとは何ですか？
 https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ```
 
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+文部科学省「学制百年史」の該当ページから、明治期以前の学制に関する主な言及箇所をまとめます。
+
+**1. 江戸時代の教育機関**
+- **藩校**: 各藩が設置した武士の子弟向け教育機関。全国で約270校が確認されている
+- **寺子屋**: 庶民の子弟向け教育機関。読み書き・算盤を教え、幕末期には全国で約1万5千以上存在したとされる
+- **私塾**: 著名な学者が開設した教育機関。適塾（緒方洪庵）、松下村塾（吉田松陰）など
+
+**2. 学制の前史**
+- 1871年（明治4年）の文部省設置に先立ち、江戸時代の教育基盤が近代教育制度の土台となった旨が述べられている
+
+**参考URL**: https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
+{{% /alert %}}
+
 
 ## 多言語圏の情報を調査する
 ---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、プロンプトエンジニアリングの最新情報を英語圏の一次情報から収集したいとき" />}}
 
 ```markdown
 プロンプトエンジニアリングガイドとは何か。
@@ -77,12 +135,12 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 
 これらの方法は、組み合わせて使用することで効果を発揮することがあります¹。また、これらの方法は、特定のタスクに最適な方法を見つけるための実験を奨励しています¹。⁴でも日本語での試用例が紹介されています。²では、DAIR.AIによるプロンプトエンジニアリングガイドのプロジェクトが紹介されており、研究者や実践者にプロンプトエンジニアリングについて教育することを目指しています。
 
-ソース: Bing との会話 2024/1/30  
-(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.  
-(2) What Is Prompt Engineering? Definition and best practices .... https://www.educative.io/blog/what-is-prompt-engineering.  
-(3) What is prompt engineering? | IBM. https://www.ibm.com/topics/prompt-engineering.  
-(4) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.  
-(5) About | Prompt Engineering Guide. https://www.promptingguide.ai/about.  
+ソース: Bing との会話 2024/1/30
+(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
+(2) What Is Prompt Engineering? Definition and best practices .... https://www.educative.io/blog/what-is-prompt-engineering.
+(3) What is prompt engineering? | IBM. https://www.ibm.com/topics/prompt-engineering.
+(4) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
+(5) About | Prompt Engineering Guide. https://www.promptingguide.ai/about.
 {{% /alert %}}
 
 
@@ -101,13 +159,164 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 
 ただし、現時点では検索結果から得られたウェブページは3つだけです。他のウェブページについては、具体的なウェブサイト名やURLが必要な場合は、それらの情報を提供していただければと思います。それにより、より具体的な検索を行うことが可能となります。ご理解いただけますと幸いです。¹²³
 
-ソース: Bing との会話 2024/1/30  
-(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.  
-(2) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.  
-(3) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.  
-(4) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.  
-(5) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.  
-(6) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.  
+ソース: Bing との会話 2024/1/30
+(1) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
+(2) Prompt engineering - OpenAI API. https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering.
+(3) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.
+(4) 「Prompt Engineering Guide」の日本語訳が公式サイトにマージ .... https://gihyo.jp/article/2023/04/prompt-engineering-guide.
+(5) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
+(6) OpenAIのPrompt Engineering Guideでより良い結果を得る .... https://zenn.dev/zuma_lab/articles/openai-prompt-engineering-guide.
 {{% /alert %}}
 
 
+## 法令・通知を調査する
+---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、大学設置基準の改正内容や文科省通知を正確に調査したいとき" />}}
+
+{{< alert context="warning" text="このプロンプトはWeb検索機能を持つ生成AI（Copilot、ChatGPT検索、Perplexity等）での使用を推奨します" />}}
+
+「変更箇所」を自身の状況に合わせて変更してください。
+
+```markdown
+# 指示
+以下の法令・通知について調査し、要点をまとめてください。
+
+# 調査対象
+「変更箇所：調査したい法令・通知名（例：大学設置基準の令和4年改正）」
+
+# 調査内容
+1. 改正・発出の背景と目的
+2. 主な変更点・要点の整理
+3. 大学の実務への影響（対応が必要な事項）
+4. 施行日・適用時期
+
+# 条件
+- 検索クエリは「変更箇所：検索先（例：site:mext.go.jp）」に限定すること
+- 一次情報（法令原文、通知本文）を優先して参照すること
+- 根拠となるURLを必ず明記すること
+```
+
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+**大学設置基準の令和4年改正（概要）**
+
+**1. 背景と目的**
+
+中央教育審議会「2040年に向けた高等教育のグランドデザイン（答申）」（2018年）を踏まえ、大学教育の質保証と柔軟な大学運営を両立させるための改正です。
+
+**2. 主な変更点**
+
+| 項目 | 改正内容 |
+|---|---|
+| 基幹教員制度 | 従来の「専任教員」に代わり「基幹教員」を導入。他大学との兼務も一定条件で可能に |
+| 校地面積基準 | 校舎面積基準の弾力化。都心部の大学に配慮 |
+| 教育課程等の特例 | 連携開設科目の制度化 |
+
+**3. 実務への影響**
+- 教員の基幹教員への読替え作業が必要
+- 設置計画の変更届出が必要な場合がある
+
+**4. 施行日**: 令和4年10月1日
+
+**参考**: https://www.mext.go.jp/b_menu/shingi/chousa/koutou/...
+{{% /alert %}}
+
+
+## 他大学の事例を調査する
+---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、IR（Institutional Research）の取組について他大学のベンチマーク事例を収集したいとき" />}}
+
+「変更箇所」を自身の状況に合わせて変更してください。
+
+```markdown
+# 指示
+以下のテーマについて、他大学の取組事例を調査してください。
+
+# 調査テーマ
+「変更箇所：調査したいテーマ（例：IRの推進体制と活用事例）」
+
+# 調査の観点
+1. 先進的な取組を行っている大学の事例（3〜5校程度）
+2. 各大学の取組の概要と特徴
+3. 導入の背景・きっかけ
+4. 成果・効果（定量的なデータがあれば含む）
+5. 自大学で参考にできるポイント
+
+# 条件
+- 国立・公立・私立を偏りなく調査すること
+- 大学の公式サイトや文部科学省の公開資料を優先すること
+- 調査結果は比較表形式でもまとめること
+- 各事例の情報源（URL）を明記すること
+```
+
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+**IR（Institutional Research）の推進体制と活用事例**
+
+| 大学名 | 設置区分 | IR組織 | 主な取組 | 特徴 |
+|---|---|---|---|---|
+| 九州大学 | 国立 | IR室（専任5名） | 学習成果の可視化、退学予測モデル | BIツールによるダッシュボード構築 |
+| 大阪公立大学 | 公立 | IR推進センター | 統合データベースの構築 | 法人統合を機にIR体制を強化 |
+| 早稲田大学 | 私立 | IR・データ科学センター | 学生の学修行動分析 | LMSデータとの連携分析 |
+| 立命館大学 | 私立 | 教学IRプロジェクト | 授業評価と学修成果の関連分析 | 全学的なデータ利活用の仕組み |
+
+**自大学で参考にできるポイント**
+- まずは既存データ（学務データ、授業評価等）の棚卸しから着手する
+- 小規模でも専任のIR担当者を配置することが効果的
+- BIツール（Tableau等）の導入で報告業務の効率化が見込める
+{{% /alert %}}
+
+
+## 補助金・助成金情報を調査する
+---
+
+{{< alert context="info" text="**想定シーン**: 大学職員が、科研費以外の外部資金（補助金・助成金）の情報を効率的に調査したいとき" />}}
+
+「変更箇所」を自身の状況に合わせて変更してください。
+
+```markdown
+# 指示
+以下の条件に合う補助金・助成金の情報を調査してください。
+
+# 調査条件
+- 対象分野: 「変更箇所：分野（例：大学の教育改革・DX推進）」
+- 対象機関: 大学・高等教育機関
+- 応募時期: 「変更箇所：時期（例：2026年度中に公募があるもの）」
+
+# 調査してほしい項目
+1. 補助金・助成金の名称と実施機関
+2. 補助金額（上限・下限）
+3. 対象となる活動・事業の内容
+4. 応募期間と採択スケジュール
+5. 応募要件・資格
+6. 過去の採択実績（件数・採択率がわかれば）
+
+# 条件
+- 科研費以外の外部資金を対象とすること
+- 文部科学省、JST、NEDO、民間財団等を幅広く調査すること
+- 結果は一覧表形式でまとめること
+- 各情報の出典URLを明記すること
+```
+
+{{% alert icon="🤖" context="success" %}}
+**出力例**
+
+**大学の教育改革・DX推進に関する補助金・助成金一覧**
+
+| 名称 | 実施機関 | 補助金額 | 対象活動 | 応募時期（例） |
+|---|---|---|---|---|
+| 大学教育再生戦略推進費 | 文部科学省 | 数千万〜数億円 | 教育改革の取組全般 | 毎年3〜4月頃 |
+| デジタルを活用した大学・高専教育高度化プラン | 文部科学省 | 〜2,000万円/年 | LMS活用、遠隔教育等 | 年度ごと |
+| 大学発新産業創出プログラム（START） | JST | 〜数千万円 | 産学連携、技術移転 | 随時 |
+| 電通育英会 大学助成 | 電通育英会 | 〜500万円 | 学生支援、教育プログラム | 毎年秋頃 |
+
+**調査のコツ**
+- 府省共通研究開発管理システム（e-Rad）で公募情報を横断検索できます
+- 学内の研究推進部門・URAと連携すると効率的です
+
+**参考**: https://www.e-rad.go.jp/
+{{% /alert %}}
