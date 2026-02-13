@@ -9,6 +9,10 @@ draft: false
 toc: true
 ---
 
+{{% alert context="warning" %}}
+この資料は2024年3月の講演時点の内容です。最新のプロンプト例は[プロンプト集]({{% relref "/docs/cases/" %}})をご参照ください。
+{{% /alert %}}
+
 2024年3月4日、広島大学SD研修「Copilotとして理解する生成AI利用の基本」用ページです。
 
 {{< table "table-responsive" >}}

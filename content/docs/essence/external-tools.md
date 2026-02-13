@@ -1,5 +1,5 @@
 ---
-weight: 35
+weight: 37
 title: "生成AIとツールの連携"
 description: "外部ツールと生成AIの関係を理解する"
 icon: "Extension"

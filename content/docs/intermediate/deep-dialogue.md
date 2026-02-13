@@ -1,6 +1,6 @@
 ---
-weight: 57
-title: "壁打ち実践（深い対話編）"
+weight: 55
+title: "壁打ちで思考を深める"
 description: "AIを思考の相棒として活用する"
 icon: "Forum"
 date: "2026-02-13T00:00:00+09:00"

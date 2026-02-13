@@ -1,5 +1,5 @@
 ---
-weight: 33
+weight: 34
 title: "良いプロンプトの基礎"
 description: "生成AIを上手に使うために"
 icon: "Thumb_Up"

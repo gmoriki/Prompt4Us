@@ -9,6 +9,10 @@ draft: false
 toc: true
 ---
 
+{{% alert context="warning" %}}
+この資料は2024年2月の講演時点の内容です。最新のプロンプト例は[プロンプト集]({{% relref "/docs/cases/" %}})をご参照ください。
+{{% /alert %}}
+
 2024年2月17日に開催する[大学職員のためのChatGPTハンズオンの会](https://web.opar.ehime-u.ac.jp/info/chat-gpt/)用ページです。
 
 {{< table "table-responsive" >}}

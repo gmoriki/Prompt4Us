@@ -1,5 +1,5 @@
 ---
-weight: 53
+weight: 54
 title: "対話の文脈を活用する"
 description: "会話コンテキストを理解する"
 icon: "Timeline"
