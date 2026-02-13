@@ -1,5 +1,5 @@
 ---
-weight: 56
+weight: 57
 title: "ファイルを読み込ませる"
 description: "PDF・Excel・画像をAIに読み込ませて活用する"
 icon: "Upload_File"

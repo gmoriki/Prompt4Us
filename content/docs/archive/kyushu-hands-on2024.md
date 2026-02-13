@@ -9,6 +9,10 @@ draft: false
 toc: true
 ---
 
+{{% alert context="warning" %}}
+この資料は2024年8月の講演時点の内容です。最新のプロンプト例は[プロンプト集]({{% relref "/docs/cases/" %}})をご参照ください。
+{{% /alert %}}
+
 {{< table "table-responsive" >}}
 | 日時 | このページで使用した生成AI |
 |----------|--------------|

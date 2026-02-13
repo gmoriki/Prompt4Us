@@ -1,5 +1,5 @@
 ---
-weight: 34
+weight: 36
 title: "プロンプトの現在地"
 description: "プロンプトの役割はどう変わりつつあるのか"
 icon: "Explore"

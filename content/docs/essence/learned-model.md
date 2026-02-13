@@ -1,5 +1,5 @@
 ---
-weight: 36
+weight: 38
 title: "学習済みモデルの概要"
 description: "生成AIの中身をざっくり知る"
 icon: "Tenancy"

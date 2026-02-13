@@ -9,8 +9,12 @@ draft: false
 toc: true
 ---
 
+{{% alert context="warning" %}}
+この資料は2024年2月の講演時点の内容です。最新のプロンプト例は[プロンプト集]({{% relref "/docs/cases/" %}})をご参照ください。
+{{% /alert %}}
+
 {{< table "table-responsive" >}}
-| 日時 | このページで使用した生成AI | 
+| 日時 | このページで使用した生成AI |
 |----------|--------------|
 | 2024/02/03 | ChatGPT(GPT-3.5) <br> 一部でBardやCopilotを紹介 |
 {{< /table >}}
