@@ -4,7 +4,7 @@ title: "リンク集"
 description: "生成AIに関するWebページ/書籍を見てみる"
 icon: "link"
 date: "2024-01-17T13:47:20+09:00"
-lastmod: "2026-02-12T00:00:00+09:00"
+lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 ## 🌐 Webサイト
 ---
 
-### - 対話型文章生成AIサービス
+### - 主要な生成AIサービス
 
 {{< table "table-striped" >}}
 | 名称                                              | 説明                                                      |
@@ -26,7 +26,9 @@ toc: true
 | [Gemini](https://gemini.google.com/chat)              | Google社が開発・提供する対話型生成AIサービス              |
 | [Claude](https://claude.ai/)                      | Anthropic社が開発・提供する対話型生成AIサービス           |
 | [Copilot](https://copilot.microsoft.com/)         | Microsoft社が開発・提供する対話型生成AIサービス          |
+| [M365 Copilot](https://www.microsoft.com/ja-jp/microsoft-365/copilot) | Microsoft 365に統合された生成AIアシスタント               |
 | [Perplexity](https://www.perplexity.ai/)          | Perplexity AI社が開発・提供する対話型生成AIサービス      |
+| [NotebookLM](https://notebooklm.google.com/)      | Google社が提供するAIノートブック。資料を読み込ませて対話できる |
 {{< /table >}}
 
 ### - プロンプト事例
@@ -87,6 +89,8 @@ toc: true
 
 ### - 発表スライド
 その他、生成AIに関するスライド資料です
+
+{{< alert context="warning" text="掲載時点の情報です。最新の内容は各リンク先をご確認ください。" />}}
 
 {{< table "table-striped" >}}
 | タイトル                                                                                      | 作成者      | 公開年月日   | 備考                                                         |

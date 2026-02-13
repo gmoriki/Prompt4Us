@@ -121,8 +121,6 @@ https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1317552.htm
 ```
 <br>
 
-<!-- 画像は準備中です -->
-
 <br>
 
 {{% alert icon="🤖" context="success" %}}
