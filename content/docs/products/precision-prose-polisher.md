@@ -9,6 +9,8 @@ draft: false
 toc: true
 ---
 
+{{% alert icon="🔬" context="warning" %}}このページで紹介しているツールはβ版（実験的な試み）です。動作保証はありません。{{% /alert %}}
+
 {{< tabs tabTotal="3">}} {{% tab tabName="文章をアップロードすると" %}}
 ![explain](images/precision-prose-polisher/query.png)
 
