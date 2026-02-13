@@ -9,6 +9,8 @@ draft: false
 toc: true
 ---
 
+{{% alert icon="🔬" context="warning" %}}このページで紹介しているツールはβ版（実験的な試み）です。動作保証はありません。{{% /alert %}}
+
 {{< tabs tabTotal="2">}} {{% tab tabName="業務を入力すると" %}}
 ![explain](images/bussiness-sequence/shinsei.png)
 
