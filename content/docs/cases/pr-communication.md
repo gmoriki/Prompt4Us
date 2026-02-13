@@ -20,7 +20,7 @@ toc: true
 ## プレスリリースを作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報課の職員が、本学教員の研究成果が学術誌に掲載されたことを受け、報道機関向けのプレスリリースを作成する。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報課の職員が、本学教員の研究成果が学術誌に掲載されたことを受け、報道機関向けのプレスリリースを作成する。" />}}
 
 {{< alert context="warning" text="引用元: [Columbia University CTL Prompt Library](https://ai.ctl.columbia.edu/explore/prompts/) を参考に作成" />}}
 
@@ -84,7 +84,7 @@ E-mail：press@example-univ.ac.jp
 ## SNS投稿文を作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報担当の職員が、オープンキャンパスの告知をTwitter/XとInstagramに投稿するための文案を、プラットフォームの特性に合わせて複数パターン作成したい。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報担当の職員が、オープンキャンパスの告知をTwitter/XとInstagramに投稿するための文案を、プラットフォームの特性に合わせて複数パターン作成したい。" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -154,7 +154,7 @@ E-mail：press@example-univ.ac.jp
 ## SNS投稿の炎上リスクをチェックする
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報担当の職員が、SNSに投稿する文章を公開前にチェックし、炎上や批判を招く表現がないか確認したい。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報担当の職員が、SNSに投稿する文章を公開前にチェックし、炎上や批判を招く表現がないか確認したい。" />}}
 
 {{< alert context="warning" text="引用元: [東京都デジタルサービス局「文章生成AI活用事例集」](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) を参考に作成" />}}
 
@@ -218,7 +218,7 @@ E-mail：press@example-univ.ac.jp
 ## Webページのコンテンツを作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報課・学部事務の職員が、大学Webサイトに掲載する学科紹介ページのコンテンツを新規作成・リニューアルすることになった。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報課・学部事務の職員が、大学Webサイトに掲載する学科紹介ページのコンテンツを新規作成・リニューアルすることになった。" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -280,7 +280,7 @@ E-mail：press@example-univ.ac.jp
 ## 多言語キャッチコピーを作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報課の職員が、大学のブランディングに使用するキャッチコピーを日本語・英語・中国語の3言語で作成したい。パンフレットやWebサイトで統一的に使用する予定。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報課の職員が、大学のブランディングに使用するキャッチコピーを日本語・英語・中国語の3言語で作成したい。パンフレットやWebサイトで統一的に使用する予定。" />}}
 
 {{< alert context="warning" text="引用元: [東京都デジタルサービス局「文章生成AI活用事例集」](https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/ai_prompt/) を参考に大学文脈に改変" />}}
 
@@ -355,7 +355,7 @@ E-mail：press@example-univ.ac.jp
 ## オープンキャンパスの告知文を作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 入試課・広報課の職員が、オープンキャンパスの告知文をWebサイトに掲載するために作成する。高校生と保護者の両方に情報がわかりやすく伝わる構成にしたい。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 入試課・広報課の職員が、オープンキャンパスの告知文をWebサイトに掲載するために作成する。高校生と保護者の両方に情報がわかりやすく伝わる構成にしたい。" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
@@ -422,7 +422,7 @@ E-mail：press@example-univ.ac.jp
 ## 大学紹介文を作成する
 ---
 
-{{< alert context="info" text="**想定シーン**: 広報課の職員が、受験情報誌やWebメディアに掲載する大学紹介文を作成する。掲載媒体ごとに字数やトーンを変えたバリエーションが必要になった。" />}}
+{{< alert context="info" text="**対象: 広報担当者**<br>**想定シーン**: 広報課の職員が、受験情報誌やWebメディアに掲載する大学紹介文を作成する。掲載媒体ごとに字数やトーンを変えたバリエーションが必要になった。" />}}
 
 「変更箇所」を自身の状況に合わせて変更してください。
 
