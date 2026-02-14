@@ -4,7 +4,7 @@ title: "リンク集"
 description: "生成AIに関するWebページ/書籍を見てみる"
 icon: "link"
 date: "2024-01-17T13:47:20+09:00"
-lastmod: "2026-02-13T00:00:00+09:00"
+lastmod: "2026-02-14T00:00:00+09:00"
 draft: false
 toc: true
 ---
@@ -42,7 +42,24 @@ toc: true
 | [生成 AI の利用ガイドライン 別冊 プロンプト集](https://web.pref.hyogo.lg.jp/kk26/johoseisaku/documents/hyogo_gai_prompts.rtf) | 兵庫県が公開している事例集 |
 | [promptia](https://prompt.quel.jp/) | ChatGPTなどで使える文例集  |
 | [デジタル庁検証資料](https://www.digital.go.jp/news/19c125e9-35c5-48ba-a63f-f817bce95715)| 2023年度 デジタル庁・行政における生成AIの適切な利活用に向けた技術検証 |
+| [南陽市「生成AI活用実例集（プロンプト集）」](http://www.city.nanyo.yamagata.jp/dxchosei/5793) | 南陽市DX調整係が公開する748例のプロンプト集 |
+| [IPA テキスト生成AIの導入・運用ガイドライン](https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2024/generative-ai-guideline.html) | セキュリティリスクと対策を体系的に整理した導入・運用ガイド |
 
+{{< /table >}}
+
+### - 海外プロンプトライブラリ
+
+{{< table "table-striped" >}}
+| 名称                                                                      | 説明                                                                                           |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [Columbia University CTL Prompt Library](https://ai.ctl.columbia.edu/explore/prompts/) | コロンビア大学の教育向けAIプロンプトライブラリ |
+| [Wharton GAIL Prompt Library](https://gail.wharton.upenn.edu/prompt-library/) | ペンシルベニア大学ウォートン校のAI教育支援プロンプト集 |
+| [Maastricht University AI Prompt Library](https://library.maastrichtuniversity.nl/apps-tools/ai-prompt-library/) | マーストリヒト大学図書館が提供するAIプロンプトライブラリ |
+| [AI for Education Prompt Library](https://www.aiforeducation.io/prompt-library) | 教育者向けのAIプロンプトを網羅的に収集したライブラリ |
+| [Microsoft Prompts for Education](https://github.com/microsoft/prompts-for-edu) | Microsoft社が公開する教育向けプロンプト集（GitHub） |
+| [OpenAI Academy Prompt Pack for Administrators](https://academy.openai.com/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators) | OpenAIが高等教育の管理者向けに提供するプロンプトパック |
+| [University of Michigan GenAI Prompt Library](https://genai.umich.edu/resources/prompt-library) | ミシガン大学の全学規模プロンプトライブラリ。Prompt Literacyコースも提供 |
+| [Harvard AI Prompts](https://www.huit.harvard.edu/news/ai-prompts) | ハーバード大学による実践的なプロンプト設計原則の解説 |
 {{< /table >}}
 
 ### - プロンプトエンジニアリング
@@ -56,6 +73,8 @@ toc: true
 | [PromptEnginnering(OpenAI)](https://platform.openai.com/docs/guides/prompt-engineering) | OpenAI社による開発者向けプロンプトエンジニアリングのベストプラクティス |
 | [Prompt Engineering for Generative AI](https://developers.google.com/machine-learning/resources/prompt-eng?hl=en) | Google社による基本的なプロンプトテクニック                            |
 | [各種Prompt Engineeringの日本語実例集](https://qiita.com/YutaroOgawa2/items/aca32f8fd7d551596cf8) | プロンプトエンジニアリング手法の概説と日本語のプロンプト             |
+| [Prompt Engineering(Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) | Anthropic社によるClaude向けプロンプト技法の公式ドキュメント |
+| [Prompt Engineering Whitepaper(Google)](https://www.kaggle.com/whitepaper-prompt-engineering) | Google社による60頁超の包括的なプロンプトエンジニアリングガイド |
 
 {{< /table >}}
 
@@ -72,6 +91,8 @@ toc: true
 | [大学職員のためのChatGPT-基本編-](https://note.com/shirokaba2022/n/nbf8478531c04)                | 大学職員によるChatGPTまとめ                                       |
 | [うえきばちポータル🪴](https://gmoriki.notion.site/uekibachi) | 大学職員のためのAI活用ポータルサイト |
 | [あとから効いてくるAIとの付き合い方](https://note.com/pogohopper8/n/n6616108810c6) | AIを「相棒」として活用するための実践的な考え方の紹介 |
+| [北陸大学 HU-CAHE AI活用ガイド](https://cahe.hokuriku-u.ac.jp/course/artificial-intelligence) | 北陸大学の高等教育開発・支援センターが公開するAI活用ガイド |
+| [九州大学情報統括本部 ITだより](https://iii.kyushu-u.ac.jp/doc/publish/itdayori/ITdayori_vol24_backnumber.pdf) | 九州大学の学内ニュースレター。生成AI活用の取り組みを紹介 |
 {{< /table >}}
 
 ### - 大学教育×生成AI
@@ -84,6 +105,11 @@ toc: true
 | [文科省 初等中等教育段階における生成AIの利用に関する暫定的なガイドライン](https://www.mext.go.jp/content/20230718-mtx_syoto02-000031167_011.pdf) | 文科省公表                                                                                   |
 | [文科省 大学・高専における生成AIの教学面の取扱いについて](https://www.mext.go.jp/b_menu/houdou/2023/mext_01260.html) | 文科省公表                                                                                   |
 | [文科省 情報モラル教育ポータルサイト](https://www.mext.go.jp/zyoukatsu/moral/index.html)     | 生成AI含む「情報活用能力」のためのWebサイト                                                   |
+| [文科省「学校現場における生成AIの利活用」ポータル](https://www.mext.go.jp/zyoukatsu/ai/) | 生成AIパイロット校の知見やガイドラインを集約した文科省公式ポータル |
+| [東京大学 utelecon 生成AI関連情報](https://utelecon.adm.u-tokyo.ac.jp/online/topics/generative-ai/) | 東京大学の全学生成AIサービス方針・ガイドラインを集約した情報ハブ |
+| [東京大学吉田塁研究室 学振申請書添削プロンプト](https://edulab.t.u-tokyo.ac.jp/gakushin-prompt-2025/) | 学振申請書をAIで添削するためのプロンプト集 |
+| [UNSW AI Rubric Design Tips](https://www.education.unsw.edu.au/news-events/events/ai-rubric-design-tips) | ニューサウスウェールズ大学のAIを活用したルーブリック設計ガイド |
+| [Oregon State Ecampus - Bloom's Taxonomy Revisited](https://ecampus.oregonstate.edu/faculty/artificial-intelligence-tools/blooms-taxonomy-revisited/) | AIツールを踏まえたブルームのタキソノミーの再解釈 |
 | [生成AI利用の本質的理解ー大学の授業のためにー](https://speakerdeck.com/gmoriki/sheng-cheng-aili-yong-noben-zhi-de-li-jie-da-xue-noshou-ye-notameni) | 愛媛大学FD資料。[Youtube](https://www.youtube.com/watch?v=KvixMy08y68)に公開されています |
 {{< /table >}}
 
