@@ -84,13 +84,13 @@ Google検索と生成AIがほぼ一体化しており、Gmail・スプレッド�
 - **マルチモーダル対応**：画像や音声など、テキスト以外の入力も受け付けられる
 - **推論機能の進化**：内部で段階的に考えてから回答する機能が登場し、複雑な問題にも対応しやすくなっている
 
-さらに、AIが自律的にツールを選択しながらタスクを進める**エージェント型の機能**も広がりつつあります。詳しくは[生成AIとツールの連携]({{% relref "/docs/essence/external-tools" %}})や[プロンプトの現在地]({{% relref "/docs/essence/prompt-landscape" %}})をご覧ください。
+さらに、AIが自律的にツールを選択しながらタスクを進める**エージェント型の機能**も広がりつつあります。詳しくは[生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools" %}})や[プロンプトの現在地]({{% relref "/docs/essence/understanding/prompt-landscape" %}})をご覧ください。
 {{% /alert %}}
 
 <br>
 
 ##### 生成AIの種類をもっと知りたい方へ
-上記の4サービスは代表例ですが、生成AIの使い方はチャット型だけではありません。Web検索と連動するもの、組織内文書を参照するもの、自律的にタスクを遂行するエージェント型など、さまざまなタイプがあります。詳しくは[生成AIとツールの連携]({{% relref "/docs/essence/external-tools" %}})で整理しています。
+上記の4サービスは代表例ですが、生成AIの使い方はチャット型だけではありません。Web検索と連動するもの、組織内文書を参照するもの、自律的にタスクを遂行するエージェント型など、さまざまなタイプがあります。詳しくは[生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools" %}})で整理しています。
 
 <br>
 
@@ -99,7 +99,7 @@ Google検索と生成AIがほぼ一体化しており、Gmail・スプレッド�
 P4Usでは<u>**ChatGPTやCopilotのような既存サービスだけではなく、組織内に独自に導入した生成AIの利用を支援します。**</u>  
 例えばギブリーさんの[法人GAI](https://gomana.ai/product/hojin-gai/)、ユーザーローカルさんの[ユーザーローカル ChatAI](https://chat-ai.userlocal.jp/)、  
 またSlackやTeamsに自前で導入するケースもあります。  
-(参考： [生成AIとツールの連携]({{% relref "/docs/essence/external-tools" %}}) )
+(参考： [生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools" %}}) )
 
 
 こうした生成AIは組織内文書を参照できる場合も多いです。  

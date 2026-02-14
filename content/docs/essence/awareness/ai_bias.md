@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 4
 title: "AIのバイアス"
 description: "3つのバイアスを理解する"
 icon: "Balance"
@@ -7,6 +7,8 @@ date: "2024-01-21T19:19:52+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/essence/ai_bias/
 ---
 
 生成AIの利用においてバイアス(偏り)は避けて通れない問題です。
@@ -35,7 +37,7 @@ toc: true
 学習データには英語圏のテキストが多く含まれる傾向があります。
 そのため、文化的な背景が必要な質問では西洋的な回答が返されやすくなります。
 
-[生成AIの限界と課題]({{% relref "/docs/essence/risk-management" %}})でも紹介しましたが、例えば結婚式について訊くと西洋風の描写が多くなります。
+[生成AIの限界と課題]({{% relref "/docs/essence/awareness/risk-management" %}})でも紹介しましたが、例えば結婚式について訊くと西洋風の描写が多くなります。
 
 ```
 結婚式の風景を想像してください

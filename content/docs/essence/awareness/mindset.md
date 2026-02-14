@@ -1,5 +1,5 @@
 ---
-weight: 31
+weight: 1
 title: "生成AIの扱い方"
 description: "生成AIと付き合う姿勢を理解する"
 icon: "Reminder"
@@ -7,6 +7,8 @@ date: "2024-01-20T05:57:52+09:00"
 lastmod: "2026-02-14T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/essence/mindset/
 ---
 
 
@@ -14,7 +16,7 @@ toc: true
 {{% alert icon="" context="info" %}}
 生成AIを上手に活用できれば多くの恩恵を受けることができます。しかし現在の生成AIには従来の技術に見られなかった限界や課題があります。
 <strong>まずは「上手な扱い方」よりも「適切な扱い方」を先に理解しましょう。</strong>ここでは最低限、生成AIを適切に扱うための方法を紹介します。
-「適切な扱い方」を理解したあとは、[AIとの付き合い方]({{% relref "/docs/essence/ai-partnership" %}})で「上手な扱い方」に進みましょう。
+「適切な扱い方」を理解したあとは、[AIとの付き合い方]({{% relref "/docs/essence/awareness/ai-partnership" %}})で「上手な扱い方」に進みましょう。
 {{% /alert %}}
 
 
@@ -109,6 +111,6 @@ toc: true
 - **生成物を提案として扱う**：推論モデルやエージェントが出した結果でも、事実確認と判断は利用者の責任です
 - **試行錯誤する**：AIの能力が上がったことで頼めることの幅も広がっています。何をどう頼むかを試行錯誤する姿勢はむしろ今まで以上に大切です
 
-この「適切な扱い方」を土台にして、[良いプロンプトとは]({{% relref "/docs/essence/basic-prompt" %}})で具体的なプロンプトの考え方を学び、さらに[AIとの付き合い方]({{% relref "/docs/essence/ai-partnership" %}})で「上手な扱い方」へと進んでいきましょう。
+この「適切な扱い方」を土台にして、[良いプロンプトとは]({{% relref "/docs/essence/basic-prompt" %}})で具体的なプロンプトの考え方を学び、さらに[AIとの付き合い方]({{% relref "/docs/essence/awareness/ai-partnership" %}})で「上手な扱い方」へと進んでいきましょう。
 
 <br>

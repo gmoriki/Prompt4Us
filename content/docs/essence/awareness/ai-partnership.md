@@ -1,5 +1,5 @@
 ---
-weight: 33
+weight: 3
 title: "あとから効いてくるAIとの付き合い方"
 description: "AIを「相棒」として使いこなすための実践的な考え方"
 icon: "Handshake"
@@ -7,6 +7,8 @@ date: "2026-02-12T00:00:00+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/essence/ai-partnership/
 ---
 
 

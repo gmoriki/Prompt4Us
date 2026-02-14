@@ -19,7 +19,7 @@ toc: true
 AIに正解を求めるのではなく、<strong>自分の思考を外に取り出して検討するプロセス</strong>です。
 {{% /alert %}}
 
-この考え方の背景については[AIとの付き合い方]({{% relref "/docs/essence/ai-partnership.md" %}})もぜひご覧ください。
+この考え方の背景については[AIとの付き合い方]({{% relref "/docs/essence/awareness/ai-partnership.md" %}})もぜひご覧ください。
 
 {{< table "table-responsive" >}}
 | 日時 | このページで参考にした情報 |

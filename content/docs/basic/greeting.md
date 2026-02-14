@@ -203,4 +203,4 @@ Red HatとCentOSは、両方ともLinuxベースのオペレーティングシ�
 
 
 生成AIに任せれば何でもできる！というわけではありません。  
-詳しくは[生成AIの限界と課題]({{% relref "/docs/essence/risk-management" %}})をご覧ください。
+詳しくは[生成AIの限界と課題]({{% relref "/docs/essence/awareness/risk-management" %}})をご覧ください。

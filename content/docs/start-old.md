@@ -104,13 +104,13 @@ P4Usでは各ページにプロンプトが掲載されており、その全て�
 🔜 [まずは簡単なあいさつ]({{% relref "/docs/basic/greeting.md" %}}) 
 
 ❓ 生成AIを使うときの注意事項を知りたい  
-🔜 [生成AIの限界と課題]({{% relref "/docs/essence/risk-management.md" %}})  
+🔜 [生成AIの限界と課題]({{% relref "/docs/essence/awareness/risk-management.md" %}})  
 
 ❓ もっと生成AIを使いこなして回答の精度を上げたい  
 🔜 [回答を再帰的に改善させる]({{% relref "/docs/intermediate/self-refine.md" %}})
 
 ❓ 他のツールを連携した生成AIのイメージを知りたい  
-🔜 [生成AIとツールの連携]({{% relref "/docs/essence/external-tools.md" %}})  
+🔜 [生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools.md" %}})  
 
 ❓ 生成AIを使う・学ぶ上で参考になるWebページは書籍を知りたい  
 🔜 [リンク集]({{% relref "/docs/links" %}})
@@ -319,7 +319,7 @@ GPT-4モデルを使用した検索エンジンを無料で使用できる点、
 P4Usでは<u>**ChatGPTやCopilotのような既存サービスだけではなく、組織内に独自に導入した生成AIの利用を支援します。**</u>  
 例えばギブリーさんの[法人GAI](https://gomana.ai/product/hojin-gai/)、ユーザーローカルさんの[ユーザーローカル ChatAI](https://chat-ai.userlocal.jp/)、  
 またSlackやTeamsに自前で導入するケースもあります。  
-(参考： [生成AIとツールの連携]({{% relref "/docs/essence/external-tools" %}}) )
+(参考： [生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools" %}}) )
 
 
 こうした生成AIは組織内文書を参照できる場合も多いです。  
