@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 2
 title: "生成AIの限界と課題"
 description: "最低限、リスクを理解する"
 icon: "Error"
@@ -7,6 +7,8 @@ date: "2024-01-20T05:57:52+09:00"
 lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/essence/risk-management/
 ---
 
 

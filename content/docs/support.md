@@ -54,13 +54,13 @@ Prompt Guide for University staffの略称。大学職員のためのプロン�
 ##### Q. 業務データを生成AIに入れていいの？
 {{% alert icon="" context="light" %}}
 所属する組織のガイドラインや情報セキュリティポリシーに従うことが大前提です。個人情報や機密情報は生成AIに入力しないようにしましょう。また、利用するサービスごとにデータの取り扱いポリシーが異なりますので、事前に公式ドキュメントを確認することをおすすめします。
-詳しくは[生成AIの限界と課題]({{% relref "/docs/essence/risk-management" %}})もあわせてご覧ください。
+詳しくは[生成AIの限界と課題]({{% relref "/docs/essence/awareness/risk-management" %}})もあわせてご覧ください。
 {{% /alert %}}
 
 ##### Q. 生成AIの回答をそのまま公式文書に使っていい？
 {{% alert icon="" context="light" %}}
 生成AIの出力はあくまで「たたき台」や「提案」として扱い、必ず人間が内容を確認・編集してから使うようにしましょう。事実関係の誤りや不適切な表現が含まれている可能性があります。
-[生成AIの適切な使い方]({{% relref "/docs/essence/mindset" %}})もぜひ参考にしてください。
+[生成AIの適切な使い方]({{% relref "/docs/essence/awareness/mindset" %}})もぜひ参考にしてください。
 {{% /alert %}}
 
 ##### Q. 生成AIの料金が気になる

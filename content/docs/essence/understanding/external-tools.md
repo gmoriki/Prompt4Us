@@ -1,5 +1,5 @@
 ---
-weight: 37
+weight: 2
 title: "生成AIとツールの連携"
 description: "外部ツールと生成AIの関係を理解する"
 icon: "Extension"
@@ -7,6 +7,8 @@ date: "2024-01-21T19:24:51+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/essence/external-tools/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}
@@ -223,7 +225,7 @@ sequenceDiagram
     AIエージェント画面->>大学職員: 成果物を出力する
 ```
 
-2025年以降、Manus、Claude Code、Devinなどのエージェント型ツールが登場し、AIがより複雑なタスクを自律的にこなせるようになりつつあります。こうしたツールは今後も増えていくと考えられますが、基本的な仕組み（LLMがツールを選択・実行するループ）は上記の構造と同じです。なお、エージェントの推論能力を支える「推論モデル」については[推論モデルを知る]({{% relref "/docs/essence/reasoning-models" %}})で解説しています。
+2025年以降、Manus、Claude Code、Devinなどのエージェント型ツールが登場し、AIがより複雑なタスクを自律的にこなせるようになりつつあります。こうしたツールは今後も増えていくと考えられますが、基本的な仕組み（LLMがツールを選択・実行するループ）は上記の構造と同じです。なお、エージェントの推論能力を支える「推論モデル」については[推論モデルを知る]({{% relref "/docs/essence/understanding/reasoning-models" %}})で解説しています。
 
 {{% alert icon="" context="info" %}}
 AIエージェントが発展しても、<strong>最終的な判断と責任は利用者にある</strong>という原則は変わりません。AIが自律的に動くからこそ、結果の確認と適切な指示がより重要になります。
