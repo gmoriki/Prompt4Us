@@ -107,7 +107,7 @@ P4Usに掲載されているプロンプトは簡単にコピーできるよう�
 🔜 [生成AIの限界と課題]({{% relref "/docs/essence/awareness/risk-management.md" %}})  
 
 ❓ もっと生成AIを使いこなして回答の精度を上げたい  
-🔜 [回答を再帰的に改善させる]({{% relref "/docs/intermediate/self-refine.md" %}})
+🔜 [回答を再帰的に改善させる]({{% relref "/docs/intermediate/dialogue/self-refine.md" %}})
 
 ❓ 他のツールを連携した生成AIのイメージを知りたい  
 🔜 [生成AIとツールの連携]({{% relref "/docs/essence/understanding/external-tools.md" %}})  

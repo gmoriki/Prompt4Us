@@ -1,5 +1,5 @@
 ---
-weight: 56
+weight: 3
 title: "回答を再帰的に改善させる"
 description: "Self-refineを理解する"
 icon: "Repeat"
@@ -7,6 +7,8 @@ date: "2024-01-21T19:36:13+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/self-refine/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}

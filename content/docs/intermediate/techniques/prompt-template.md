@@ -1,5 +1,5 @@
 ---
-weight: 51
+weight: 1
 title: "テンプレートを使用する"
 description: "深津式テンプレートとその応用"
 icon: "Developer_Guide"
@@ -7,6 +7,8 @@ date: "2024-01-21T19:32:35+09:00"
 lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/prompt-template/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}
