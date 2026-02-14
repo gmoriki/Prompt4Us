@@ -1,5 +1,5 @@
 ---
-weight: 58
+weight: 2
 title: "AIエージェントとタスク設計"
 description: "AIに仕事を任せるための考え方"
 icon: "Smart_Toy"
@@ -7,6 +7,8 @@ date: "2026-02-14T00:00:00+09:00"
 lastmod: "2026-02-14T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/agent-task-design/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}

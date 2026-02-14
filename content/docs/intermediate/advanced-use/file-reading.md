@@ -1,5 +1,5 @@
 ---
-weight: 57
+weight: 1
 title: "ファイルを読み込ませる"
 description: "PDF・Excel・画像をAIに読み込ませて活用する"
 icon: "Upload_File"
@@ -7,6 +7,8 @@ date: "2026-02-13T00:00:00+09:00"
 lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/file-reading/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}

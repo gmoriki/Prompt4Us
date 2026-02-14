@@ -1,5 +1,5 @@
 ---
-weight: 53
+weight: 3
 title: "一言で回答の質を上げる"
 description: "Zero-shot Cotを理解する"
 icon: "step"
@@ -7,6 +7,8 @@ date: "2024-01-20T05:57:52+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/zero-shot-cot/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}

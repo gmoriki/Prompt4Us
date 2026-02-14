@@ -315,7 +315,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --sidebar-scrollbar-thumb-color: var(--gray-200);
 
     --sidebar-directory-icon: var(--dir-right);
-    --sidebar-file-icon: var(--dash);
+    --sidebar-file-icon: "";
 }
 
 [data-dark-mode] {

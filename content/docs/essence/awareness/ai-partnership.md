@@ -177,7 +177,7 @@ AIの無難さは弱点ではなく、**創造的な思考のための出発点*
 | 無難な案を踏み台に（踏み台） | [アイデア発想]({{% relref "/docs/cases/ideation" %}})、[広報・コミュニケーション]({{% relref "/docs/cases/pr-communication" %}}) |
 {{< /table >}}
 
-さらに、AIに複数ステップの仕事を任せる「エージェント」的な使い方に興味がある方は、[AIエージェントとタスク設計]({{% relref "/docs/intermediate/agent-task-design" %}})もあわせてご覧ください。
+さらに、AIに複数ステップの仕事を任せる「エージェント」的な使い方に興味がある方は、[AIエージェントとタスク設計]({{% relref "/docs/intermediate/advanced-use/agent-task-design" %}})もあわせてご覧ください。
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-weight: 52
+weight: 2
 title: "思考の連鎖を促す"
 description: "Chain of thoughtを理解する"
 icon: "Steppers"
@@ -7,6 +7,8 @@ date: "2024-01-24T07:21:48+09:00"
 lastmod: "2026-02-12T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/chain-of-thought/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}

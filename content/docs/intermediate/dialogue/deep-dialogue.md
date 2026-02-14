@@ -1,5 +1,5 @@
 ---
-weight: 55
+weight: 2
 title: "壁打ちで思考を深める"
 description: "AIを思考の相棒として活用する"
 icon: "Forum"
@@ -7,11 +7,13 @@ date: "2026-02-13T00:00:00+09:00"
 lastmod: "2026-02-13T00:00:00+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/intermediate/deep-dialogue/
 ---
 
 {{< alert icon="🛸" context="dark" text="発展的な内容を含むページです" />}}
 
-[対話の文脈を活用する]({{% relref "/docs/intermediate/interactive.md" %}})では、複数ターンの対話を使って回答の精度を上げる技術的な方法を紹介しました。
+[対話の文脈を活用する]({{% relref "/docs/intermediate/dialogue/interactive.md" %}})では、複数ターンの対話を使って回答の精度を上げる技術的な方法を紹介しました。
 このページでは少し視点を変えて、**AIを「思考の壁打ち相手」として活用する実践**を紹介します。
 
 {{% alert icon="" context="info" %}}
@@ -293,7 +295,7 @@ AIの回答は「完成品」ではなく「たたき台」です。
 ## 壁打ちと対話の技術の違い
 ---
 
-このページと[対話の文脈を活用する]({{% relref "/docs/intermediate/interactive.md" %}})は、一見似ているようで視点が異なります。
+このページと[対話の文脈を活用する]({{% relref "/docs/intermediate/dialogue/interactive.md" %}})は、一見似ているようで視点が異なります。
 
 | 観点 | 対話の文脈を活用する | 壁打ち実践 |
 |:---|:---|:---|
@@ -303,4 +305,4 @@ AIの回答は「完成品」ではなく「たたき台」です。
 | 成果物 | 精度の高い文書・回答 | より良い判断・意思決定 |
 
 どちらが優れているということではなく、場面に応じて使い分けてください。
-文書を仕上げる場面では[対話の技術]({{% relref "/docs/intermediate/interactive.md" %}})を、方針を考える場面では壁打ちを、といった具合です。
+文書を仕上げる場面では[対話の技術]({{% relref "/docs/intermediate/dialogue/interactive.md" %}})を、方針を考える場面では壁打ちを、といった具合です。
