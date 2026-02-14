@@ -79,6 +79,15 @@ toc: true
 {{< /table >}}
 
 
+### - AIエージェント
+
+{{< table "table-striped" >}}
+| 名称                                                                      | 説明                                                                                           |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [AI時代の質問力 プロンプトリテラシー](https://www.shoeisha.co.jp/book/detail/9784798188102) | AIエージェントの展望を含むプロンプトリテラシーの必読書（書籍セクションにも掲載） |
+| [Building effective agents (Anthropic)](https://www.anthropic.com/research/building-effective-agents) | Anthropic社によるAIエージェント構築の実践ガイド |
+{{< /table >}}
+
 ### - 大学事務×生成AI
 
 {{< table "table-striped" >}}

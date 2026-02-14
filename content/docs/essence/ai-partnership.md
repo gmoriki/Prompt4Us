@@ -161,6 +161,24 @@ AIの無難さは弱点ではなく、**創造的な思考のための出発点*
 
 <br>
 
+## 📚 プロンプト集との接続
+---
+
+上記の4つのアプローチは、P4Usの[プロンプト集]({{% relref "/docs/cases" %}})の各カテゴリとも対応しています。理念を理解したうえで実践的なプロンプトを試してみましょう。
+
+{{< table "table-responsive" >}}
+| アプローチ | 対応するプロンプト集 |
+|-----------|-------------------|
+| 企画書にしてもらう（外部化） | [文書作成]({{% relref "/docs/cases/text-creation" %}})、[アイデア発想]({{% relref "/docs/cases/ideation" %}}) |
+| いろいろな立場の声（多角化） | [評価・フィードバック]({{% relref "/docs/cases/assessment-feedback" %}})、[法令・規程・計画]({{% relref "/docs/cases/compliance-planning" %}}) |
+| 情報を行動に圧縮（圧縮） | [会議支援]({{% relref "/docs/cases/meeting-minutes" %}})、[IR・データ分析]({{% relref "/docs/cases/ir-data-analysis" %}}) |
+| 無難な案を踏み台に（踏み台） | [アイデア発想]({{% relref "/docs/cases/ideation" %}})、[広報・コミュニケーション]({{% relref "/docs/cases/pr-communication" %}}) |
+{{< /table >}}
+
+さらに、AIに複数ステップの仕事を任せる「エージェント」的な使い方に興味がある方は、[AIエージェントとタスク設計]({{% relref "/docs/intermediate/agent-task-design" %}})もあわせてご覧ください。
+
+<br>
+
 ## 🔑 一番大切なこと
 ---
 

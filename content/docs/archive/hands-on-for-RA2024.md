@@ -188,6 +188,10 @@ Building a culture of data governance at a higher education institution involves
 森木銀河（2024）：大学職員のためのプロンプトガイドの開発、大学情報・機関調査研究集会論文集、13、pp.175-181
 ```
 
+{{% alert icon="" context="warning" %}}
+**注意**: 上記プロンプト内のルール例に含まれるURL（`http://juam.jp/wp/im/`）は現在アクセスできません。最新の執筆要領は[大学行政管理学会のサイト](https://juam.jp/new6358/)をご確認ください。
+{{% /alert %}}
+
 
 ## 企画書の作成(広報活動)
 
