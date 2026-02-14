@@ -682,6 +682,8 @@ TEL: 000-000-0000 / E-mail: renkei@example.ac.jp
 
 {{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: 担当者の異動や退職に備えて、日常業務の手順を文書化しておきたい。口頭で説明するように箇条書きでメモを作り、AIに手順書の形に整えてもらう。" />}}
 
+{{< alert context="warning" text="参考: [南陽市「生成AI活用実例集（プロンプト集）」](http://www.city.nanyo.yamagata.jp/dxchosei/5793) を着想源に作成" />}}
+
 「変更箇所」を自身の状況に合わせて変更してください。
 
 ```markdown

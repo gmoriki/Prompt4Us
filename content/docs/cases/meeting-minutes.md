@@ -482,6 +482,8 @@ GPA制度の運用状況について報告がありました。退学率との�
 
 {{< alert context="info" text="**対象: 全職種共通**<br>**想定シーン**: ワークショップやブレインストーミングで使った付箋やホワイトボードの写真がある。手書きの内容を読み取って、テーマごとに整理したテキストデータにしたい。" />}}
 
+{{< alert context="warning" text="参考: [南陽市「生成AI活用実例集（プロンプト集）」](http://www.city.nanyo.yamagata.jp/dxchosei/5793) を着想源に作成" />}}
+
 {{% alert icon="" context="warning" %}}
 このプロンプトは画像入力に対応した生成AI（ChatGPT、Claude、Geminiなど）で使用してください。画像のアップロード方法はツールによって異なります。
 {{% /alert %}}
