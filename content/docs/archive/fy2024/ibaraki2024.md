@@ -1,5 +1,5 @@
 ---
-weight: 79
+weight: 1
 title: "茨城大学FD"
 description: "大学教育における生成AI活用 入門"
 icon: "article"
@@ -7,6 +7,8 @@ date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/ibaraki2024/
 ---
 
 {{% alert context="warning" %}}

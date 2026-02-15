@@ -1,5 +1,5 @@
 ---
-weight: 76
+weight: 5
 title: "Copilotとして理解する生成AI利用の基本"
 description: "広島大学SD研修"
 icon: "article"
@@ -7,6 +7,8 @@ date: "2024-03-03T17:49:55+09:00"
 lastmod: "2024-03-03T17:49:55+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/hiroshima2024/
 ---
 
 {{% alert context="warning" %}}

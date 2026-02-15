@@ -1,5 +1,5 @@
 ---
-weight: 73
+weight: 3
 title: "職員研修@北陸大学"
 description: "ハンズオンで理解する生成AI"
 icon: "article"
@@ -7,6 +7,8 @@ date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/hokuriku2024/
 ---
 
 {{% alert context="warning" %}}
