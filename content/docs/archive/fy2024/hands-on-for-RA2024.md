@@ -1,12 +1,14 @@
 ---
-weight: 84
+weight: 5
 title: "大学職員・URAのためのCopilotセミナー"
-description: 
+description: ""
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/hands-on-for-RA2024/
 ---
 
 {{% alert context="warning" %}}

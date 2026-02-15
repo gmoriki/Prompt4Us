@@ -1,12 +1,14 @@
-  ---
-weight: 75
-title: 大学職員のためのChatGPTハンズオンの会
+---
+weight: 4
+title: "大学職員のためのChatGPTハンズオンの会"
 description: "主催：教職員能力開発拠点（愛媛大学教育・学生支援機構教育企画室）"
 icon: "article"
 date: "2024-02-09T15:13:55+09:00"
 lastmod: "2024-02-09T15:13:55+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/chatgpt-hands-on2024/
 ---
 
 {{% alert context="warning" %}}

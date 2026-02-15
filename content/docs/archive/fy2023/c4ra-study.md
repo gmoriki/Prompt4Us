@@ -1,12 +1,14 @@
-  ---
-weight: 78
-title: C4RA・ChatGPT勉強会
-description: 自然言語によるプログラミング
+---
+weight: 7
+title: "C4RA・ChatGPT勉強会"
+description: "自然言語によるプログラミング"
 icon: "article"
 date: "2024-02-09T15:13:55+09:00"
 lastmod: "2024-02-09T15:13:55+09:00"
 draft: false
 toc: true
+aliases:
+  - /docs/archive/c4ra-study/
 ---
 
 {{% alert context="warning" %}}
