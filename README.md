@@ -1,128 +1,88 @@
-# Prompt Guide for University staff - P4Us🌱
+<div align="center">
 
-![p4us](img/P4Us.png)
+<img src="img/P4Us.png" alt="P4Us" width="400">
 
-**Prompt Guide for University staff(P4Us)は大学職員が生成AI利用の文化を理解し、プロンプトを学ぶためのプロンプトガイドです。**  
+# P4Us - Prompt Guide for University staff
+
+[![Site](https://img.shields.io/website?url=https%3A%2F%2Fpromptforus.com&label=promptforus.com)](https://promptforus.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENCE)
+[![Hugo](https://img.shields.io/badge/Hugo-0.120+-ff4088?logo=hugo)](https://gohugo.io/)
+
+**大学職員が生成AIの扱い方を理解し、プロンプトを学ぶためのガイド**
+
 「固すぎず柔らかすぎない」「難しすぎず易しすぎない」情報整備を心がけます。
 
-> 🚀 はじめる：[https://promptforus.com/](https://promptforus.com/)
+<br>
 
-![p4us](img/screenshot1.png)
+[**https://promptforus.com/**](https://promptforus.com/)
 
-> 🚀 ホーム画面へ：[P4Us Documentation](https://promptforus.com/docs)
+</div>
 
-# 🔰 P4Usの使い方
-## 💻 プロンプトを生成AIに入力する
+<br>
 
-**プロンプト**はコンピュータ画面に対して指示を出すこと、促すことを指す言葉です。  
-転じて生成AI利用の文脈では、**生成AIに対する指示文・命令文の総称**として使用されています。  
-(P4Usが取り扱う生成AIの意味は本ページ後半で説明します)
+<p align="center">
+  <img src="img/screenshot1.png" alt="P4Us Screenshot" width="700">
+</p>
 
-P4Usでは各ページにプロンプトが掲載されており、その全てが簡単にコピーできるようになっています。  
-コピーしたプロンプトは実際にChatGPTやCopilot等の生成AIに入力できるものです。  
-参考として生成AIから得られた回答(生成物)も記載していますが、必ずこの回答が返ってくるとは限りません。
+## P4Usとは
 
-![p4us](img/screenshot2.png)
+**P4Us（Prompt Guide for University staff）** は、大学職員が生成AIを「それなり」に使いこなすためのドキュメントプラットフォームです。
 
-- **利用者自身が実際に入力してみることを強く推奨します**
-- **生成AIを利用するためのアカウント登録等の手続きは取り扱っておりません**
-  
+プロンプトは「呪文」ではなく **「依頼文」**、AIは「賢い辞書」ではなく **「考えを壁打ちできる相棒」**。P4Usはプロンプトガイドという名前ですが、実態はコンテンツの55%がリテラシー・マインドセット・付き合い方に関する **生成AI利用リテラシーガイド** です。
 
-## 📚 プロンプトを参照する
-**それなり**に、様々なプロンプトを用意しています。
-- 各所から収集したプロンプト
-- 運営者が日々使っているプロンプト
-- 運営者が生成AIに関する講演の中で使用したプロンプト
-- 運営者がワークショップ参加者より収集したプロンプト
+## 特徴
 
-掲載するプロンプトの数は増やし続ける方針ですが、  
+**リテラシーが先、実践が後** — 「適切な扱い方 → 上手な扱い方」の順序を大切にしています
 
-- **まずは一つ一つのプロンプトの意味や目的が分かるように、できる限りていねいな説明を重視しています**
-- **上級者向けのプロンプトや複雑すぎるプロンプトは掲載していません**
+**段階的な学習設計** — はじめて → リテラシー → 基本 → 応用 → プロンプト集と、自分のペースで進められます
 
-## 👍 生成AIとの付き合い方を知る
-生成AIはインターネットと同様に発展・普及が続いているAI技術です。
-生成AIとの正しい付き合い方、ちょうどいい付き合い方を知ることがとても大切だと考えられます。
+**大学業務に特化した16カテゴリのプロンプト集** — 文書作成、授業設計、IR・データ分析、研究支援、学生対応など
 
+**「それなり」がゴール** — エキスパート向けではなく、最初の一歩とその次の一歩に最適化しています
 
-## ⚖️ できること・できないこと
+## コンテンツ構成
 
-❌ AI技術の基本を体系的に理解する  
-⭕ **アプリ・サービスとして公開されているサービスを使ってみる**  
+| セクション | 内容 | リンク |
+|:----------|:-----|:------|
+| **P4Usとは** | サイトの使い方、AIスタートパック、生成AIの定義 | [START](https://promptforus.com/docs/start/) |
+| **リテラシー** | AIとの付き合い方、プロンプトの現在地、リスク管理、推論モデル、ツール連携 | [ESSENCE](https://promptforus.com/docs/essence/) |
+| **基本** | あいさつ、文章作成、要約、チャット相談 | [BASIC](https://promptforus.com/docs/basic/) |
+| **応用** | テンプレート活用、思考の連鎖、壁打ち、自己改善、ファイル読み込み、エージェント活用 | [INTERMEDIATE](https://promptforus.com/docs/intermediate/) |
+| **プロンプト集** | 大学業務の16カテゴリ別プロンプト事例 | [CASES](https://promptforus.com/docs/cases/) |
+| **リンク集** | 生成AIサービス、プロンプト事例、海外大学ガイド、参考書籍 | [LINKS](https://promptforus.com/docs/links/) |
+| **アーカイブ** | 過去の講演・ハンズオン研修の記録 | [ARCHIVE](https://promptforus.com/docs/archive/) |
 
+## クイックスタート（ローカル開発）
 
-❌ AI研究の知見や最新動向を理解する  
-⭕ **生成AI利用の最低限の姿勢・リテラシーを身に付ける**  
+P4Usの改善に参加したい方、ローカルで動かしたい方向けの手順です。
 
-❌ プロンプトエンジニアリングの最新動向を理解する  
-⭕ **それなりに良いプロンプトの在り方を理解する**  
+```bash
+# リポジトリをクローン（Hugo Modulesのためサブモジュールも取得）
+git clone --recursive https://github.com/gmoriki/Prompt4Us.git
+cd Prompt4Us
 
-> 🚀 はじめる：[https://promptforus.com/](https://promptforus.com/)
+# Hugo でローカルサーバーを起動
+hugo server
+```
 
-## 🤖 生成AI利用の準備 
-### P4Usでは大規模言語モデル(LLM)を使用したテキスト生成AIサービスをまとめて「生成AI」と呼びます。  
-この「生成AI」の一例です。
+ブラウザで [http://localhost:1313/](http://localhost:1313/) を開いてください。
 
-* [ChatGPT](https://chatgpt.com/ "ChatGPT")
-  * OpenAIが開発・提供する生成AI
-* [Copilot](https://copilot.microsoft.com/ "Copilot")
-  * Microsoftが開発・提供する生成AI
-* [Gemini](https://gemini.google.com/chat "Gemini")
-  * Googleが開発・提供する生成AI
-* [Claude](https://claude.ai/ "Claude")
-  * Anthropicが開発・提供する生成AI
+> **必要環境:** [Hugo Extended](https://gohugo.io/installation/) (v0.120+) / [Go](https://go.dev/dl/) (v1.21+)
 
-星の数ほどあり、日々技術・インターフェースが変化し続けているので、全てを比較・説明することはできません。  
-好きなものを使ってください。おすすめはChatGPTとCopilotです。  
+## ミッション
 
-### ChatGPT
-生成AIブームの立役者であり主人公、対話型生成AIサービスです。**「いいから登録しとけ」の筆頭。**
-無料プランでも高性能なモデルを使用でき、ファイル読み込みや画像生成など多機能です。画面のシンプルさゆえに何を入力していいから分からない人が続出しています。
+> 生成AI利用のリテラシーを身に着けるための場所を提供します。
+> 最終的な目標は **リテラシーの普及・浸透によるP4Usの消滅** です。
 
-### Copilot
-Microsoftが提供する生成AIアシスタントです。
-Web検索との連携により回答に出典が明記される点、EdgeブラウザやMicrosoft 365との連携が便利な点が強みです。
+## 運営者
 
-### 組織内に導入した生成AI
-P4Usでは<u>**ChatGPTやCopilotのような既存サービスだけではなく、組織内に独自に導入した生成AIの利用を支援します。**</u>  
-例えばギブリーさんの[法人GAI](https://gomana.ai/product/hojin-gai/)、ユーザーローカルさんの[ユーザーローカル ChatAI](https://chat-ai.userlocal.jp/)、  
-またSlackやTeamsに自前で導入するケースもあります。  
+[gmoriki](https://researchmap.jp/gmoriki) が個人で運営しています。元大学職員で、今は大学職員風味の何かです。
 
+相談・講演依頼、なんでもお気軽にご連絡ください。メールアドレスは [researchmap](https://researchmap.jp/gmoriki) に公開しています。
 
-こうした生成AIは組織内文書を参照できる場合も多いです。  
-しかし生成AI利用における注意点やプロンプトの考え方は共通しているため、ぜひ組織内に導入した生成AIを利用する際もご参照ください。
+- [P4Usを作ってしまった理由（note）](https://note.com/pogohopper8/n/n34d3e4de7b5e)
+- [X (Twitter)](https://x.com/pogohopper8)
 
-# 🌱 P4Usの位置づけ 
+## License
 
-生成AIの開発から利用までのフローを簡潔に示すと研究者、提供者、利用者の3者が存在します。
-![p4us-position1](assets/images/p4us-position1.PNG)
-
-現在ある大きな問題の一つが「提供者と利用者の知識・経験のギャップ」です。
-![p4us-position2](assets/images/p4us-position2.PNG)
-
-P4Usは利用者をサポートすることでその問題を解決する一助となることを目指します。
-![p4us-position3](assets/images/p4us-position3.PNG)
-
-# 📖 コンテンツ構成
-
-| セクション | 内容 |
-|-----------|------|
-| **P4Usとは** | サイトの使い方、AIスタートパック |
-| **リテラシー** | AIとの付き合い方、プロンプトの現在地、リスク管理、AIのバイアス、ツール連携 など |
-| **基本** | あいさつ、文章作成、要約、チャット相談 |
-| **応用** | テンプレート活用、思考の連鎖(CoT)、対話の文脈活用、自己改善、ファイル読み込み、壁打ち実践 |
-| **プロンプト集** | 文書作成、メール、授業設計、IR・データ分析、研究支援、学生対応、国際交流、コーディング、会議・議事録 など16カテゴリ |
-| **リンク集** | 生成AIサービス、プロンプト事例、参考書籍 など |
-| **アーカイブ** | 過去の講演・ハンズオン研修の記録 |
-
-# 👾 P4Usの運営者
-gmorikiが個人で運営しています。元大学職員で、今は大学職員風味の何かです。AIの研究者ではありません。文章下手です。
-- [researchmap](https://researchmap.jp/gmoriki)
-
-メールアドレスも公開しておりますので、相談・講演依頼、なんでもお気軽にご連絡ください！  
-
-P4Usを作った理由やねらいは、2023年11月30日の記事をご参照ください。  
-- [大学職員のためのプロンプトガイド「P4Us」を作ってしまった理由](https://note.com/pogohopper8/n/n34d3e4de7b5e)
-
-# License
-[MIT LICENSE](https://github.com/gmoriki/Prompt4Us/blob/main/LICENCE)
+[MIT](LICENCE)
