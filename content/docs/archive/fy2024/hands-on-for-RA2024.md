@@ -1,7 +1,7 @@
 ---
 weight: 5
 title: "大学職員・URAのためのCopilotセミナー"
-description: ""
+description: "2024年度「大学職員・URAのためのCopilotセミナー」の講演資料アーカイブ"
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"

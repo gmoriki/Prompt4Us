@@ -1,7 +1,7 @@
 ---
 weight: 4
 title: "大学業務に使える生成AI入門"
-description: ""
+description: "2024年度「大学業務に使える生成AI入門」の講演資料アーカイブ"
 icon: "article"
 date: "2024-02-03T20:55:25+09:00"
 lastmod: "2024-02-03T20:55:25+09:00"

@@ -30,7 +30,8 @@ googleAnalytics = 'G-MDYR2DPQXH'
     weight = 10
 
 [params]
-
+  description = "P4Us（Prompt Guide for University staff）は大学職員のための生成AI利用プロンプトガイドです。"
+  author = "gmoriki"
 
   google_fonts = [
     ["Inter", "300, 400, 600, 700"],
