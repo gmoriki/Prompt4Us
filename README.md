@@ -63,7 +63,7 @@
 
 相談・講演依頼、なんでもお気軽にご連絡ください。メールアドレスは [researchmap](https://researchmap.jp/gmoriki) に公開しています。
 
-- [あとから効いてくるAIとの付き合い方（note）](https://note.com/pogohopper8/n/nced249950cfc)
+- [大学職員のためのプロンプトガイド2026（note）](https://note.com/pogohopper8/n/nced249950cfc)
 - [X (Twitter)](https://x.com/pogohopper8)
 
 ## License
