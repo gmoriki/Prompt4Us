@@ -6,7 +6,7 @@
 
 [![Site](https://img.shields.io/website?url=https%3A%2F%2Fpromptforus.com&label=promptforus.com)](https://promptforus.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENCE)
-[![Hugo](https://img.shields.io/badge/Hugo-0.120+-ff4088?logo=hugo)](https://gohugo.io/)
+
 
 **大学職員が生成AIの扱い方を理解し、プロンプトを学ぶためのガイド**
 
@@ -52,23 +52,6 @@
 | **リンク集** | 生成AIサービス、プロンプト事例、海外大学ガイド、参考書籍 | [LINKS](https://promptforus.com/docs/links/) |
 | **アーカイブ** | 過去の講演・ハンズオン研修の記録 | [ARCHIVE](https://promptforus.com/docs/archive/) |
 
-## クイックスタート（ローカル開発）
-
-P4Usの改善に参加したい方、ローカルで動かしたい方向けの手順です。
-
-```bash
-# リポジトリをクローン（Hugo Modulesのためサブモジュールも取得）
-git clone --recursive https://github.com/gmoriki/Prompt4Us.git
-cd Prompt4Us
-
-# Hugo でローカルサーバーを起動
-hugo server
-```
-
-ブラウザで [http://localhost:1313/](http://localhost:1313/) を開いてください。
-
-> **必要環境:** [Hugo Extended](https://gohugo.io/installation/) (v0.120+) / [Go](https://go.dev/dl/) (v1.21+)
-
 ## ミッション
 
 > 生成AI利用のリテラシーを身に着けるための場所を提供します。
@@ -80,7 +63,7 @@ hugo server
 
 相談・講演依頼、なんでもお気軽にご連絡ください。メールアドレスは [researchmap](https://researchmap.jp/gmoriki) に公開しています。
 
-- [P4Usを作ってしまった理由（note）](https://note.com/pogohopper8/n/n34d3e4de7b5e)
+- [あとから効いてくるAIとの付き合い方（note）](https://note.com/pogohopper8/n/nced249950cfc)
 - [X (Twitter)](https://x.com/pogohopper8)
 
 ## License
