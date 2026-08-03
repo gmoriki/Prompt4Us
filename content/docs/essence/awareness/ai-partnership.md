@@ -4,7 +4,7 @@ title: "あとから効いてくるAIとの付き合い方"
 description: "AIを「相棒」として使いこなすための実践的な考え方"
 icon: "Handshake"
 date: "2026-02-12T00:00:00+09:00"
-lastmod: "2026-02-12T00:00:00+09:00"
+lastmod: "2026-08-03T00:00:00+09:00"
 draft: false
 toc: true
 aliases:
@@ -176,6 +176,10 @@ AIの無難さは弱点ではなく、**創造的な思考のための出発点*
 | 情報を行動に圧縮（圧縮） | [会議支援]({{% relref "/docs/cases/meeting-minutes" %}})、[IR・データ分析]({{% relref "/docs/cases/ir-data-analysis" %}}) |
 | 無難な案を踏み台に（踏み台） | [アイデア発想]({{% relref "/docs/cases/ideation" %}})、[広報・コミュニケーション]({{% relref "/docs/cases/pr-communication" %}}) |
 {{< /table >}}
+
+{{% alert icon="🤝" context="success" %}}
+4つの考え方を、学び・仕事・探究指導でそのまま試せる形にした9本を、[AIと考えるためのプロンプト]({{% relref "/docs/cases/thinking-partner.md" %}})にまとめています。
+{{% /alert %}}
 
 さらに、AIに複数ステップの仕事を任せる「エージェント」的な使い方に興味がある方は、[AIエージェントとタスク設計]({{% relref "/docs/intermediate/advanced-use/agent-task-design" %}})もあわせてご覧ください。
 

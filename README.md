@@ -36,7 +36,7 @@
 
 **段階的な学習設計** — はじめて → リテラシー → 基本 → 応用 → プロンプト集と、自分のペースで進められます
 
-**大学業務に特化した16カテゴリのプロンプト集** — 文書作成、授業設計、IR・データ分析、研究支援、学生対応など
+**大学業務・教育現場に使える17カテゴリのプロンプト集** — 文書作成、授業設計、IR・データ分析、研究支援、学生対応、AIとの壁打ちなど
 
 **「それなり」がゴール** — エキスパート向けではなく、最初の一歩とその次の一歩に最適化しています
 
@@ -48,7 +48,7 @@
 | **リテラシー** | AIとの付き合い方、プロンプトの現在地、リスク管理、推論モデル、ツール連携 | [ESSENCE](https://promptforus.com/docs/essence/) |
 | **基本** | あいさつ、文章作成、要約、チャット相談 | [BASIC](https://promptforus.com/docs/basic/) |
 | **応用** | テンプレート活用、思考の連鎖、壁打ち、自己改善、ファイル読み込み、エージェント活用 | [INTERMEDIATE](https://promptforus.com/docs/intermediate/) |
-| **プロンプト集** | 大学業務の16カテゴリ別プロンプト事例 | [CASES](https://promptforus.com/docs/cases/) |
+| **プロンプト集** | 大学業務・教育現場の17カテゴリ別プロンプト事例 | [CASES](https://promptforus.com/docs/cases/) |
 | **リンク集** | 生成AIサービス、プロンプト事例、海外大学ガイド、参考書籍 | [LINKS](https://promptforus.com/docs/links/) |
 | **アーカイブ** | 過去の講演・ハンズオン研修の記録 | [ARCHIVE](https://promptforus.com/docs/archive/) |
 
